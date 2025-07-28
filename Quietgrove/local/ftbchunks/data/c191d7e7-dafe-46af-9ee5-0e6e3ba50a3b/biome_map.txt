@@ -1,0 +1,5 @@
+#2E7 biomeswevegone:atacama_outback
+#6E5 biomeswevegone:dead_sea
+#008 minecraft:desert
+#5FF minecraft:river
+#648 biomeswevegone:windswept_desert

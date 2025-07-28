@@ -1,0 +1,17 @@
+#7E7 biomeswevegone:allium_shrubland
+#0D1 biomeswevegone:amaranth_grassland
+#05B minecraft:bamboo_jungle
+#465 biomeswevegone:crag_gardens
+#255 biomeswevegone:ebony_woods
+#137 biomeswevegone:enchanted_tangle
+#266 biomesoplenty:floodplain
+#27D biomeswevegone:fragment_jungle
+#500 biomeswevegone:ironwood_gour
+#6C6 biomeswevegone:jacaranda_jungle
+#65C biomesoplenty:lavender_field
+#47F biomesoplenty:mediterranean_forest
+#3DC minecraft:plains
+#015 biomeswevegone:prairie
+#68B biomesoplenty:rainforest
+#5FF minecraft:river
+#3AF minecraft:sparse_jungle

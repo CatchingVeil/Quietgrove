@@ -1,0 +1,16 @@
+{
+	version: 1
+	uuid: "2dc4c1935d37476095365baaa4debb57"
+	name: "CatchingVeil871#2dc4c193"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		2dc4c1935d37476095365baaa4debb57: {
+			can_edit: 1b
+		}
+	}
+}

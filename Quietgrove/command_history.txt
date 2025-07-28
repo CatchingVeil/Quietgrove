@@ -1,0 +1,50 @@
+/sparkc profiler stop
+/data get entity CatchingVeil871
+/data get block -289 63 676
+/data get block -284 63 678
+/data get block -269 63 666
+/data get storage
+/data get entity @e[ name= potion_of_flying]
+/data get entity @e
+/data get entity @e[ type= minecraft:potion ]
+/kubejs hand
+/reload
+/kubejs hand
+/reload
+/kubejs hand
+/kubejs list-tag minecraft:potion apotheosis:potion_charm_blacklist
+/kubejs list-tag
+/kubejs list-tag apothic_attributes:entity_slot_group
+/reload
+/time set day
+/weather clear
+/disable
+/gamemode survival
+/gamemode creative
+/rtp
+/clear
+/back
+/kubejs hand
+/reload
+/kubejs hand
+/reload
+/kubejs
+/kubejs hand
+/reload
+/back
+/rtp
+/back
+/enchant CatchingVeil871 minecraft:sharpness 7
+/enchant CatchingVeil871 minecraft:smite 7
+/enchant CatchingVeil871 minecraft:sharpness 7
+/effect give CatchingVeil871 minecraft:strength infinite 10
+/effect give CatchingVeil871 minecraft:strength infinite 100
+/gamemode survival
+/gamemode creative
+/clear
+/kubejs reload
+/kubejs reload server-scripts
+/reload
+/time set day
+/gamerule doDaylightCycle false
+/reload

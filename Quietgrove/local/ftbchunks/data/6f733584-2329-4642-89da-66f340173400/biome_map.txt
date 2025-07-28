@@ -1,0 +1,17 @@
+#4DF biomesoplenty:aspen_glade
+#394 biomesoplenty:bog
+#735 biomesoplenty:coniferous_forest
+#67F biomesoplenty:fir_clearing
+#010 minecraft:forest
+#467 biomesoplenty:highland
+#056 biomesoplenty:maple_woods
+#20D biomesoplenty:marsh
+#5A5 biomesoplenty:orchard
+#28B biomesoplenty:pumpkin_patch
+#5FF minecraft:river
+#108 biomesoplenty:seasonal_forest
+#2CF biomesoplenty:shrubland
+#4D3 minecraft:swamp
+#169 minecraft:taiga
+#02B biomesoplenty:wetland
+#4C3 minecraft:windswept_hills

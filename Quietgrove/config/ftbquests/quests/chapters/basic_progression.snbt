@@ -1,0 +1,303 @@
+{
+	autofocus_id: "5FF9B970858D034D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_progression"
+	group: "181257701966A81C"
+	icon: {
+		id: "minecraft:wooden_axe"
+	}
+	id: "49CBB04C12926A09"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "046CC9C2A0F94509"
+			rewards: [{
+				id: "3FB10F23C472516A"
+				item: {
+					count: 1
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "376D5024966659BC"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			id: "5DFA975BB766F262"
+			rewards: [{
+				id: "28840A3C9981A4C1"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "084471B7A9556990"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"046CC9C2A0F94509"
+				"5DFA975BB766F262"
+			]
+			id: "0DCB0DF0A8DFF7C9"
+			rewards: [{
+				id: "1C07DA05ED42AD5C"
+				item: {
+					count: 1
+					id: "farmersdelight:flint_knife"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6341A784431CE363"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DCB0DF0A8DFF7C9"]
+			id: "56E6FDE6254E7C7B"
+			rewards: [{
+				id: "32B0933F27DF0714"
+				item: {
+					count: 1
+					id: "ists_harder_early:grass_string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1796C13B5D5F788E"
+				item: { count: 1, id: "ists_harder_early:grass_string" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7403F5BE2A8F5096"]
+			id: "11A3BFE38F17D5A7"
+			rewards: [{
+				id: "568ECB753027F61B"
+				item: {
+					count: 1
+					id: "ists_harder_early:reinforced_stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "440A323AC2D21D97"
+				item: { count: 1, id: "ists_harder_early:flint_axe" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56E6FDE6254E7C7B"]
+			id: "7403F5BE2A8F5096"
+			rewards: [{
+				id: "1D68ED39DCBC56DE"
+				item: {
+					count: 1
+					id: "ists_harder_early:mud_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "553104F4A922B13A"
+				item: { count: 1, id: "ists_harder_early:mud_ball" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11A3BFE38F17D5A7"]
+			id: "7352EAF6CC661F51"
+			rewards: [{
+				count: 4
+				id: "46FEF6EA8F11393D"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "062881F266AE6176"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7352EAF6CC661F51"]
+			id: "5FF9B970858D034D"
+			tasks: [{
+				id: "206EBCE733C8A147"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FF9B970858D034D"]
+			id: "751B420F2DA609E5"
+			tasks: [{
+				id: "60088769DC117EA1"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["751B420F2DA609E5"]
+			id: "671BC60CB8E6CA55"
+			tasks: [{
+				id: "1F60F990E3F3F8B3"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["671BC60CB8E6CA55"]
+			id: "27E9BD4D64B5A279"
+			tasks: [{
+				id: "374378BD72A7C7AF"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27E9BD4D64B5A279"]
+			id: "0391C3EE4CA5208A"
+			tasks: [{
+				id: "264BB327F65FF67A"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0391C3EE4CA5208A"]
+			id: "5F6CDF961CDEDEC3"
+			tasks: [{
+				id: "5990B26A036D1CBD"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F6CDF961CDEDEC3"]
+			id: "0C77AD792816B9F0"
+			tasks: [{
+				id: "474D1BCBEF7D70B8"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C77AD792816B9F0"]
+			id: "63CA84F1FC1A5390"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "124FCFBE62706103"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63CA84F1FC1A5390"]
+			id: "5C1CA6F9D3BA4A71"
+			tasks: [{
+				id: "377B71F6222E2356"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F6CDF961CDEDEC3"]
+			id: "3C825ECA1B8A310E"
+			tasks: [{
+				id: "6FF70FCBCF2B56BC"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F6CDF961CDEDEC3"]
+			id: "6647069E5D8064EF"
+			tasks: [{
+				icon: {
+					id: "minecraft:stone_bricks"
+				}
+				id: "59E8F0A9639178D4"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6647069E5D8064EF"]
+			id: "2EE9CD290D18A11F"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "6363429743E7FA4F"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2EE9CD290D18A11F"]
+			id: "330F5FE797C54D5A"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "4C55CACBF751B0A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+}

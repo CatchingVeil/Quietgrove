@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = D:/Users/seans/curseforge/minecraft/Instances/Veil Ring/saves/New World
+}
+

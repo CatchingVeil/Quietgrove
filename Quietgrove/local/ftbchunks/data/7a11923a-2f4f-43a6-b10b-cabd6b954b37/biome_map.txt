@@ -1,0 +1,5 @@
+#3B0 biomesoplenty:lush_desert
+#6C1 biomesoplenty:lush_savanna
+#2B7 minecraft:warm_ocean
+#5DF biomesoplenty:wasteland
+#648 biomeswevegone:windswept_desert
