@@ -1,7 +1,0 @@
-#54E biomeswevegone:black_forest
-#3DF biomeswevegone:coconino_meadow
-#17D biomeswevegone:maple_taiga
-#507 biomeswevegone:pumpkin_valley
-#5FF minecraft:river
-#20A biomeswevegone:skyrise_vale
-#05C minecraft:windswept_gravelly_hills

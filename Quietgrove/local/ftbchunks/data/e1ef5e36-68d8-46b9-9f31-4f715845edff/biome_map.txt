@@ -1,4 +1,0 @@
-#69B biomeswevegone:firecracker_chaparral
-#25D biomeswevegone:mojave_desert
-#5FF minecraft:river
-#151 biomeswevegone:rugged_badlands

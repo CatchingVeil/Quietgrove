@@ -1,7 +1,0 @@
-#6D4 biomesoplenty:field
-#467 biomesoplenty:highland
-#1DF minecraft:old_growth_birch_forest
-#4D3 minecraft:swamp
-#169 minecraft:taiga
-#02B biomesoplenty:wetland
-#152 minecraft:windswept_forest
