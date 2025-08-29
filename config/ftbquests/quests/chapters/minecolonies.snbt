@@ -1,0 +1,1113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "minecolonies:blockhuttownhall"
+	}
+	id: "361C22BF000003D1"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/minecolonies"
+		rotation: 0.0d
+		width: 30.0d
+		x: -16.0d
+		y: -7.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1BFCF9C3889FCDCF"]
+			id: "1242EE57F123CC9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E7C035B204467AE"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6AAA180A6E058CF3"
+					item: { count: 1, id: "minecolonies:blockhuttownhall" }
+					type: "item"
+				}
+				{
+					id: "5BCAD4CFD667C484"
+					item: { count: 1, id: "structurize:sceptergold" }
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: -6.5d
+		}
+		{
+			id: "1BFCF9C3889FCDCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6073A5C980DEC1E1"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B268A7C8B865B33"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(minecolonies:supplycampdeployer)item(minecolonies:supplychestdeployer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -23.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1242EE57F123CC9F"]
+			id: "09998E8560E2ADDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09FD99890210618B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A8E611AEB868FB4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2414501AAEBAEF54"
+				item: { count: 1, id: "minecolonies:blockhutbuilder" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			id: "121FA8A858B22624"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76C793D8FA1C2637"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "500D13E377F7001C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34714057A501F245"
+				item: { count: 1, id: "minecolonies:blockhutcitizen" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			id: "2A2EBDDD5D7CD590"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03257F58EFC6EDED"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D601352A26F840"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1385F00A942321F8"
+				item: { count: 1, id: "minecolonies:blockhuttavern" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			id: "363CED37E50AB953"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "412D592E759DAEA1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "038378743AF95751"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6261DF4209A375D7"
+				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			id: "2ADC9B61A0814B5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16A0355B5707A52F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14B357E24D70E25D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0AF21610DA5ACB8F"
+				item: { count: 1, id: "minecolonies:blockhutwarehouse" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			id: "032CB48DE3D1F9A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C69E724CE5AF53F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43CC39B4601BFE3F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EB3EB81338C79A0"
+				item: { count: 1, id: "minecolonies:blockhutstonesmeltery" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "6E46A6F11C65E53D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72711271F7632901"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "061364429D2849AA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04E4E1DE86948D97"
+				item: { count: 1, id: "minecolonies:blockhutstonemason" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "70BC71CBF24CB8EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4617E04649BF63BE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EB00AA29BF196C4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51EFA8BFF672112C"
+				item: { count: 1, id: "minecolonies:blockhutchickenherder" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "78276910824FC7F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E37FA71FBB9073C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43A69687D25AB864"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4678E939F2927C9B"
+				item: { count: 1, id: "minecolonies:blockhutguardtower" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "53A8AB3311586720"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79606F130508EF02"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AF70C392765597A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19D135066CC024F7"
+				item: { count: 1, id: "minecolonies:blockhutblacksmith" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "20FC739FE7F789A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68C98BA4DDC3C415"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A0A6D0D8CA56E59"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5AD35698D26D2BF1"
+				item: { count: 1, id: "minecolonies:blockhutarchery" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "5454E113B94B9397"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "695A312860DA3424"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67A678B1372075BC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53CC1F59B16ECB9F"
+				item: { count: 1, id: "minecolonies:blockhutcombatacademy" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "0A203BB0433A9370"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A56EF45E732273E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73385D4E3D0E0D50"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "389C217143B6D532"
+				item: { count: 1, id: "minecolonies:blockhutbaker" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "3124FCCC1BC06B2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47A8CCC340014D54"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "528EF7CAF76C6A4C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23A34BF0D95E6F4F"
+				item: { count: 1, id: "minecolonies:blockhutcomposter" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "6712C0B21CC62679"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69F43D917C53C817"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F203859E558C8C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7C23040E0D795071"
+				item: { count: 1, id: "minecolonies:blockhutbarracks" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "436AE74631B77AE2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "385BF0914CF83A11"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DBAF63254A83ECB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4480DC775B22DB22"
+				item: { count: 1, id: "minecolonies:blockhutcook" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "4D3BE6E8630D068F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10D4D2D96E90F86F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04C5BF62BE3932C4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B4F7A994C611204"
+				item: { count: 1, id: "minecolonies:blockhutfisherman" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "06234E7EAAAA052B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0061CB6F342E2663"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E20A4FEABFB11DF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "03311BB3BF1F6E79"
+				item: { count: 1, id: "minecolonies:blockhutfarmer" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "2208B55202C3C75D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "117E0EFB8A8349C1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21889BD2D9F4EFF0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7C141056ED940C9C"
+				item: { count: 1, id: "minecolonies:blockhutdeliveryman" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "4259ACA69A8D605E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C075B38A870BD75"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F94D5815B36D0BC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "755E0998236D5516"
+				item: { count: 1, id: "minecolonies:blockhutcrusher" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "410ECEA673DC7109"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E5B4D2CCB3630DA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "278E3C3515E5FB13"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3813EC89CBF12896"
+				item: { count: 1, id: "minecolonies:blockhutcowboy" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "1FEFACEF19F7578F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F1D971A134EAD92"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11AF49BEEEC0D9B2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FB3F3216AAE5CC8"
+				item: { count: 1, id: "minecolonies:blockhutlibrary" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "51A24F2BB939C504"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "672C44159A0AFAD0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "579F16DEB000030B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B0BECA1DFDED64C"
+				item: { count: 1, id: "minecolonies:blockhutminer" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "717AD0760778A9F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "155C43FB64D2A514"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22382DF0E16E1E5A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7EB557EF14397FAC"
+				item: { count: 1, id: "minecolonies:blockhutsawmill" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "0FB339DB6F5D174A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58245AD55FA2502C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "752DDB01842E2143"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5300330B3E3ECBCC"
+				item: { count: 1, id: "minecolonies:blockhutsifter" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "1BCAB48E85FA957F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "588B7BC025E475EA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F1D7804861EA2C1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17D137D52AF55E18"
+				item: { count: 1, id: "minecolonies:blockhutshepherd" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "3BCDB4E0169FDC2D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4176C84D598297BA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D5E0194FBF8F49F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "441411201DF2E6FF"
+				item: { count: 1, id: "minecolonies:blockhutsmeltery" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "2173A4A098E44814"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E2E60B95583AAC5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69EBECC087A0A410"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CA48E24DE1FB142"
+				item: { count: 1, id: "minecolonies:blockhutswineherder" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "03A9B3DD6FB2474E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12A7D821CAC98E0B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A0DEB47B5B56A7E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02C1637A24395283"
+				item: { count: 1, id: "minecolonies:blockhuthospital" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "3ED74F3937DCC4F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58817C43A4355D97"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D613735C62E49DB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2E9463FA8C29E749"
+				item: { count: 1, id: "minecolonies:blockhutuniversity" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "047800B30DA40F11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E1B8752A6D99DDE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ABFDCCAA20EA260"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1C1FCFE54D75C607"
+				item: { count: 1, id: "minecolonies:blockhutschool" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "527C1FB6F342F33C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70C2721EE445EF96"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2622FBE80556382D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7BF3CE2757E44C0A"
+				item: { count: 1, id: "minecolonies:blockhutglassblower" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "6FC44E7BD3F8ABB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "393DA260DE0F1FC5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F822D500CC86E31"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "595F2D110CD359DC"
+				item: { count: 1, id: "minecolonies:blockhutenchanter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "1A87EB636DE33410"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59752BDA1F1F9E5E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D43ACC1F2A59396"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "031106726035A6CB"
+				item: { count: 1, id: "minecolonies:blockhutdyer" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "5FE2453318D9567A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A442089391BDC48"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CD791EB5160FC24"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "27F40B7C071EF679"
+				item: { count: 1, id: "minecolonies:blockhutalchemist" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "182C4D92BA4B36BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E798BCE657C8C30"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E68B7CF78FD2624"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "630C8634AFE93526"
+				item: { count: 1, id: "minecolonies:blockhutkitchen" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "104A42535EB076DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30776D3D34F80DA5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F68EE115A4D2AC5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10D146F6B87AC63F"
+				item: { count: 1, id: "minecolonies:simplequarry" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "64909336EAF8106B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0096868A8AFEB5DE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E10B7CB6FBC07DF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70DF44B1F92C8A5D"
+				item: { count: 1, id: "minecolonies:mediumquarry" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "24EFE02D13F708C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C624B2CA31A0EBD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37C6407EC3AA03FF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "637017DD31904D72"
+				item: { count: 1, id: "minecolonies:blockhutplantationfield" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			hide_dependency_lines: true
+			id: "009BA28D57CD4D55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05FA902D2ED28E7E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "034A8D69C675679B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B45D42DB6905478"
+				item: { count: 1, id: "minecolonies:barrel_block" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09998E8560E2ADDD"]
+			id: "494FF6C1539CF120"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "380B0385C39F027E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CB02297270A48B6"
+				item: { count: 1, id: "minecolonies:clipboard" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -5.5d
+		}
+	]
+}

@@ -1,0 +1,958 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "flower_collection"
+	group: "19433A0441BC00D4"
+	icon: {
+		id: "minecraft:poppy"
+	}
+	id: "7FBF321A12862B42"
+	images: [{
+		height: 18.0d
+		image: "minecraft:textures/waystones_gui/small_button_blank.png"
+		rotation: 0.0d
+		width: 30.0d
+		x: 13.0d
+		y: 2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0A3D332C5BA49EF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D48418CF171E896"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DACD0FCC878A757"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "261C3FEA6DFF3543"
+				item: { count: 1, id: "aether:purple_flower" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "31A4F2E966AD3346"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "303153F83AB3D320"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16DC4D1135BC5335"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2ACFBED51EA18DC1"
+				item: { count: 1, id: "aether:white_flower" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "6A6468FD1C1F7159"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "080C4445EBA920D6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3175C90987C2989C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "330FD011B9989E89"
+				item: { count: 1, id: "biomesoplenty:blue_hydrangea" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "64B76B5758D7713E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AB40D7EAAE57E64"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AC7B09158A45E15"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E099F848F4BCB87"
+				item: { count: 1, id: "biomesoplenty:burning_blossom" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "31252421F42C5DA8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A0D9C09E95D0964"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37308A839D22FD41"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7EE1E9ECE52BF028"
+				item: { count: 1, id: "biomesoplenty:flowering_oak_leaves" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "7353F447F3BD20FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6119F5CF6FBA331C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5499A6992C3D4386"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CDAD1EEE2D97A35"
+				item: { count: 1, id: "biomesoplenty:glowflower" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "2CA2A32E9E000D32"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29F1A97A8183AF47"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CF8D3FB41558E5A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "523AAB70C47279E6"
+				item: { count: 1, id: "biomesoplenty:huge_lily_pad" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "20377DCB68EC69E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12FA2F8E8862C429"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ECC79CBCF2D037C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "772A40C90C433B45"
+				item: { count: 1, id: "biomesoplenty:large_rose_quartz_bud" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "1059551265FC58D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04D1ED3D1566D645"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E5E703D93B8AF12"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1BC710E9E2B4E09B"
+				item: { count: 1, id: "biomesoplenty:medium_rose_quartz_bud" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "3374E1D20CB20C3D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "047D30402C9A196C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D2631596DC1F273"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05B226A4651074DB"
+				item: { count: 1, id: "biomesoplenty:orange_cosmos" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "0106947A3B187D99"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41A475C4334F7ECB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EACEF1378C1983B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "370BD33B008944AE"
+				item: { count: 1, id: "biomesoplenty:pink_daffodil" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "094BB14B82CE878C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "138DBD963604DEF5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CB8403DAE64A7BA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7661D535B77E5212"
+				item: { count: 1, id: "biomesoplenty:pink_hibiscus" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			id: "340ECF4C7BB23C11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "707705D03F779D9A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EA30F829F3D56B7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B43BB4CA25DCEB3"
+				item: { count: 1, id: "biomesoplenty:rose" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			id: "35C1CFA361398E8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AFB8419C58B0441"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33F18B5AEFC5FC36"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5EE60330F648C7C4"
+				item: { count: 1, id: "biomesoplenty:snowblossom_leaves" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "5D5C4ADC43F456DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "189470165B998DB6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29962D4CD3E58FAE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F483583261CFD35"
+				item: { count: 1, id: "biomesoplenty:violet" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "1CB9826E41510AB1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15DCA11A41480B53"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67F2CAFDF92B35F7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5BF1059677525D6A"
+				item: { count: 1, id: "biomesoplenty:waterlily" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "4B52A46C5FAC1C89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F706EA0E7DC5231"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "008C475330A3F25F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B9D4263F932CEE0"
+				item: { count: 1, id: "biomesoplenty:wildflower" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "75897B3AB7A191FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0544143976DF29DE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20885DB7285307B4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "760B3471060E3F18"
+				item: { count: 1, id: "biomesoplenty:wilted_lily" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "26588ADFCFA3A9E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08CE2974844CA9E2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D82F9BB5B04E7E1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6130C2DB80F42DD2"
+				item: { count: 1, id: "minecraft:allium" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			id: "550B64BFA87791DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63B291F1145E6D87"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64AC385B47998389"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4956EC1E7D0A0286"
+				item: { count: 1, id: "minecraft:azure_bluet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "78C65E507BE5D856"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60AF37114E0370E0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A71E3AF18A01D81"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D69C8139088FC5F"
+				item: { count: 1, id: "minecraft:blue_orchid" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "585EFB9EB47C8ED4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B84B78C90295E6B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "307FD771F56027D0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09061DD6DFEB7B89"
+				item: { count: 1, id: "minecraft:cornflower" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "315484D7146F175D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CC1EC646C284842"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E9FEFC9AA482EB4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "39156E3C6BE9FB03"
+				item: { count: 1, id: "minecraft:dandelion" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "097D0AEF96C336AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09A022956254CF30"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "122D3287D525DF15"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0D653F1A0CA76DC9"
+				item: { count: 1, id: "minecraft:lilac" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "3751E34A2ADDF105"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A0D010548EEB6D6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F637EB9CB307D8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "345DB1FE01F1F28E"
+				item: { count: 1, id: "minecraft:lily_of_the_valley" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "03519C1FF15DEB1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70EDCC90AE8CEE45"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08CEA5500D994DDD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1207358D575A3A3A"
+				item: { count: 1, id: "minecraft:orange_tulip" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			id: "3ECD10DE9DCFE9FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E48DB10549DAAC6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5935E4B967158CD0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1BAD19D92D0C33BF"
+				item: { count: 1, id: "minecraft:oxeye_daisy" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			id: "77A2475643241A10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33ECF717857EB50B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D74692E20770FD7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0BA3AC492054FC94"
+				item: { count: 1, id: "minecraft:peony" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			id: "7BD76A002BB2E8CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78521B0364F5B08B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "357653FD1CF498C4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "61B93DC0FB6E6FDC"
+				item: { count: 1, id: "minecraft:pink_tulip" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			id: "5F2CA4D7F275038F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62E20F7C89098764"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "609CB7C265D02EFB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F715076F24B5A5B"
+				item: { count: 1, id: "minecraft:poppy" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			id: "440AF6C1304E9977"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B53AAE468F98E86"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59F81175A14EABE3"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "615913EBE421092C"
+				item: { count: 1, id: "minecraft:red_tulip" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "310FD2153839EF0D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68E64204FFD21280"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2101AFD6A3769605"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "089003CC652B5621"
+				item: { count: 1, id: "minecraft:rose_bush" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			id: "1CC3733114F52E9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D4221D22484FCA0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08B6E5D4EC12BD74"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "394C58B27C9F145D"
+				item: { count: 1, id: "minecraft:sunflower" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			id: "0DDAF36DBF1227B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30904FE994D577F0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B4345BF789A6F88"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08BE71E6C55FB641"
+				item: { count: 1, id: "minecraft:torchflower" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			id: "28654D1C84860D10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "341AC6CE73183724"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A9EE4823EC71543"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "330C07283C4D1949"
+				item: { count: 1, id: "minecraft:white_tulip" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "34CBDB45A6BD2202"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79A122EA70941588"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "555ADA2DEC60ECF5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "246E4F43EA41EB74"
+				item: { count: 1, id: "minecraft:wither_rose" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			id: "031B7B78684917CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56661BE0D3A9D3FC"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00F0392C6ADB3D37"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41668E49DA25546B"
+				item: { count: 1, id: "twilightforest:huge_lily_pad" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			id: "09E473B0392A4885"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0ADEDECA298BB065"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AB10B34F198C452"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B039D4C0E2879D9"
+				item: { count: 1, id: "twilightforest:huge_water_lily" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "43D702A372DE912A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "740A54348C595335"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FDD37FB74564537"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E395CC2C2A0CDE8"
+				item: { count: 1, id: "twilightforest:thorn_rose" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+}

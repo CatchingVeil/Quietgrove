@@ -1,0 +1,222 @@
+{
+	autofocus_id: "6BDC6CD302268501"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "6ECE4BAF5E476A10"
+	icon: {
+		id: "cataclysm:flame_eye"
+	}
+	id: "31680FF23859F9F7"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:item/c_logo"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 18.0d
+			image: "kubejs:item/cataclysmbg"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BDC6CD302268501"
+			rewards: [{
+				id: "1006319AF09FF6A7"
+				item: {
+					count: 1
+					id: "cataclysm:netherite_ministrosity_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					id: "cataclysm:monstrous_eye"
+				}
+				id: "21B732A240932173"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BDC6CD302268501"]
+			id: "1C38925EE3E9D9C5"
+			rewards: [{
+				count: 5
+				id: "6F8D576D223F491C"
+				item: {
+					count: 1
+					id: "lendersdelight:ender_guardian_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					id: "cataclysm:void_eye"
+				}
+				id: "0D84B230E5B8362B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C38925EE3E9D9C5"]
+			id: "506CA618F8AA3BAF"
+			rewards: [{
+				id: "638A0320077B9704"
+				item: {
+					count: 1
+					id: "cataclysm:witherite_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					id: "cataclysm:mech_eye"
+				}
+				id: "7DA852EA308428C7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["506CA618F8AA3BAF"]
+			id: "2280D52CB540C305"
+			rewards: [{
+				count: 4
+				id: "662164D6D1AF4FDB"
+				item: {
+					count: 1
+					id: "cataclysm:cursium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					id: "cataclysm:cursed_eye"
+				}
+				id: "16F45194F916E6D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2280D52CB540C305"]
+			id: "36D26C156E1B62F0"
+			rewards: [{
+				count: 4
+				id: "5B1D65CB8A9A878A"
+				item: {
+					count: 1
+					id: "cataclysm:ancient_metal_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:desert_eye"
+				}
+				id: "694BF8E7797ADEDD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36D26C156E1B62F0"]
+			id: "4F7F426C4F136A57"
+			rewards: [{
+				id: "172F536D8A102B00"
+				item: {
+					count: 1
+					id: "cataclysm_spellbooks:leviathans_blessing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:abyss_eye"
+				}
+				id: "330E99BC8E097E46"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F7F426C4F136A57"]
+			id: "4FA4498E152FBF60"
+			rewards: [{
+				count: 4
+				id: "7C08426902780417"
+				item: {
+					count: 1
+					id: "cataclysm:essence_of_the_storm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					id: "cataclysm:storm_eye"
+				}
+				id: "59DEF88586B4D1CC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FA4498E152FBF60"]
+			id: "47D59BC4BC929001"
+			rewards: [{
+				count: 2
+				id: "144C3B0BA7EB0317"
+				item: {
+					count: 1
+					id: "cataclysm:ignitium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:flame_eye"
+				}
+				id: "5C9DB38E69C9FE27"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,1603 @@
+{
+	autofocus_id: "0573D9F464435849"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armory"
+	group: "19433A0441BC00D4"
+	icon: {
+		id: "minecraft:netherite_chestplate"
+	}
+	id: "73A8B9692F4CCBAE"
+	images: [{
+		height: 18.0d
+		image: "chipped:block/andesite/andesite_bricks"
+		rotation: 0.0d
+		width: 30.0d
+		x: -7.595238095238095d
+		y: 2.511904761904759d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02BC15CDDD2E6887"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43154BE4508CDC16"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "7B326DC34687B2F8"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73A62B5ADD653864"
+				item: { count: 1, id: "minecraft:diamond_helmet" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			id: "2FDA70718BE094C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5724704164C4073A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "3A27ED5D9B820A53"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60061B50286021AA"
+				item: { count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "0A4FF50D50E9AF8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "740CF57AD8751C97"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "5B0F089206AD7415"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B061F848F318DEC"
+				item: { count: 1, id: "minecraft:diamond_leggings" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "6EB6BCA0ABEA0E71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "475414BBAC15134B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "54E32897EB1AC2E1"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15653D5D082A074E"
+				item: { count: 1, id: "minecraft:diamond_boots" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02BC15CDDD2E6887"]
+			id: "2BBC42D9EA7645B4"
+			rewards: [
+				{
+					count: 2
+					id: "3D46C2B1FEC775FD"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2789F1280CE4D59C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21801B6D86E03B86"
+				item: { count: 1, id: "minecraft:netherite_helmet" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FDA70718BE094C7"]
+			id: "3D39FD949F689AFF"
+			rewards: [
+				{
+					count: 2
+					id: "55456A381737260D"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65D702597BCD5D9E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2BC7739E64B24E8B"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A4FF50D50E9AF8B"]
+			id: "09E4982BDDFDC098"
+			rewards: [
+				{
+					count: 2
+					id: "74ED0CA7BC1B63A7"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47F39950E5E95CE5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1BAF595C9E5F9938"
+				item: { count: 1, id: "minecraft:netherite_leggings" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EB6BCA0ABEA0E71"]
+			id: "613DA03BC5B0A717"
+			rewards: [
+				{
+					count: 2
+					id: "288A7256086DF16C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1833B2DF202435EA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6771190F861F3E05"
+				item: { count: 1, id: "minecraft:netherite_boots" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "46E3B2D032C55470"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "073EF6F7C1385A7E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69FBF19E9E319681"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_rapier) item(better_weaponry:copper_rapier) item(better_weaponry:diamond_rapier) item(better_weaponry:emerald_rapier) item(better_weaponry:golden_rapier) item(better_weaponry:iron_rapier) item(better_weaponry:netherite_rapier) item(better_weaponry:stone_rapier) item(better_weaponry:wooden_rapier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			id: "3B7BC73F78DDCE5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DBCBF0C6B5D64FA"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F23EDC7C737CA0B"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_claymore) item(better_weaponry:copper_claymore) item(better_weaponry:diamond_claymore) item(better_weaponry:emerald_claymore) item(better_weaponry:golden_claymore) item(better_weaponry:iron_claymore) item(better_weaponry:netherite_claymore) item(better_weaponry:stone_claymore) item(better_weaponry:wooden_claymore))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			id: "4F0A8CF011A3E794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02221FFC380326B4"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "110353E64E510A48"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_broadsword) item(better_weaponry:copper_broadsword) item(better_weaponry:diamond_broadsword) item(better_weaponry:emerald_broadsword) item(better_weaponry:golden_broadsword) item(better_weaponry:iron_broadsword) item(better_weaponry:netherite_broadsword) item(better_weaponry:stone_broadsword) item(better_weaponry:wooden_broadsword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			id: "40599A3E66711007"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "282725E2697A7137"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37746E02AE1557F9"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_axe) item(better_weaponry:amethyst_battleaxe) item(better_weaponry:amethyst_pickaxe) item(better_weaponry:copper_axe) item(better_weaponry:copper_battleaxe) item(better_weaponry:copper_pickaxe) item(better_weaponry:diamond_battleaxe) item(better_weaponry:emerald_axe) item(better_weaponry:emerald_battleaxe) item(better_weaponry:emerald_pickaxe) item(better_weaponry:golden_battleaxe) item(better_weaponry:iron_battleaxe) item(better_weaponry:netherite_battleaxe) item(better_weaponry:stone_battleaxe) item(better_weaponry:wooden_battleaxe) item(minecraft:diamond_axe) item(minecraft:golden_axe) item(minecraft:iron_axe) item(minecraft:netherite_axe) item(minecraft:stone_axe) item(minecraft:wooden_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "09D3CB6278BB3286"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D8C0E27BECCE9B"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "180B548ABADC9828"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_hammer) item(better_weaponry:copper_hammer) item(better_weaponry:diamond_hammer) item(better_weaponry:emerald_hammer) item(better_weaponry:golden_hammer) item(better_weaponry:iron_hammer) item(better_weaponry:netherite_hammer) item(better_weaponry:stone_hammer) item(better_weaponry:wooden_hammer) item(minecraft:mace))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			id: "0EDF30F40A2B8401"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10CD12CE8D83EF62"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A11820BA7583EEE"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_spear) item(better_weaponry:copper_spear) item(better_weaponry:diamond_spear) item(better_weaponry:emerald_spear) item(better_weaponry:golden_spear) item(better_weaponry:iron_spear) item(better_weaponry:netherite_spear) item(better_weaponry:stone_spear) item(better_weaponry:wooden_spear) item(minecraft:trident))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "1109E342F39AF39E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4481233346DBC008"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2839098095030FDB"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_dagger) item(better_weaponry:copper_dagger) item(better_weaponry:diamond_dagger) item(better_weaponry:emerald_dagger) item(better_weaponry:golden_dagger) item(better_weaponry:iron_dagger) item(better_weaponry:netherite_dagger) item(better_weaponry:stone_dagger) item(better_weaponry:wooden_dagger))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "09541196B2B86D8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "536F5F54E1E84277"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "300F892807FBD573"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_katana) item(better_weaponry:copper_katana) item(better_weaponry:diamond_katana) item(better_weaponry:emerald_katana) item(better_weaponry:golden_katana) item(better_weaponry:iron_katana) item(better_weaponry:netherite_katana) item(better_weaponry:stone_katana) item(better_weaponry:wooden_katana))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "583FF5E3151DA82C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "165C45622C34E212"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75E5C2D1E879DE60"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_sword) item(better_weaponry:copper_sword) item(better_weaponry:emerald_sword) item(minecraft:diamond_sword) item(minecraft:golden_sword) item(minecraft:iron_sword) item(minecraft:netherite_sword) item(minecraft:stone_sword) item(minecraft:wooden_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			id: "21EE7EC03D0B6F6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D93933286FFAD3F"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50CAFD925A62FE3B"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:amethyst_scythe) item(better_weaponry:copper_scythe) item(better_weaponry:diamond_scythe) item(better_weaponry:emerald_scythe) item(better_weaponry:golden_scythe) item(better_weaponry:iron_scythe) item(better_weaponry:netherite_scythe) item(better_weaponry:stone_scythe) item(better_weaponry:wooden_scythe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			id: "28864C2306F70F49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B495E207E251423"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "16D4CC920EE987C9"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FF71F2CB3AE15E4"
+				item: { count: 1, id: "better_weaponry:copper_armor_boots" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			id: "09D7CFF9CB3F2D6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DA828B492997CBB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "64BB0F94EEAEB28D"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74A9C32B30F05556"
+				item: { count: 1, id: "better_weaponry:copper_armor_chestplate" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			id: "2BD12E23BA2C99D2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "400E25575465023F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "240D017EB975690C"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0280C4AE38068DC3"
+				item: { count: 1, id: "better_weaponry:copper_armor_helmet" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			id: "3A529BC23442DAA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1EC717B669BB6160"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "462668D27D631536"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08963DFBA0A683AF"
+				item: { count: 1, id: "better_weaponry:copper_armor_leggings" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			id: "6D5FE7E84E66FBB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "224539430AEA0060"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "4879749D237A54CA"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F4C45E4A38C83FE"
+				item: { count: 1, id: "better_weaponry:emerald_armor_boots" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			id: "69FE2A171C382C2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26F5EA948507268D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "3FAC8184DC7C60ED"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1129699FB34A1F3A"
+				item: { count: 1, id: "better_weaponry:emerald_armor_chestplate" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "05F0B4C9ED121141"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "453CDFE171533033"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "19923AAD1BF2D77F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CCBE54868C95D7E"
+				item: { count: 1, id: "better_weaponry:emerald_armor_helmet" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "47C352FA44ED0211"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01252CCF188507F7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "5992DB8DB4DB1C04"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E13FA938242A682"
+				item: { count: 1, id: "better_weaponry:emerald_armor_leggings" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "7220D2CB94E43BC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C69E84641D53596"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "77EFFE594BAF3724"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7797F1430937DDF9"
+				item: { count: 1, id: "minecraft:iron_boots" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			id: "51748ABC844E66FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43D811F37314F56C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "094B9AFE5368387F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "611278BAF7B5B32B"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			id: "3B0E1FC6858A0CF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54017E1A8DBDD29E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "558366ED14CA4A95"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F39215845EAA54A"
+				item: { count: 1, id: "minecraft:iron_helmet" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			id: "5C9D800DBB60F07D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77A7F7259610AB63"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4F9799F93024FF60"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70B29909973A2165"
+				item: { count: 1, id: "minecraft:iron_leggings" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			id: "572859001D6C1E7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31E54A08DE843D4C"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "011030B6760C24B3"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm:black_steel_targe)item(cataclysm:bulwark_of_the_flame)item(cataclysm:azure_sea_shield))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "7ECB0D6780237544"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A88747EE7974FA1"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "405E65AAA9D4028B"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:diamond_longsword)item(simplyswords:gold_longsword)item(simplyswords:iron_longsword)item(simplyswords:netherite_longsword)item(simplyswords:runic_longsword)item(simplyswords:toxic_longsword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			id: "6FCFBC1312FCD3F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69148B236637310E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38910BA5E9D9D8D9"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(better_weaponry:wooden_shield)item(better_weaponry:stone_shield)item(better_weaponry:iron_shield)item(better_weaponry:golden_shield)item(better_weaponry:diamond_shield)item(better_weaponry:netherite_shield)item(better_weaponry:copper_shield)item(better_weaponry:emerald_shield)item(better_weaponry:amethyst_shield))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "7EB29902BB2BE4FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D01EB67A409F621"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DE3386B0385F450"
+				item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "4A722B3DB93628FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C49DC76CFBF24D8"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E88DA7635F9AD51"
+				item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["613DA03BC5B0A717"]
+			id: "2C4D165482DE80ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6833239DB2A9EF41"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29996697D4E5AA90"
+				item: { count: 1, id: "cataclysm:cursium_boots" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D39FD949F689AFF"]
+			id: "736C3BE6AF28F8EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0483A43821E43386"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64775DCF4723D4AA"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BBC42D9EA7645B4"]
+			id: "6072B032DA3CE497"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63AA33C18012BF27"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E9F8439786BE224"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09E4982BDDFDC098"]
+			id: "6FDDBF2284B7F40B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "255143378D792DCB"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69F2825949BCC126"
+				item: { count: 1, id: "cataclysm:cursium_leggings" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["613DA03BC5B0A717"]
+			id: "16A46E7987D4B40F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D59338FAA25879C"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FFD671EB4AAA251"
+				item: { count: 1, id: "cataclysm:ignitium_boots" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D39FD949F689AFF"]
+			id: "5C0DF2DB38821549"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69E60B3EE1B5584E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00973198AB111BBE"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm:ignitium_chestplate)item(cataclysm:ignitium_elytra_chestplate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BBC42D9EA7645B4"]
+			id: "7106246604A70BF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00983883BCDC98DF"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "433D1B2DBF425A06"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09E4982BDDFDC098"]
+			id: "4577FE8E120E6CB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A43A788A1885D3F"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38A2AD252EE406C2"
+				item: { count: 1, id: "cataclysm:ignitium_leggings" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "4C9E8CA3DC51C96A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19AEAEC9D97C519D"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14396DCE15B6E253"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_spear)item(simplyswords:gold_spear)item(simplyswords:diamond_spear)item(simplyswords:netherite_spear)item(simplyswords:runic_spear)item(simplyswords:magispear))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			id: "31B7D5A1CE799F99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101710AE52F5477E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1379F265DA783366"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_glaive)item(simplyswords:gold_glaive)item(simplyswords:diamond_glaive)item(simplyswords:netherite_glaive)item(simplyswords:runic_glaive)item(simplyswords:flamewind))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "4B97A7281A37311A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BA2A5A239B5835C"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44AEC204D9843A5E"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_warglaive)item(simplyswords:gold_warglaive)item(simplyswords:diamond_warglaive)item(simplyswords:netherite_warglaive)item(simplyswords:runic_warglaive)item(simplyswords:watching_warglaive))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "6E24B96D0FB83014"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F4B34EAADE568C6"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D2D989B0A0281A0"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_halberd)item(simplyswords:gold_halberd)item(simplyswords:diamond_halberd)item(simplyswords:netherite_halberd)item(simplyswords:runic_halberd)item(simplyswords:icewhisper)item(simplyswords:arcanethyst)item(simplyswords:thunderbrand))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			id: "246C01658701BC00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62F630692CBFEA6D"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12BC985E1E010A37"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_twinblade)item(simplyswords:gold_twinblade)item(simplyswords:diamond_twinblade)item(simplyswords:netherite_twinblade)item(simplyswords:runic_twinblade)item(simplyswords:storms_edge)item(simplyswords:stars_edge)item(simplyswords:magiblade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "035744975F2B40DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "587431DBA2CFD3E0"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DF8A31CF0D9C52D"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_rapier)item(simplyswords:gold_rapier)item(simplyswords:diamond_rapier)item(simplyswords:netherite_rapier)item(simplyswords:runic_rapier)item(simplyswords:bramblethorn))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			id: "5503105C3EB35A9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66F72FE753F8FE4E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "657815A157BB82D0"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_katana)item(simplyswords:gold_katana)item(simplyswords:diamond_katana)item(simplyswords:netherite_katana)item(simplyswords:runic_katana)item(simplyswords:shadowsting)item(simplyswords:whisperwind))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "78AB9B5734265995"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B87E8CEC8FBABCE"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4680523CD50D61DB"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_cutlass)item(simplyswords:gold_cutlass)item(simplyswords:diamond_cutlass)item(simplyswords:netherite_cutlass)item(simplyswords:runic_cutlass)item(simplyswords:wraithfang))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			id: "36BDDC5BE9E38CBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70D3012D47E03DEA"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26824F7782591684"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_chakram)item(simplyswords:gold_chakram)item(simplyswords:diamond_chakram)item(simplyswords:netherite_chakram)item(simplyswords:runic_chakram)item(simplyswords:tempest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			id: "586DC0AA4A3F725B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "415F1C38F8B9B035"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A9F135440AA8DA8"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:emberblade)item(simplyswords:sunfire)item(simplyswords:harbinger)item(simplyswords:righteous_relic)item(simplyswords:tainted_relic)item(simplyswords:stormbringer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "062C9FBAD36302D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F7018FBC4469BE0"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E9A0B34D0CCAF13"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_greathammer)item(simplyswords:gold_greathammer)item(simplyswords:diamond_greathammer)item(simplyswords:netherite_greathammer)item(simplyswords:runic_greathammer)item(simplyswords:soulkeeper)item(simplyswords:hearthflame)item(simplyswords:mjolnir))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			id: "7208ED990BA251E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "167308B6BC479757"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CFB93FCA35B1B1E"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_scythe)item(simplyswords:gold_scythe)item(simplyswords:diamond_scythe)item(simplyswords:netherite_scythe)item(simplyswords:runic_scythe)item(simplyswords:soulrender)item(simplyswords:magiscythe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "4CFD9BC4D0870F1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F39B8F4505CD71A"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77A631C001506564"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_greataxe)item(simplyswords:gold_greataxe)item(simplyswords:diamond_greataxe)item(simplyswords:netherite_greataxe)item(simplyswords:runic_greataxe)item(simplyswords:molten_edge)item(simplyswords:livyatan)item(simplyswords:soulpyre)item(simplyswords:flamewind))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			id: "437AF8BB2097738B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76358C17364B1A0A"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5373621973790444"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(simplyswords:iron_claymore)item(simplyswords:gold_claymore)item(simplyswords:diamond_claymore)item(simplyswords:netherite_claymore)item(simplyswords:runic_claymore)item(simplyswords:enigma)item(simplyswords:brimstone_claymore)item(simplyswords:waking_lichblade)item(simplyswords:slumbering_lichblade)item(simplyswords:awakened_lichblade)item(simplyswords:watcher_claymore))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BBC42D9EA7645B4"]
+			id: "2606FC0F25DB3501"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "165F4268532D1F1F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "51534613B5BEBD81"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "009AB1D8CBA45159"
+				item: { count: 1, id: "advancednetherite:netherite_iron_helmet" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D39FD949F689AFF"]
+			id: "0573D9F464435849"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "240E24459C5B937F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "53AB69BBE777261E"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F3065257F16CA03"
+				item: { count: 1, id: "advancednetherite:netherite_iron_chestplate" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09E4982BDDFDC098"]
+			id: "7E8C9B6C551CC58A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26FAEB6A5295B396"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "61DAC63B83C104AA"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3388292E51B0059E"
+				item: { count: 1, id: "advancednetherite:netherite_iron_leggings" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["613DA03BC5B0A717"]
+			id: "5A46654FD0396896"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "608D1336AF1A33C4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					id: "4181BA8AD33F70CA"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B36C99A26ABDCC8"
+				item: { count: 1, id: "advancednetherite:netherite_iron_boots" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2606FC0F25DB3501"]
+			id: "4A248FB12E9A4B22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0337C99240FA3DE1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "133A70E3B777C28F"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68267C418B7388D9"
+				item: { count: 1, id: "advancednetherite:netherite_gold_helmet" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0573D9F464435849"]
+			id: "186A795AD6BE6C64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D423B16F1EBB825"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "369B0363219E8A2A"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A587068E5C020DD"
+				item: { count: 1, id: "advancednetherite:netherite_gold_chestplate" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E8C9B6C551CC58A"]
+			id: "39A66F2B0620229C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F0CC4411573A827"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1D004480E00FBFDE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64A0027F139CA19B"
+				item: { count: 1, id: "advancednetherite:netherite_gold_leggings" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A46654FD0396896"]
+			id: "3165826A3BF5FF71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "301A16A925708C65"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6A2FA68EBC1F0193"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51DF3DF31CA0AE41"
+				item: { count: 1, id: "advancednetherite:netherite_gold_boots" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A248FB12E9A4B22"]
+			id: "4A4208DA77DA55E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6794B2D82355D657"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "7F71DF881AE714BC"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E5E4C5914D23954"
+				item: { count: 1, id: "advancednetherite:netherite_emerald_helmet" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["186A795AD6BE6C64"]
+			id: "69B06F0B0F5A8C99"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CF00206FE590EAA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5E36FEBE009A2DBE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2821555D908B01C8"
+				item: { count: 1, id: "advancednetherite:netherite_emerald_chestplate" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39A66F2B0620229C"]
+			id: "3BED909697086175"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7854D404359041A7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4B75869384BF4DB0"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FDF8F2342731322"
+				item: { count: 1, id: "advancednetherite:netherite_emerald_leggings" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3165826A3BF5FF71"]
+			id: "2335B652586DEAAB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3353CD65894B95F6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "612DC728921B5563"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59034233FFEFCB89"
+				item: { count: 1, id: "advancednetherite:netherite_emerald_boots" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A4208DA77DA55E5"]
+			id: "16590249B33F56D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09A9892DDCC9663C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0628A0D4A1BCF70C"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "557BE48B699ED54C"
+				item: { count: 1, id: "advancednetherite:netherite_diamond_helmet" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69B06F0B0F5A8C99"]
+			id: "7410BA6EEF929355"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35C356D37003069F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3D83A75A31E67472"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05B0BF5584F07CA3"
+				item: { count: 1, id: "advancednetherite:netherite_diamond_chestplate" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BED909697086175"]
+			id: "415E16B30BF9E30C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71D53F8C29E088AA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2A905A85B04DCBCC"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D3D05E660393D39"
+				item: { count: 1, id: "advancednetherite:netherite_diamond_leggings" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2335B652586DEAAB"]
+			id: "3865CEFF3FD9FB62"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DB956D4A0E95D8D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3E4B3451161403D6"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3955ADB2528A4C9F"
+				item: { count: 1, id: "advancednetherite:netherite_diamond_boots" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+	]
+}

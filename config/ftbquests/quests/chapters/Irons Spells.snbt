@@ -1,0 +1,3729 @@
+{
+	autofocus_id: "3D4317C2B25D5680"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "Irons Spells"
+	group: "19433A0441BC00D4"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 10
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:diamond_spell_book"
+	}
+	id: "3B4FADE31FB88E9F"
+	images: [
+		{
+			height: 20.0d
+			image: "irons_spellbooks:textures/entity/ball_lightning/ball_lightning_0.png"
+			rotation: 0.0d
+			width: 32.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 18.0d
+			image: "irons_spellbooks:block/arcane_anvil_side"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: 1.8928571428571388d
+			y: -0.9285714285714022d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["56A515610D242E28"]
+			icon_scale: 1.5d
+			id: "1F00E0E61CD048BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "663003F227094A00"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3258021CA085D804"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1041977E6E082C25"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3D4317C2B25D5680"
+			rewards: [
+				{
+					count: 8
+					id: "434874E2FAD2A8BB"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30BD80ED938066D0"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1087D8AA1961A136"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7B4A25F61D3ED1F0"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8999999999999999d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			icon_scale: 1.5d
+			id: "704C0B04EFF5024C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75208DAB228249EC"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A0891A1A6F1FEA2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6F88C07851F1E98F"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33C89E149ED93C43"]
+			icon_scale: 1.5d
+			id: "0A65FB39B82A9238"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "232EAD88BAA12B5E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6725FF55B9503EAA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1D6D9EC23BD79AD1"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704C0B04EFF5024C"]
+			icon_scale: 1.5d
+			id: "2F53567C34E86536"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61C3A09E6834B6F1"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FC44F469D319577"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "01B4E423E7451EDB"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			icon_scale: 1.5d
+			id: "56A515610D242E28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A6DD0C4005D6224"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13099FA19B356799"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "52E097F0BC4E1F56"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:common_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "0ED5CB1120D1BD6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F2C2F7C21BB2A83"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10CCDA9B5C275EB7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4C4C2C8C3CB7302D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:scroll))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "37F1166AB7EF132E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54C7D12F5FFE356E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C3E9C8E9932A689"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "51EC254801411481"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37F1166AB7EF132E"]
+			icon_scale: 1.5d
+			id: "40FF154148BBAFF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DB3B0DD70B25F3E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27B6CEAE662FB111"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FF076D8801C6386"
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59206B32AF9E5F4E"]
+			icon_scale: 1.5d
+			id: "33C89E149ED93C43"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "741B7DC04E3A5E86"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8B665776C1FBB6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "58BEBCB22C249812"
+				item: { count: 1, id: "irons_spellbooks:cinder_essence" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "68493CE96FD68EBA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E9AAFD47C959423"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B9495DB01503AE4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				id: "0C12F243AEF33F65"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "32D2620EE28E38C2"
+			rewards: [
+				{
+					id: "5E865E5CD3AF6CFE"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [
+									{
+										id: "irons_spellbooks:fang_strike"
+										index: 0
+										level: 6
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:fang_ward"
+										index: 1
+										level: 4
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:summon_vex"
+										index: 2
+										level: 4
+										locked: 1b
+									}
+								]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:evoker_spell_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66B6DC2245ADBB9E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB6228F5D8AFEC6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "7AB3BAEAA2E50F06"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "060A481F0ADF8967"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67E42C7D302557B0"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B43588C76CCFE2B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:pyromancer"
+				id: "54E5D81FEE18AF83"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76C993234F5C5E5B"]
+			icon_scale: 1.5d
+			id: "739C6F00AAB2682C"
+			rewards: [
+				{
+					count: 8
+					id: "282B7863F7C92092"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28F7F8A28907791A"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BAAF3F2055EB9DC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "1B5D407F2729F56F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["490B030C23066196"]
+			icon_scale: 1.5d
+			id: "1AFE5ED9C0F1EA03"
+			rewards: [
+				{
+					id: "2EBD95C2D21653D8"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:villager_spell_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2800BE4EDBAB291F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3464F81E7BCB6518"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:priest"
+				id: "1ACF33BDD92D15DA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "6AAFC03D6076BB95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B26E44D9E0644A2"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44867A4334B64054"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:apothecarist"
+				id: "4F7787C0557CF5CC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40FF154148BBAFF2"]
+			icon_scale: 1.5d
+			id: "77719A9FBDFE49A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "642DB4BBA1F95F02"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B0D165A8332B1FB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5497DB20D659CE26"
+				item: { count: 1, id: "irons_spellbooks:blank_rune" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77719A9FBDFE49A7"]
+			icon_scale: 1.5d
+			id: "682D1178AF51998C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "694A558580ADD46E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D793CB58A9DDCD4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3455186D4BF3225D"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:inscribed_rune))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33C89E149ED93C43"]
+			icon_scale: 1.5d
+			id: "685240BDFB969071"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D954D5474432777"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23C359D17903FC4A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5CB899A8E58F0618"
+				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["685240BDFB969071"]
+			icon_scale: 1.5d
+			id: "004CEA979BC74728"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "756D30C4F4D4A061"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17A684D26CE2043E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6ACCAE0DFC5A8604"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:fire_upgrade_orb)item(irons_spellbooks:ice_upgrade_orb)item(irons_spellbooks:lightning_upgrade_orb)item(irons_spellbooks:holy_upgrade_orb)item(irons_spellbooks:ender_upgrade_orb)item(irons_spellbooks:blood_upgrade_orb)item(irons_spellbooks:evocation_upgrade_orb)item(irons_spellbooks:nature_upgrade_orb)item(irons_spellbooks:mana_upgrade_orb)item(irons_spellbooks:cooldown_upgrade_orb)item(irons_spellbooks:protection_upgrade_orb))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "76C993234F5C5E5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0146D62F8552A1BB"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "592BAD59C24A43B3"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4B3FA34A50DD3E2B"
+				item: { count: 1, id: "irons_spellbooks:wayward_compass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.75d
+			id: "6D092A4BC4A22314"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36AFE26BF53B37B8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "052AF1BFA53844E6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1FE53C9FC8DB9CF1"
+				item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0999999999999996d
+		}
+		{
+			dependencies: ["6D092A4BC4A22314"]
+			icon_scale: 1.5d
+			id: "67792A4DE6EDBC37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E680918F885C7EC"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0287729AF60C51EC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "75F59846528ABE74"
+				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E8C6BD8557C6F08"]
+			icon_scale: 1.5d
+			id: "6CFE4C749B2431AA"
+			rewards: [
+				{
+					count: 2
+					id: "59D8BD84AFDAE540"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B8B018F8DA6183C"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45BF757406AEAA7A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3F45853B4CE8A44D"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:abyssal_shroud", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E8C6BD8557C6F08"]
+			icon_scale: 1.5d
+			id: "4644B4DF2127D25A"
+			rewards: [
+				{
+					count: 2
+					id: "058BBEDAF1EA990F"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53E6E00C10A4B792"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C9818EBF736AE15"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "48420053736B0D0B"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:eldritch_blast", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E8C6BD8557C6F08"]
+			icon_scale: 1.5d
+			id: "1D5B3A979F30436C"
+			rewards: [
+				{
+					count: 2
+					id: "0EFC63863AA3B2BB"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F9A9D9F37D45A0C"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F654669F582A5E2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "778193DB69CC97BC"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:planar_sight", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3E8C6BD8557C6F08"]
+			icon_scale: 1.5d
+			id: "76B3EC485BAA4CFD"
+			rewards: [
+				{
+					count: 2
+					id: "45A94693C681C382"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05E7CEED97C7EF6D"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7712EA017D0BED16"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0BC858BCED6D46D5"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:sculk_tentacles", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E8C6BD8557C6F08"]
+			icon_scale: 1.5d
+			id: "3DE5B977CC287E07"
+			rewards: [
+				{
+					count: 2
+					id: "7C764519F04BB979"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FE54317285F9F5C"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "774D78CC4742704B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "37A49C624348573F"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:sonic_boom", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E8C6BD8557C6F08"]
+			icon_scale: 1.5d
+			id: "2E048A4EC3644EB0"
+			rewards: [
+				{
+					count: 2
+					id: "5D30560F98203A67"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B89FE059956903"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C182AC8638A5DB8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6769CE1FBCD0A7E6"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:telekinesis", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["682D1178AF51998C"]
+			icon_scale: 1.5d
+			id: "382A9CC6F9B5740F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EC47E3F19A9AF3E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B38DF36926CBBD9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1F5A29E07CD58234"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/helmets))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["682D1178AF51998C"]
+			icon_scale: 1.5d
+			id: "1993478A82341354"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B17B536CA558608"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43DEF8DB013933EA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "193D62AF6FA874B9"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/chestplates))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682D1178AF51998C"]
+			icon_scale: 1.5d
+			id: "4E7439769A073494"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "467DFF8C2C06EE20"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12D054856C31F5F8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "55D0F6CEA8F3F0F6"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/leggings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["682D1178AF51998C"]
+			icon_scale: 1.5d
+			id: "2ACF8F5EFD3C4AF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B2F7ACCD333C9F2"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C577D2F098A077C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08BC192EF194887A"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F53567C34E86536"]
+			icon_scale: 1.5d
+			id: "51542DCB5C8E5C3A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B7284B18E8FFD70"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7874C478B6E5C7B9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "18D04B93DD2710AB"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"51542DCB5C8E5C3A"
+				"37F1166AB7EF132E"
+				"3E212B5DE277B73A"
+			]
+			icon_scale: 1.5d
+			id: "3B3FDF02E891DD39"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2881AEE25087D830"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A2EC2870433816D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "74BEF7F3DE87E2E5"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3B3FDF02E891DD39"
+				"40FF154148BBAFF2"
+			]
+			icon_scale: 1.5d
+			id: "573FAED7B35F6C86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7207D8A88F37911E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6535A213EAB9CAC5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3D0974E3A0EC767C"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["573FAED7B35F6C86"]
+			icon_scale: 1.5d
+			id: "7422BD3C0F060AC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B56D9788C20711B"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "695FF20AEBAF7A45"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "450F209735883ABD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:netherite_spell_book)item(irons_spellbooks:dragonskin_spell_book))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F53567C34E86536"]
+			icon_scale: 1.5d
+			id: "4B55B9BE2698F870"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13D1747FBBD390E5"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2109EF4755CAC80B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "15C086D26B2FA57B"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:rotten_spell_book" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B55B9BE2698F870"]
+			icon_scale: 1.5d
+			id: "71229397B2C60BEF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08A3FD19156B0D8F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "147AA2A52BB491A5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0ED0547BE0721AA0"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon: {
+				id: "irons_spellbooks:priest_spawn_egg"
+			}
+			icon_scale: 1.5d
+			id: "37A5C2FCA8F75BE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FDAE426CA8607DF"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3761A6DE8077C371"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "irons_spellbooks:priest_helmet"
+				}
+				id: "514B94D781E8D433"
+				observe_type: 5
+				timer: 0L
+				to_observe: "irons_spellbooks:priest"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A65FB39B82A9238"]
+			icon_scale: 1.5d
+			id: "6CFD2F0F9F95A47F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "429F34003E330687"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54920228BD9EE58F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "214DDA31C6F111B0"
+				item: { count: 1, id: "irons_spellbooks:oakskin_elixir" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A65FB39B82A9238"]
+			icon_scale: 1.5d
+			id: "773A620E68E2FEB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62406B6FFC8A5DC0"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E581ED7DF06A631"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "05621798EB353AEA"
+				item: { count: 1, id: "irons_spellbooks:invisibility_elixir" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A65FB39B82A9238"]
+			icon_scale: 1.5d
+			id: "5B1324D88B09C454"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "503E9774DEDA39FB"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "394CAAF39D829BDF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "569EE292A916047A"
+				item: { count: 1, id: "irons_spellbooks:evasion_elixir" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A65FB39B82A9238"]
+			icon_scale: 1.5d
+			id: "66CB98B3A3A6BD9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16E3F151BC1AB254"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F4184BB820D889C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2D27FCD7F373E463"
+				item: { count: 1, id: "irons_spellbooks:greater_healing_potion" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68493CE96FD68EBA"]
+			icon_scale: 1.5d
+			id: "6CE6534C96BBC829"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40EE15CE5967FBB0"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7A7A3FAFC486F5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0DD4E8631E62DB0D"
+					item: { count: 1, id: "irons_spellbooks:frostward_ring" }
+					type: "item"
+				}
+				{
+					id: "0749A291FF353A77"
+					item: { count: 1, id: "irons_spellbooks:ice_staff" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4979AE0BC514C529"]
+			icon_scale: 1.5d
+			id: "0D8988AF02D890EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09D84D1AC60A747F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5CECC7B0ACEBBE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "65B2D0E35B083E82"
+				structure: "irons_spellbooks:ancient_battleground"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D8988AF02D890EA"]
+			icon_scale: 1.5d
+			id: "59206B32AF9E5F4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B0C37EF2D35B202"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1459D353094575C0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				id: "127ECED6FE8492C3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "0C37E9D8A7823264"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0390763AEAEEE658"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2391E04085C7FB97"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3BA72B4C28D05980"
+				item: { count: 1, id: "irons_spellbooks:artificer_cane" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "7CF09238E123231F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34578C0F895AFE09"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B2FF5689216339F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "476C3B4510F8C367"
+				item: { count: 1, id: "irons_spellbooks:lightning_rod" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "0696635896D223CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BE78F1B7872D1F8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C2977887DE18A87"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "33470F76F40B6B2D"
+				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FDE297B6CADBC32"]
+			icon_scale: 1.5d
+			id: "614BF4C59DC94185"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C1628F57C583B2A"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63DDA5ED5EB35CD5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2641E3CA2737355E"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14BCEE8CD81418A6"]
+			icon_scale: 1.5d
+			id: "29DE88844D54B5B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52A8F91C8A5ACCB5"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C4A9779DB04E501"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3879757035E81F1B"
+				item: { count: 1, id: "irons_spellbooks:portal_frame" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C9C0272BB43E810"]
+			icon_scale: 1.5d
+			id: "4979AE0BC514C529"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C38454169D79949"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A1E95D1627E1D17"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "29EECF82946E945A"
+				item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4979AE0BC514C529"]
+			icon_scale: 1.5d
+			id: "1057296CFE232202"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B438290325B9CDE"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E535F60DBF307C0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "58AEFA0609890CD9"
+				item: { count: 1, id: "irons_spellbooks:mana_ring" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "613CFAA2D606D6A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06CD08AE9189D342"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "730F50CE9145C063"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0F0E4D6D13A71F9F"
+				item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "79AF7B7BF7366574"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D780F87F686B1E6"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F4C511775C7873"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2C911919ECE8E65C"
+				item: { count: 1, id: "irons_spellbooks:cast_time_ring" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "6D91A0086229DCED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58137BFACF556E08"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EB0AABD9F010B5D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "195B7AC9FC34BA6C"
+				item: { count: 1, id: "irons_spellbooks:affinity_ring" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "029FFA3DD0A16401"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10F9E61B6CC107B3"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69EEA0898D509303"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0441DACEA2497EB1"
+				item: { count: 1, id: "irons_spellbooks:expulsion_ring" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "7AF60A1ECF98B184"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A1FB65E9C517024"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B6395BD1E46FD19"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6B494506E238FB87"
+				item: { count: 1, id: "irons_spellbooks:visibility_ring" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "02D5EC1A602A24BD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "757E891196B38558"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AADC87CCDBB485E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "793EC2F3A24B83BE"
+				item: { count: 1, id: "irons_spellbooks:emerald_stoneplate_ring" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33C89E149ED93C43"]
+			icon_scale: 1.5d
+			id: "3F4EB05CA73E1FD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "523890CD672CD41D"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C50C050AD7A3713"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "573FB0B2B022379C"
+				item: { count: 1, id: "irons_spellbooks:fireward_ring" }
+				type: "item"
+			}]
+			x: 7.9d
+			y: 2.3000000000000007d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "26B44D509DA550DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "352E17B0F1D173B8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376151EDE0EECAFB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "40040E0AF8D5C6FD"
+				item: { count: 1, id: "irons_spellbooks:poisonward_ring" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "773B8847F5003301"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A54E2DC35C7EB5F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67D636446A6C29CA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "650FEB0B8831E81D"
+				item: { count: 1, id: "irons_spellbooks:heavy_chain_necklace" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "0508E356C43D68B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2069A810A545FA2F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14A0F9BFB15625C9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "21E7AEBFC548A810"
+				item: { count: 1, id: "irons_spellbooks:conjurers_talisman" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E652D98271A8941"]
+			icon_scale: 1.5d
+			id: "27367342EDF87DEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5784C44DA4C4D4F8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E8CDC301737E68A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "12598FB33E5DC159"
+				item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "28724CA9F837F710"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "368D95926DD6BE40"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C8ADC2A64E6660A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2B6AE53AD42A9778"
+				item: { count: 1, id: "irons_spellbooks:amethyst_resonance_charm" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"40FF154148BBAFF2"
+				"3E212B5DE277B73A"
+			]
+			icon_scale: 1.5d
+			id: "480F170F7028C337"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76E3D25F2441AF23"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "567C471649040B08"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "556C803D2B771AA3"
+				item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4979AE0BC514C529"]
+			icon_scale: 1.5d
+			id: "14BCEE8CD81418A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2076B9FA61CD82B3"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D61B859675FDE07"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "48BF32E81841B31D"
+				item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "30ED8D5374012D92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2599CAE3D5413CA6"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37F64FC4D57DD365"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7430B2DF65454EF3"
+				item: { count: 1, id: "irons_spellbooks:lightning_bottle" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "5F8E418D6A0AD158"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DE6C4EC75622A52"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "588BE32A494BA419"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6C6451592387A503"
+				item: { count: 1, id: "irons_spellbooks:divine_pearl" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "5F2801445E518E49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B010CCF0BCE1743"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C1C5A31ED8C60B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5338B84F09283499"
+				item: { count: 1, id: "irons_spellbooks:blood_vial" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "7EDF633DDB5DA2A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19A9E2D412DB22D3"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AABC4A78F5E8C25"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "582EFB882C7D5553"
+				item: { count: 1, id: "irons_spellbooks:frozen_bone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67792A4DE6EDBC37"]
+			icon_scale: 1.5d
+			id: "3E8C6BD8557C6F08"
+			rewards: [
+				{
+					count: 2
+					id: "1A6B3559A442BEB6"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0795C1971A91B667"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "429A06723F6C7F7F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7CB7D2F0C5B5E0C6"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "72539873C7201A47"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E6DD09CFA77525E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0509317C801A1715"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "403977A720522C27"
+				item: { count: 1, id: "minecraft:poisonous_potato" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "06294216A755E2F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E953A89BFDD3997"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "398E3715D76ADD53"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "47434327127C3A33"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "74D9B681E8EFE064"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22D49BC47504CA2F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01B2DC0FC520AF79"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1C93A56AF6655285"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D4317C2B25D5680"]
+			icon_scale: 1.5d
+			id: "51A8026A0F8A83B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C5AD79225AE027C"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75647AB279653A0F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0629BDA162C942D7"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06294216A755E2F2"]
+			icon_scale: 1.5d
+			id: "42AC14C7D41F0CAB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36760DCDE792E388"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19BBBD01C70D96E2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1022993643F7CBC8"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blaze_storm", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EDF633DDB5DA2A1"]
+			icon_scale: 1.5d
+			id: "71A219DF9715D153"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20E55930A408005B"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78266D010CFFC241"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "298B44E71D598619"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:cone_of_cold", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72539873C7201A47"]
+			icon_scale: 1.5d
+			id: "43ACFDB5CD949C74"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C957C769499BE6B"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "233657AA33E3BA47"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3D81BCE7A60A6915"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:acid_orb", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51A8026A0F8A83B1"]
+			icon_scale: 1.5d
+			id: "69400E62D67A21FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "030439B43F28D222"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44BC45603C378AA2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "71580DD3662D52E9"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_strike", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F2801445E518E49"]
+			icon_scale: 1.5d
+			id: "33EEBDD0730C020E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B027BA84FCB53B7"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C2D129D3100B97D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5BD1835B4CA536DD"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heartstop", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F8E418D6A0AD158"]
+			icon_scale: 1.5d
+			id: "3AAE23B6BE07E5DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B6128E14915B4CA"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0146BED7BCF5AF57"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7E48BC85AC91428F"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blessing_of_life", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74D9B681E8EFE064"]
+			icon_scale: 1.5d
+			id: "0BDF41399223A10A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49BEC238B8B31DE5"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04CF3C76D9AEAA79"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "47A6F41B6070E5A3"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:dragon_breath", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30ED8D5374012D92"]
+			icon_scale: 1.5d
+			id: "5221657F939FE63B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B5404C809DA745A"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "563B2ABCA250BC63"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6F4013F723AA45FD"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:electrocute", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F00E0E61CD048BE"]
+			icon_scale: 1.5d
+			id: "4C9C0272BB43E810"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E34BE25884BF5AE"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "180C5CCEA19C480D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0D974A2537B460E2"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14BCEE8CD81418A6"]
+			icon_scale: 1.5d
+			id: "2FDE297B6CADBC32"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36D7B4015C6B044C"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F2EB0FA0ABB033B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "49DDE9A94D1F2DCE"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14BCEE8CD81418A6"]
+			icon_scale: 1.5d
+			id: "0E652D98271A8941"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C15532A6B1231F0"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A40246FB9A032B1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "41545BF4AE0B0B89"
+				item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0ED5CB1120D1BD6E"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "2085CB41244C2783"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50658EEE24A03E71"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "216650D230241BE8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "3565D04D16CCDE67"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37A5C2FCA8F75BE6"]
+			icon_scale: 1.5d
+			id: "490B030C23066196"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "460BD4214E9479E6"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D52E146BB6573B4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1427DE364B59F964"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:villager_spell_book" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["739C6F00AAB2682C"]
+			icon_scale: 1.5d
+			id: "3D78308A34152AB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EA5D4D6395EC971"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16FFE52355ECB8AE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "7586EBE56BF32555"
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
+					type: "item"
+				}
+				{
+					id: "7684B45F70B8A819"
+					item: { count: 1, id: "irons_spellbooks:blood_staff" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2085CB41244C2783"]
+			icon_scale: 1.5d
+			id: "3E212B5DE277B73A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57A75B8E19FBDC0D"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44DCCC48B613C31C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0F1E91FB6D95B37A"
+				item: { count: 1, id: "irons_spellbooks:hogskin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["382A9CC6F9B5740F"]
+			id: "7ECF07960F001FE7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62CFB543EC792B1F"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F689D99AF581BC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "632598512506E863"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm_spellbooks:ignis_helmet)item(cataclysm_spellbooks:abyssal_warlock_helmet)item(cataclysm_spellbooks:abyssal_warlock_mask)item(cataclysm_spellbooks:cursium_mage_circlet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1993478A82341354"]
+			id: "0CC734D3E1D092C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48BBE09A0FA05611"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ABC5B356E679A20"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C11E6A97F6D2C0C"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm_spellbooks:cursium_mage_chestplate)item(cataclysm_spellbooks:abyssal_warlock_chestplate)item(cataclysm_spellbooks:ignis_chestplate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7422BD3C0F060AC5"]
+			id: "67CB3EE3D434F5F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47228EB7DB5E475E"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15E9954B175A08F3"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65B350BC3BE83A31"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm_spellbooks:abyss_spell_book)item(cataclysm_spellbooks:codex_of_malice_spell_book))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B4A25F61D3ED1F0"]
+			id: "7C54BEAC0E39C39F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D36ADB8BEA581B4"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C654E2201AB30E7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "27B16A6967FF19FE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C54BEAC0E39C39F"]
+			id: "3D1BF3C95E3B0E48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0701E480D5503EC8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "771BF2C039C4185A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "394786C55FD71722"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:blaze_spell_book" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D1BF3C95E3B0E48"]
+			id: "6242A857E9AE48E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F18AFE1992C0058"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7544EEEEBE1864D6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17F0F26CAFD5565F"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:ignis_spell_book" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "114D6AFC1D3358A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0899D0446626D940"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B437C43A4FD2001"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1EBDDD98AB4178A1"
+				item: { count: 1, id: "cataclysm_spellbooks:fake_wudjets_staff" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C37E9D8A7823264"]
+			id: "096D2AF1526278A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0097E2FBFD111A03"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A1B862FBCCCD310"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2AD82D0054BDC82A"
+				item: { count: 1, id: "cataclysm_spellbooks:void_staff" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CE6534C96BBC829"]
+			id: "4B7DB47AA4FC7561"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "181D43628C068379"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "430C81031183D7A2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "03697D87279736B2"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm_spellbooks:spirit_sunderer)item(cataclysm_spellbooks:soul_brazier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			id: "55BB518347D755EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A1B7B719E4A7D30"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C305CE9AD96A26F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "04B59A3F1D66BE55"
+				item: { count: 1, id: "cataclysm_spellbooks:coral_staff" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "00B4BFD4D63918BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6917618EBEA6FBD1"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "727090DAD94A33A6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0FD8B735280101E2"
+				item: { count: 1, id: "cataclysm_spellbooks:bloom_stone_staff" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["685240BDFB969071"]
+			id: "0A4B568BDF10DC14"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39ACDA35451638EF"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E2A8DBF0112D5CE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1F6C2E05A5A997FD"
+				item: { count: 1, id: "cataclysm_spellbooks:abyssal_upgrade_orb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["77719A9FBDFE49A7"]
+			id: "2882374154FAC82D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23E4D4180648A003"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61234EAA5D54B6FD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6081EBD0231E306E"
+				item: { count: 1, id: "cataclysm_spellbooks:abyssal_rune" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E7439769A073494"]
+			id: "29EA5A86C213F050"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B77F97226566E28"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A8DCE248A999BA4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5A023054435CE485"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm_spellbooks:abyssal_warlock_leggings)item(cataclysm_spellbooks:ignis_leggings)item(cataclysm_spellbooks:cursium_mage_skirt))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ACF8F5EFD3C4AF7"]
+			id: "2C053885C848C835"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E7AB3BADCFEDEEF"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D36669B83762DE7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "75750DAC371E333F"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(cataclysm_spellbooks:cursium_mage_boots)item(cataclysm_spellbooks:abyssal_warlock_boots)item(cataclysm_spellbooks:ignis_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "288ABC0A38D0BEA0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A499A189970238A"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36DBE7933178F3D0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73851C9896136323"
+				item: { count: 1, id: "hazennstuff:runestone_fragments" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "5347C69F57F1D263"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3428FF56B7DF84E1"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "793F0EA5F5A5D543"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "22119CEC8C622F1D"
+				item: { count: 1, id: "hazennstuff:charred_bones" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "48BEE8B6FDC1410C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BD12A3BBEF9A38A"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58DF45EE454F2782"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1A163CC9D6DE2862"
+				item: { count: 1, id: "hazennstuff:permafrost_fragment" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			id: "244751FF4AF9634E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01E29359EC6DA4B8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E03DFEF109334E4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "589E6E1EDB30AF11"
+				item: { count: 1, id: "hazennstuff:fireblossom" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "4161409BD8B982F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46EB200921046CBA"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FF8527884129888"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F22EBADA7A2D208"
+				item: { count: 1, id: "hazennstuff:overgrown_bone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			id: "79994E49A5703009"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34167711966840FB"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62CD7CDF7EBFA7CC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52205A8C094DD810"
+				item: { count: 1, id: "hazennstuff:pyrium_nugget" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "5D9E2510D24B98B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CD68FB25CCBC25B"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D9A94367F856443"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C2B1D63AEBB63A6"
+				item: { count: 1, id: "hazennstuff:deus_essence" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5347C69F57F1D263"
+				"288ABC0A38D0BEA0"
+				"79994E49A5703009"
+			]
+			id: "6F7E1E630912152D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "610DB699775C7201"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5365A737DFAAFABF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E91715303BC21A2"
+				item: { count: 1, id: "hazennstuff:flaming_template" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A44E5F3B8429095"]
+			id: "25310874536A43AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4006959B31088070"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FFF8ABE6F54CE51"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "052C1B947E63A51F"
+				item: { count: 1, id: "hazennstuff:divine_mold" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "7FE047B6036E629B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24FD767801E551F1"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66E1540FC5094432"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3834A2DED05E5348"
+				item: { count: 1, id: "hazennstuff:silver_scraps" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5D9E2510D24B98B3"
+				"1C174B76962718FD"
+			]
+			id: "2A5952271925CC57"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DC113FAA2505576"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "529FC067550B1907"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2553ADC2F6002940"
+				item: { count: 1, id: "hazennstuff:starkissed_zenalite" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A5952271925CC57"]
+			id: "2A44E5F3B8429095"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "325A6E4D8A5A6D11"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AC0D8691C5C01A7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0148A5400ED8591B"
+				item: { count: 1, id: "hazennstuff:zenalite_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "1C174B76962718FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CE4BC096874EB5D"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2020872207F15884"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38B8089C6A7AFCAC"
+				item: { count: 1, id: "hazennstuff:raw_zenalite" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			id: "6BCA4E02B9952E15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1123B6DE6CCC41C9"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DAB09106DB04FB9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C3E4DB10CEB3747"
+				item: { count: 1, id: "hazennstuff:excalibur_fragment" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7FE047B6036E629B"
+				"4C3E4DB10CEB3747"
+			]
+			id: "1723E1EB60177C42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "625E72199B236B49"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7205C6CBA4260501"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "378D0B4F655C3A75"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:firecracker", index: 0, level: 12, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "hazennstuff:ancient_warriors_axe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"48BEE8B6FDC1410C"
+				"4C3E4DB10CEB3747"
+			]
+			id: "7196969A860F25BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "061FCE42E06F1BA9"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47B4F1106B0737E0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10B4FF7401A51934"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ice_spikes", index: 0, level: 10, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "hazennstuff:ice_pike" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4161409BD8B982F0"
+				"4C3E4DB10CEB3747"
+			]
+			id: "09952616B23A71B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18AF6F3A08898727"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3133DE9A0FDF3F6C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12A39537FEBDFF67"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:poison_splash", index: 0, level: 12, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "hazennstuff:bountiful_harvest" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C37E9D8A7823264"]
+			id: "20887095FEFFAC2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EF1381A707DAF46"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C3D0A80021395B6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A08288C6BB1F1B2"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(hazennstuff:wisewood_cane)item(hazennstuff:frieren_staff))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25310874536A43AB"]
+			id: "47FF4D42ED831109"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CACF323196BA7E7"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56DE18C63EE56269"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EA596FBAB420E20"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(hazennstuff:armors/helmets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25310874536A43AB"]
+			id: "72D16BCAB2542B95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "124065E08B420459"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC875210E46C32B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36EF957E6D11B885"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(hazennstuff:armors/chestplates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25310874536A43AB"]
+			id: "4BF47EED249E8E53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DE97A52621EB2C8"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4DE55B4D00E470"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AA90F6D343AFC04"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(hazennstuff:armors/leggings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25310874536A43AB"]
+			id: "3E0E542DCBDA4FB0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51487205D0FA9AD3"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47FA9CD4B1861F8E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49418953B30F3637"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(hazennstuff:armors/boots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "77B54BE92E3B5340"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "389608D37FBC91DF"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CEC208263BE7641"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70DC0485618B51B4"
+				item: { count: 1, id: "hazennstuff:ruptured" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77B54BE92E3B5340"]
+			id: "0FED6A2D4E7D1B10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15641C16DE3D70BF"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68FCA47D5F6CA94E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5A16F3C6E92AB4C8"
+				item: { count: 1, id: "hazennstuff:refined" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FED6A2D4E7D1B10"]
+			id: "0173433CD8E041E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49AE3DDABD30486C"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F697D9DA004CBB3"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D5D512C3B5681F0"
+				item: { count: 1, id: "hazennstuff:reinforced" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0173433CD8E041E0"]
+			id: "2FF59C599B5B4CD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5759C40FF201DD38"
+					table_id: 619565006539686559L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EFBAF3185DA6B5D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "58DDF6BDA8712B03"
+				item: { count: 1, id: "hazennstuff:radiance" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+	]
+}

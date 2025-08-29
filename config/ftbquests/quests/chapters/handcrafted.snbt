@@ -1,0 +1,615 @@
+{
+	autofocus_id: "769938803508CE89"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "handcrafted"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "handcrafted:white_sheet"
+	}
+	id: "3EABFF5864F0EEEF"
+	images: [{
+		height: 30.0d
+		image: "handcrafted:item/cushion/orange_cushion"
+		rotation: 0.0d
+		width: 30.0d
+		x: -0.5d
+		y: 0.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "769938803508CE89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B063612469E1292"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36BFC1BCBE6A9E30"
+				item: { count: 1, id: "handcrafted:hammer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "624CD3DF048D9C23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23111318CD5CBC3B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "459C6103BFF99343"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "474B4736A6F1035E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "49FEC3ED82881B4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "051DB79C4A651025"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "086BE4AE9AD797BD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5BA69BFF90F113D9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:sheets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "24352D86AD552DC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "712B0DB1280E1D76"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "067D512D360C7143"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5DD19C94E9F446A2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:benches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "1D8FD2B15C75B6CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7868842C8BE510F6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A6B8AF909FF197A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3CFA1A9ED1BF10A4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:couches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "43B0BBB933002477"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5793285EE1988659"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EDED8D546E94124"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10E123C68AA69236"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:chairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "24B7B6843CB11F8F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BD042129D1DB815"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1870505B3A470855"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "369106F68CFF09B0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:dining_benches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "37931134D6A79B5C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49346A5B288D8DCC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD6D261D289E25B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "06F2B729831CBF9C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:side_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "543F73C81BBE88F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02278511BBDA9A8F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AF7CDDDB144317E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4FF147608791A5AF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:desks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "52DF033DFE96732B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F283690C43FC6BD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34615E418CBAE4D6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51308838B3267307"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:nightstands)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "5A4335F90A0A7FBC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CA8CD86B4C12906"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D6ABB7664A4E8D5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29295C6065D27F2A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "511F9522EA65FFB5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62E7685F23DEB835"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5635242B2FDDDA66"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B7D785F9305AA54"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:fancy_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "14EDADABB742BDBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5742EEFF17752938"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FCDA3EF0474307D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D654F887B099ABA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:counters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "100CD2F2E2F3701C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DD8B09C4DF1D685"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B861E36EDA582E8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4DE415BD265FC0E4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cupboards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "79A6A032419C0C19"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37797D13BCE6E55C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3630F33E10B7B2E5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3028B73F299E1E60"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:shelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "7626C0BEF3E9E01F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "722E435069D110F2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D3664F3CFB6CC74"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1C9F09B7350CCB39"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:pillar_trims)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "1107A4E99AFFEEA5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C1D4803E0D5BDCA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E14B9D7484E48EC"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "56CBF519F45B5617"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:corner_trims)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "179AAF60E8AA19C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D20EC08E3E226EE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "026A8432CA9777D9"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0677EA43311A5075"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cups)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "325B54D6795EF408"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16BCCC609D74B5B9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75769ED3CCF63E1B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "186211DE6B4D4A8A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:plates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "6C798FBDE9212843"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AF591CA658388CF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E7020D64EE5861A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1D89A4E38C1043C3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:crockery_combos)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "3D4D114EB7A1697F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DB5BC6B2C681E7E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59A381F5D3D872D2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "417215865DD84F15"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:trophies)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "0E827E6843500CDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F9971A37BD57E9A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0620F0111A06B98C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A35F8EBEB9422E8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "336D98F0AEB75B68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "523061784506014F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F2719DA649661B0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4BEAC503233BC2B3"
+				item: { count: 1, id: "handcrafted:oven" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "29B28662D0307845"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "151F9BE23ED184F8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693B1622EF5409A0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "295C98864840F399"
+				item: { count: 1, id: "handcrafted:kitchen_hood" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "195CB1DBAD19CDF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "159C355EE9272A22"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E2558A17388B84E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "567579FF3E287577"
+				item: { count: 1, id: "handcrafted:kitchen_hood_pipe" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+}

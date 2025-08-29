@@ -1,0 +1,4454 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "E16640832462C3B8"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "kaleidoscope_doll:green_doll_gift_box"
+	}
+	id: "71711D237DDECBF7"
+	images: [{
+		height: 30.0d
+		image: "create:block/palettes/rose_quartz_top"
+		rotation: 0.0d
+		width: 30.0d
+		x: 9.571428571428577d
+		y: 4.333333333333336d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "313110CA12EAD7CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1111AB0D90FA4410"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03F5ADFE551DF21D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_0" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "11C8C1C0740C6BC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3597DD1ED642EEC7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42C474E5EF7A1E6D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "569301D143235219"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22EAC95ADA8F4C04"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E4AE6956DB8EE36"
+				item: { count: 1, id: "kaleidoscope_doll:doll_2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "349CEA848CBC80FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "052A10D4FBFC5F7D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2829C1536137E8B4"
+				item: { count: 1, id: "kaleidoscope_doll:doll_3" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "14E1411E23A57FAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "130C496DF00AA15F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69BA5ECA825B61CB"
+				item: { count: 1, id: "kaleidoscope_doll:doll_4" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "6281C8D90D603636"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "216895D0D52C572B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14FCB894CCB0CE02"
+				item: { count: 1, id: "kaleidoscope_doll:doll_5" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "797E9DA42A735398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C594B57B4C33803"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D8E8C4797CE2936"
+				item: { count: 1, id: "kaleidoscope_doll:doll_6" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "30B462839A3D68F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7359CE74159E0894"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F5C02349251104A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_7" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "69BC8B20A7C22291"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5892AA43DE311F8F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "624F83A2F4919008"
+				item: { count: 1, id: "kaleidoscope_doll:doll_8" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "08FD27194E9EE38C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EAB0751AA498681"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FC171F44CCF3606"
+				item: { count: 1, id: "kaleidoscope_doll:doll_9" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "56B53CFB0C8DC57E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "321A1D76BA73B252"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "595D9D4FB1BF58E6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_10" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "5FC8C83B83B67AE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1276CEDD2AC7B709"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AA3C701AFAAAAE5"
+				item: { count: 1, id: "kaleidoscope_doll:doll_11" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "4EFD50EFD156DFC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56004883A0709BD5"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F272A67E53E27C4"
+				item: { count: 1, id: "kaleidoscope_doll:doll_12" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "5E8B5A8387B07D1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "335A677206A5FE17"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B14446D02119C28"
+				item: { count: 1, id: "kaleidoscope_doll:doll_13" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "5E4702E407DBBDC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8A62BDEFC76A88"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49F5A3D9923237CC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_14" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "7644083993892326"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65BD68DB50F1662E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EDA8D9A8C4D63D6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_15" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "251E64758CF2CD5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ADC27BB0330C635"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "522685FC0C598066"
+				item: { count: 1, id: "kaleidoscope_doll:doll_16" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "0D6F2DE3CE337735"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CA2DFCCF4C20EAF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6706F59A5ECE404C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_17" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "268135C49B067A5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05E2F468EC50B64C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "703DD5637B5CC5AA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_18" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "02FD6828CA0BF957"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CFAA5215380D37D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AC6C756C84280FE"
+				item: { count: 1, id: "kaleidoscope_doll:doll_19" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "01934E6C1D710553"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C311AB9F183281F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1904E1A75C04A354"
+				item: { count: 1, id: "kaleidoscope_doll:doll_20" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "376049D31648D629"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27A45D8802A95D51"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41879820386573E9"
+				item: { count: 1, id: "kaleidoscope_doll:doll_21" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "75424F3C00EF77D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46E1DEEE1C5B4BEE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F33F21CC25A29B9"
+				item: { count: 1, id: "kaleidoscope_doll:doll_22" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "6A12A69150916F3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B82967DC041FD8E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "354BC6898255543F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_23" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "37B64B50C384FA87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E4085DD8E663E25"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C148278CFDC1424"
+				item: { count: 1, id: "kaleidoscope_doll:doll_24" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "18C921C914E54FFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B48C70C60407E9C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B127408714A27C8"
+				item: { count: 1, id: "kaleidoscope_doll:doll_25" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			id: "399985E0649156D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F6462407D932E2A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59FB71DDBF33DB01"
+				item: { count: 1, id: "kaleidoscope_doll:doll_26" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "00D7D73043023D67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74BC335B02BDE4B6"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "436908F4968090A8"
+				item: { count: 1, id: "kaleidoscope_doll:doll_27" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			id: "5E571E859BDD4559"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E4EC9D392BC535"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2818AF05082E7F12"
+				item: { count: 1, id: "kaleidoscope_doll:doll_28" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2FAFA0CCE23C015A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CC8C8E1BFAF7D97"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E9E087B900F9D8D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_29" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "10925966EC3E07B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "763CB7905B229D7B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F4759F472F33329"
+				item: { count: 1, id: "kaleidoscope_doll:doll_30" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "3592FA735392635A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E458109EAA19D27"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E6DD547CE5F143F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_31" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "03F265587BA27D9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B10821B41B94C93"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50BBC33C4B8FC2F8"
+				item: { count: 1, id: "kaleidoscope_doll:doll_32" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "7F3A7C6AC485C6FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22B39BAB72CE1307"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24125F57F5FD5D4E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_33" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "4E5FF2EC0FB4574C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CBF48B15B6F62A9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "557159189024A6BF"
+				item: { count: 1, id: "kaleidoscope_doll:doll_34" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "7CDE5CF4D9DD4654"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "006676191F2F639C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4595858228E22021"
+				item: { count: 1, id: "kaleidoscope_doll:doll_35" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "2ADB84AE396CA9C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B3B477B8904211F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CC39350321C2DE1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_36" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "3C3509BDDE339FC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7004137E6B4109F8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F8172479C75943C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_37" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "68FC571DCBF4687B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EED0F63E94EB636"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DBD94E3BCB178CE"
+				item: { count: 1, id: "kaleidoscope_doll:doll_38" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "0C65A0BB38874339"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A7A4271EFCF9FF4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AE7988FD5D99507"
+				item: { count: 1, id: "kaleidoscope_doll:doll_39" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			id: "5989AFB8A92083A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36C639478A02E445"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58EEB59B88989B53"
+				item: { count: 1, id: "kaleidoscope_doll:doll_40" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "3F10105D6FFF25AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E735E1F0854B50"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "207A84C5ACADD241"
+				item: { count: 1, id: "kaleidoscope_doll:doll_41" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			id: "3760881E7A3A6CE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BEAFAA0645BFDA4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50C654F9614A5274"
+				item: { count: 1, id: "kaleidoscope_doll:doll_42" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "293AF8C0A1C50B90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "265B6786D2087227"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79288E032E3176E1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_43" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "7729335FB62034E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE7A2C5DDA80804"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4983F901BC643A0E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_44" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5AB096674D92043A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C861F67663E4A9D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "044F48DADC965DB8"
+				item: { count: 1, id: "kaleidoscope_doll:doll_45" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "7766FC75C9440717"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "197D804330005C9F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "062F7957EC6A9E61"
+				item: { count: 1, id: "kaleidoscope_doll:doll_46" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "60674160C22189B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D70CF4F5DF8CC0E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54F3B3E1C954E330"
+				item: { count: 1, id: "kaleidoscope_doll:doll_47" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "34DDFB6957F5FBEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27C76E624A26BF3D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EC9CD2740757C8C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_48" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "392C0F31F48A594E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06CF930CF159119A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51153DC331358C2A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_49" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "1168551BCBE05506"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45621189DB6F152F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09AAAD2CD43BC3E5"
+				item: { count: 1, id: "kaleidoscope_doll:doll_50" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "774EE97E64B16029"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B508007673F916C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E9C67869C6F816B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_51" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "3AF31CACEAE55DAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49BCB6004DFADA0E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C59AC7574AD4922"
+				item: { count: 1, id: "kaleidoscope_doll:doll_52" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "6337DA34F5098617"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C5CE35E7D77FAD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "605946CE8750DBDC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_53" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "2AAF6E35E6C4482C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C5B27B32BA5A6C8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C87E4A3FE0BA957"
+				item: { count: 1, id: "kaleidoscope_doll:doll_54" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "0F928840C5EC9795"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "369540531FE7F92F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F90F405D7911F38"
+				item: { count: 1, id: "kaleidoscope_doll:doll_55" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "7743636B02E79A82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1391D7094AAE1C7E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B6FD9EE81F0D6DA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_56" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1D1326B4F0F72DB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "634EDD7997DEB5C7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C89F39A6656FB3D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_57" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "65248BB433D28B7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "379A27FF58EB2A7C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1648374FC42A74C9"
+				item: { count: 1, id: "kaleidoscope_doll:doll_58" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "1445816B24D59A9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "177BBDB92E6E97B2"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D09FF6C5BBE1CFA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_59" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "03332C95DBAF6863"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15C086262440B802"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "471C3AF55580E325"
+				item: { count: 1, id: "kaleidoscope_doll:doll_60" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "4DD8CA830FE62E0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C9CEC0C239337E4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77761CFF3A5DFC5D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_61" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "2B146A3138F50C23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "061B979B1D67A84D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "523BF6EF30F00C87"
+				item: { count: 1, id: "kaleidoscope_doll:doll_62" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "6C545EBEDBE42F53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EBC992B2488C73A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4621C28324787E6B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_63" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "08F0753A4EBBF0DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FCDB46FDEDA9858"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34AF1EBE6EB7FBE3"
+				item: { count: 1, id: "kaleidoscope_doll:doll_64" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "6112A4F6F873FBC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B0234CD6A24C99B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68562DA7435990C6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_65" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "0D2E7F77834EDE4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "783D96F81E03B451"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E5AE6DA1DFA160A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_66" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "2035C1066A929C71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "777064EB53FF526E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BFF6F3AC361FEA7"
+				item: { count: 1, id: "kaleidoscope_doll:doll_67" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			id: "07D9575990E345F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41B7418A2D175C87"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B08298B70FBB012"
+				item: { count: 1, id: "kaleidoscope_doll:doll_68" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "1A1A3BA116D04169"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390B4938F9109623"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A4E6E7F08406D95"
+				item: { count: 1, id: "kaleidoscope_doll:doll_69" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			id: "2A1611F8DB6DCAB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EF9FFFD51FDD640"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E372900E37FEF51"
+				item: { count: 1, id: "kaleidoscope_doll:doll_70" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "7E49477FE33E418E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1411BC7693E7CFF2"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "480258444AB61F78"
+				item: { count: 1, id: "kaleidoscope_doll:doll_71" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "04BB01148477564E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70936EB881731A89"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "530571D6C28BAC47"
+				item: { count: 1, id: "kaleidoscope_doll:doll_72" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "76D07D1E457A897F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FBBE5DEAA6231E9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0467C737C0D4510F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_73" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "7FEF8502E4A636DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "381ACE78BE2035DE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E8EE81359535520"
+				item: { count: 1, id: "kaleidoscope_doll:doll_74" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "0402E3F7102AE4FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "028574FE4ADD70B0"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FBC6C7C8070C6A1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_75" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "005F2548A329A7F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7634E101535B46F7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33B493315295FB8D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_76" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "53B1675ECC69EA68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49351E5587150C91"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43507B2255E0CFDD"
+				item: { count: 1, id: "kaleidoscope_doll:doll_77" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "6DD9CBAF11C46CED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4823AE3EBFB44B67"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03581F8A30BA0D3B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_78" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			id: "28414C0F576F61D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79CA2BBE9944A1B7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "785C95A2988E3D12"
+				item: { count: 1, id: "kaleidoscope_doll:doll_79" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "654444D9D6561C1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C6E93698924AE78"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F6EFC076984D91F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_80" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "007F3A1E7792B06A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01B85CD061310A82"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C8EE4BC9BAE54E1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_81" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			id: "39B9E8AB0C30B5B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05DDCBB65D50BCBF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "477493F8C7FC9792"
+				item: { count: 1, id: "kaleidoscope_doll:doll_82" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			id: "0C3E4B7AF79644D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FCA5979EC90154A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BC6F59A238565C1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_83" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			id: "145F2152CD4CFB73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D83B7479C03C69"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F3386D71AEFECF9"
+				item: { count: 1, id: "kaleidoscope_doll:doll_84" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "3F2AC3F4B587975B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B609E8A1B9C45DF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "286892C51DA5E415"
+				item: { count: 1, id: "kaleidoscope_doll:doll_85" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "0F56456EE60C67F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "622D4697ECC0D8A9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EDC8679A08E5542"
+				item: { count: 1, id: "kaleidoscope_doll:doll_86" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "60A5AFF104957888"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15064D30B6D7DC97"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "433C380872B1CFA6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_87" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "0E5ED07C22758C6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D041ED13E35F423"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16CAC9B1D378C83C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_88" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "157DD02E011A5B36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12957C3599347FF5"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "360566D15A803BB1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_89" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "36D43C64792AADDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E1B4752DAA7E857"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5322540B5A59DB57"
+				item: { count: 1, id: "kaleidoscope_doll:doll_90" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "0B4D0317391D6EC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6998D38A852625AD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "154B557493CFC71B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_91" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "5BFE9CC820A7299A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37D8748B6FDA368F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24DA290F0ADB81C0"
+				item: { count: 1, id: "kaleidoscope_doll:doll_92" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "01A1537DFC132798"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02D13DE4A00320FB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20B064CEFEAD9BFB"
+				item: { count: 1, id: "kaleidoscope_doll:doll_93" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "16639B291C22F018"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "668F985DB75D2C8D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F791B0515814642"
+				item: { count: 1, id: "kaleidoscope_doll:doll_94" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			id: "7A61D3F36DDEEA99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EC4E39D34220AEB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "785CD073C35B9553"
+				item: { count: 1, id: "kaleidoscope_doll:doll_95" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			id: "5CB9FD842F709F42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EC685706E96510C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24D2254DA73EF4C5"
+				item: { count: 1, id: "kaleidoscope_doll:doll_96" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "1C00B4EDF6272DD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23834784B216CB40"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B314C36048110AD"
+				item: { count: 1, id: "kaleidoscope_doll:doll_97" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			id: "12B147CE1C9F5E56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "729B701C6A410C30"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F86AFBB900658FC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_98" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "00FDE034B88E5A5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60FB9C48236A7495"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C5B65ABEC20B77A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_99" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "7DAEF52476E1252A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27A507A5C3D92FAC"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70593F3554A554EA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_100" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "080C8251F70CF1E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B57D14623494276"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61C9D3086756C51A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_101" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "309E3E55F348C2D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A31191A44789388"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66131E4E806C700C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_102" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "438F915C5D3A2D4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17A8235C29F55AF5"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EA6C2510713B900"
+				item: { count: 1, id: "kaleidoscope_doll:doll_103" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "21FABA782998030E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21B62C08BC650641"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FC512DAA758526E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_104" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "2456D1F5B76149F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B3FBAAED45049F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "116ECE81064FCF44"
+				item: { count: 1, id: "kaleidoscope_doll:doll_105" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "134FA0321F0945A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "478E14533092F82D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75597F1249E35F5C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_106" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			id: "5B50AADAF42D3E37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7552CE119AAE7505"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65E152DB864E872E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_107" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			id: "441116871D447671"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "780CFF60F67CC927"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E334E4BA0EE0E96"
+				item: { count: 1, id: "kaleidoscope_doll:doll_108" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			id: "22E36004946F7C1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0947451D9ED0E75E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32F9CAF7DA0C8A5A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_109" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			id: "5418CB08FBA7ECED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E308DEA67CF95B9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7414BE8977C51E01"
+				item: { count: 1, id: "kaleidoscope_doll:doll_110" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			id: "6EE7D5192259EC03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DBB6C903F936AAA"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69D0A64ABBD2CAAE"
+				item: { count: 1, id: "kaleidoscope_doll:doll_111" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			id: "275C72D8B4891584"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "293B411558251882"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "163CBFF9F89AC74B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_112" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "7AB3CAB0388EEBD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "553E3FB28EEA3A0C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31330DE9C2B451F1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_113" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "72B545A82EE165B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1027FAF106585354"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D36A72A291EC923"
+				item: { count: 1, id: "kaleidoscope_doll:doll_114" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "03B45A6645648866"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44AEB545AEEEA4C4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "064ACA926EE7D175"
+				item: { count: 1, id: "kaleidoscope_doll:doll_115" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "6C1C879476911A3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "350F882F4A3871CD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20ED3207DDED4F9D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_116" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "5565D9B6A037E35B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AD2B312A0A0AE0C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04F2EC1A8C8582DB"
+				item: { count: 1, id: "kaleidoscope_doll:doll_117" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "2617350CEF1283F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75803E6A5308C4D4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71D014279C5E08DF"
+				item: { count: 1, id: "kaleidoscope_doll:doll_118" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "11A890550F443845"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FEC10C7CE8BE68C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13CF9A7F15853928"
+				item: { count: 1, id: "kaleidoscope_doll:doll_119" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			id: "011D18AC34390BD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EAE59F61BD34F43"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E22946725E0F02C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_120" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			id: "31600BDF35F1F795"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C4E92FCD627CD9D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41040E19603B8196"
+				item: { count: 1, id: "kaleidoscope_doll:doll_121" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "1BC5BA2DB4536D95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FEDF86199B01E15"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7056C6944692899C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_122" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			id: "017E5977DEE0EA77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C841AA6304286BF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FC66A600C5ED4CD"
+				item: { count: 1, id: "kaleidoscope_doll:doll_123" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			id: "6CA922482C7C3085"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2602FD647A052D11"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0104400E60AF070B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_124" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			id: "3CBECC8932C4716F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58D8E92679659AFC"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F84AD6C30E24AA6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_125" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			id: "16BE0FC906B100D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75DCBF6D7C7C2C2F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F8048FBC63800FC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_126" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "511194CF8609394F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2057C0245A4AB0AE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FAF6EA98FCD9F99"
+				item: { count: 1, id: "kaleidoscope_doll:doll_127" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "66F6E5CF777F94F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37C1D327DDD533FB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "077006857895171F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_128" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "10DE0E5A1359EC29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6609EA5D79E45FB8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EF5B703D0D4C734"
+				item: { count: 1, id: "kaleidoscope_doll:doll_129" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "0D4B192186871F20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3808B2BE4841DF59"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08C56494CF6ACD08"
+				item: { count: 1, id: "kaleidoscope_doll:doll_130" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "4322D374FAE2B2FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC4240C751BA44F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05884A7AC36C9550"
+				item: { count: 1, id: "kaleidoscope_doll:doll_131" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "1356AA0C6E5307B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AD0B6E75A2324C1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42E10DC46304CB78"
+				item: { count: 1, id: "kaleidoscope_doll:doll_132" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			id: "46B97054E639B18A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "541A2F2A15F6471A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CC54742E87445B6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_133" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			id: "7C4439DA01ACC32C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2966BE67C129CD17"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71396ED171E30C00"
+				item: { count: 1, id: "kaleidoscope_doll:doll_134" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "30423E702EE43053"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "714B61E0C4B2C04E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56E8097EA39F7D11"
+				item: { count: 1, id: "kaleidoscope_doll:doll_135" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "2592166B25BB3FE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B7B405D33B74BE9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "668126BD97368C75"
+				item: { count: 1, id: "kaleidoscope_doll:doll_136" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			id: "7951B5D112A4BCC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4266612F7E9985C7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A6B3FAAC4232C01"
+				item: { count: 1, id: "kaleidoscope_doll:doll_137" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "02AA069915494268"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C1472BF4B253EC0"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A6B9F0F5620E99F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_138" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "18FA44C8DB02C1DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D1EBE22B5CB45AE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2055F626149C7D85"
+				item: { count: 1, id: "kaleidoscope_doll:doll_139" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			id: "7AAA232EC4FA6C13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "019CD916E647017A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B42DE6C768E85EC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_140" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "682702C612EA914D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0725EADDA8DC1134"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5646C8D4FEF02F02"
+				item: { count: 1, id: "kaleidoscope_doll:doll_141" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "52C5654E9C5A0147"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B9ED63257F5C82C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55C011A3FC6CE74B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_142" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "2D23267631A4D4B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BA32856D5FA2F73"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "175E95FCD076E3B9"
+				item: { count: 1, id: "kaleidoscope_doll:doll_143" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "797ABDE852570E24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "492920EBFBCCBCFA"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63B53C37D7DC2171"
+				item: { count: 1, id: "kaleidoscope_doll:doll_144" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "66AACED03B68CE0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24B0BE48F2F5E22B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B6113BA0FCB1F56"
+				item: { count: 1, id: "kaleidoscope_doll:doll_145" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			id: "791F29D8A04EC601"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34E09A3EA043C34D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CA3383772AA7593"
+				item: { count: 1, id: "kaleidoscope_doll:doll_146" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "4ABF212A74786A8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C73801ACBB618CB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5531FBDEF63A6875"
+				item: { count: 1, id: "kaleidoscope_doll:doll_147" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			id: "6EA1A041D0F125C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EC1AA66526C4BB8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32E58637E90D09B1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_148" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "222A6204D1D19DCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40BF2757E4704930"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "343E999D36B5A8FD"
+				item: { count: 1, id: "kaleidoscope_doll:doll_149" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			id: "09C82D219DFD5832"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EF4052CF9A068CB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23BDF8235DF1237B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_150" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			id: "4345B071B74B830E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "504F5EA116D22ACF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00C63E91EF80C655"
+				item: { count: 1, id: "kaleidoscope_doll:doll_151" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			id: "3BFA9E64FC386F84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D0CCBDDC9622372"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "603B1937CB388A8F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_152" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			id: "207EE892062FF9A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7900115D82EAD590"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B7789BB31B6B4E7"
+				item: { count: 1, id: "kaleidoscope_doll:doll_153" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			id: "51049BAFED81B72E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EFB41240257ABD9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47D14F5C700D8DDF"
+				item: { count: 1, id: "kaleidoscope_doll:doll_154" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "449BA50933556331"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446A4D21CD1017D9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DDE5CB915C59D67"
+				item: { count: 1, id: "kaleidoscope_doll:doll_155" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "27E87F4BD8CE2DBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "050952AD4A276BAD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A6FC58118567983"
+				item: { count: 1, id: "kaleidoscope_doll:doll_156" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "1C99399EE4076CFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0364F3E8F18D3D5C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48AD100ED01E468D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_157" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "42EC088EE1EE2CB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477E0EAA0692D86E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EB41F20783883B2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_158" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			id: "66EF1F6C14882ECA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27EFBF7EF3A9322D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55A2CEA97B0B09B4"
+				item: { count: 1, id: "kaleidoscope_doll:doll_159" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "590ED87CB32367BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B2386FB82BF973A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48FA1FD594D9C952"
+				item: { count: 1, id: "kaleidoscope_doll:doll_160" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			id: "3B83B9F6F4F0AB0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C7AFA3112BDCB2D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "402173E4B06E03FC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_161" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			id: "3AC70674FE93215B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38499A9AC7E90E76"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41E9DFEF172ECFBD"
+				item: { count: 1, id: "kaleidoscope_doll:doll_162" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "31BF5926FB01DBBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E5BFADC0A2431E5"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29DE7B7A8FA45CDE"
+				item: { count: 1, id: "kaleidoscope_doll:doll_163" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			id: "67BCB7CE80ECA96D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23CF100D7E0EA96A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59CA9B30492A7B77"
+				item: { count: 1, id: "kaleidoscope_doll:doll_164" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			id: "4D28BD0E29DE6DA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D49958DF79900F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46BA1E4D83BCD79F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_165" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			id: "47BFA302546E64A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D1BC97CB16F8118"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F45DFD7460701ED"
+				item: { count: 1, id: "kaleidoscope_doll:doll_166" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			id: "6A64BB9CFCEB13D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582D5BCE2F860740"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FA3EB3B3A3AFE84"
+				item: { count: 1, id: "kaleidoscope_doll:doll_167" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			id: "623B568ABEBE823F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "746A6B65C5B97AB7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37C655FD0FCA465B"
+				item: { count: 1, id: "kaleidoscope_doll:doll_168" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "375D4E2790457911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17B9C92D031D1A5D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F46D6CF11EF3D42"
+				item: { count: 1, id: "kaleidoscope_doll:doll_169" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "09D168374990E3AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "134B31F8D2EC6216"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42E34B8B07089AAA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_170" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "08DC212D221FD461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481BF3857063892B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "266CAE44163B78A6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_171" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "4CF37FDC360A882D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AA150114194F501"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50677E61C3681AF0"
+				item: { count: 1, id: "kaleidoscope_doll:doll_172" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "1452B000FEC9C2DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17878A97196553D0"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64F16BB67E950FEA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_173" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			id: "1C3E5079067F121C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5379F2E4C63AAA69"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56AD7B55E42AEB87"
+				item: { count: 1, id: "kaleidoscope_doll:doll_174" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "36C822517B998D87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E8B377698935B15"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "678AA28D206E9C38"
+				item: { count: 1, id: "kaleidoscope_doll:doll_175" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			id: "57EB569B3159188A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A39BDBBFEE23D60"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CBF9CCE3468B11F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_176" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			id: "3A7B92AA7E0B6E6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C75E34F2B57369"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "126FD70382FBF4E2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_177" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "1993895F0D125A8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30A4F1A5592440DA"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31FF65F4FC3B8392"
+				item: { count: 1, id: "kaleidoscope_doll:doll_178" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			id: "3BF0181B516CBE62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3624E0602F1C556F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D261D137AFB4B15"
+				item: { count: 1, id: "kaleidoscope_doll:doll_179" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			id: "2B398697E5EBA225"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42D684D5E659696B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68D24D7880721B83"
+				item: { count: 1, id: "kaleidoscope_doll:doll_180" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			id: "4AFDCF81259E7F0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BCF11413B34C44B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "117C868DF8561C53"
+				item: { count: 1, id: "kaleidoscope_doll:doll_181" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			id: "31D7E4B4F49142C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65AA87940877404E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "407D71EC860B8B04"
+				item: { count: 1, id: "kaleidoscope_doll:doll_182" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "314ECC66C2D4586D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66AA5E6F1C05A53C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C56A8D83A428A78"
+				item: { count: 1, id: "kaleidoscope_doll:doll_183" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "4878AAFFFBD3172A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FB66BA6C6810E38"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "785B96C188E28A69"
+				item: { count: 1, id: "kaleidoscope_doll:doll_184" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "580649E0701561C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FF2081B9E1E031F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35FA3CBD356988F2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_185" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "44A31B7A4BB04429"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D3B392F273DA0C6"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1294707DB85AFCA6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_186" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "477755EF57E10327"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44B427220EB662E3"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F130C13390C9B0D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_187" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			id: "321CDF4418EBD3D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "152A9DB2E25609AE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D171A1FDA645790"
+				item: { count: 1, id: "kaleidoscope_doll:doll_188" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			id: "6222D168B650D8E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79DD83A9D6E8F6DF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E06692F62136F92"
+				item: { count: 1, id: "kaleidoscope_doll:doll_189" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			id: "6E3B2D3B926A9962"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60EBECA99C76058D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27A02517C388449A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_190" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			id: "07ABBA141C82D269"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C66586CD0B397C7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BBAD28610B6FF38"
+				item: { count: 1, id: "kaleidoscope_doll:doll_191" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			id: "310EEF2C5EA258A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "667AFB4DDE9BFBA9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D89B517AF7FD56A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_192" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "3ECA76EE0B59E788"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D9497FBABC3FABB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15E3A7B69C3A3499"
+				item: { count: 1, id: "kaleidoscope_doll:doll_193" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			id: "533D94889BA25EFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62E94B4FD7CEFCD4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "128F525FEFD9DAC5"
+				item: { count: 1, id: "kaleidoscope_doll:doll_194" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			id: "65D7554550332CA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CCBDA1E841248BC"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E150D66CD62B68E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_195" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			id: "3D7161F0C56D5573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33CC1AE303DC1025"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55BC3E7201E0BD27"
+				item: { count: 1, id: "kaleidoscope_doll:doll_196" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "6443004B61EF4414"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2859415B388DD911"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BE3B707B76BDAD9"
+				item: { count: 1, id: "kaleidoscope_doll:doll_197" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			id: "2362E194DDB90394"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "370ACF3713A13A08"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C53246403BF2FE2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_198" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "7AC71DCC46605CDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DCC26993BDB813E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "300B9C85B22DCC3A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_199" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "7486588DFDF7A42A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554A21DD94D758FB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77BE89B33588790A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_200" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "56944F2E9793936D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55ECE0BFE35FCC19"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27F58DB01C37D7B0"
+				item: { count: 1, id: "kaleidoscope_doll:doll_201" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			id: "7CD6E2E3475A3F73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07887A4FF4EE73BE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71D5800978FA8EB2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_202" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			id: "537B4FA20E95574B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A91FD9A19E783FF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74A0DA4877FA7454"
+				item: { count: 1, id: "kaleidoscope_doll:doll_203" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			id: "7581FCC4047A29D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "169F58341B5C236A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E54358970351648"
+				item: { count: 1, id: "kaleidoscope_doll:doll_204" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			id: "4B9AF1AAC45BA74F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CF39ACEE3AE3D4A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "049E38759ABB4277"
+				item: { count: 1, id: "kaleidoscope_doll:doll_205" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			id: "1445CDE0DDD38E34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "464FC811272B5818"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "474305353B6CCC00"
+				item: { count: 1, id: "kaleidoscope_doll:doll_206" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			id: "69C282FB7C0173BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57A2182727501834"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07B77E69098FD676"
+				item: { count: 1, id: "kaleidoscope_doll:doll_207" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			id: "21F943CF5A614BC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A89E3C42B15174F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30FE1C227A719200"
+				item: { count: 1, id: "kaleidoscope_doll:doll_208" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			id: "2C421F8C59B5C2CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D6EB546CAA376B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D1734072EC4926C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_209" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			id: "52DB9A1FF42A9276"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "127D8AD44EB27332"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46B552899347D83E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_210" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "7CFC887FF93D0583"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76DFCB24A8B1B470"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "568ACF85DFD664FE"
+				item: { count: 1, id: "kaleidoscope_doll:doll_211" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			id: "29CF4B7120E77894"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "451DBA7D04E60F90"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3EF9C0606CD53018"
+				item: { count: 1, id: "kaleidoscope_doll:doll_212" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			id: "30174623D550E7BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47FC2BF2B3F6C1A1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BDA0B2B0C17AA4C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_213" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "7137CC3C8E46E588"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "302A4998C54F62B3"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "662960EA71AE71ED"
+				item: { count: 1, id: "kaleidoscope_doll:doll_214" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			id: "104BBEAC50EFB2B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7942D92D1EFB7BB1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DF759FA157A4DFA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_215" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			id: "283859AF83949340"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5268E1CCE2E44DAD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "411FB64CB4CD8437"
+				item: { count: 1, id: "kaleidoscope_doll:doll_216" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "5621B3541926F5BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42B5E0339A5DDB29"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65D2F7BD02618D06"
+				item: { count: 1, id: "kaleidoscope_doll:doll_217" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			id: "6468821E0B9D4C8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42749E7C6DF8B131"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C03397736FCE909"
+				item: { count: 1, id: "kaleidoscope_doll:doll_218" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			id: "2F904792EF7EA637"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "585B1E2F3FDC4008"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7822634F1A4A400D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_219" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			id: "54EFD532CAD4CDF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "378D017905626783"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DA6DAF9584FCD71"
+				item: { count: 1, id: "kaleidoscope_doll:doll_220" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			id: "171B7775C6C87DAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11492B00B5E63280"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BEE318542E822FA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_221" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			id: "0B4D30D7D90BECCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "506A630442BC7820"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6185EABF7D48E690"
+				item: { count: 1, id: "kaleidoscope_doll:doll_222" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "6F6C6F2BB7B778CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ECD8692352B98C1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CD517963623DBC2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_223" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			id: "1219D2B723C061D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35F779008544FBD2"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12AC832B582828A4"
+				item: { count: 1, id: "kaleidoscope_doll:doll_224" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "1840B180739FB938"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "730422916E05F3A8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C8C364C9E4A28B2"
+				item: { count: 1, id: "kaleidoscope_doll:doll_225" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			id: "1B12FD5D911295D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A673DBCDC9C926C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43046696C5B29370"
+				item: { count: 1, id: "kaleidoscope_doll:doll_226" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "7028DC6C74AB0E7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17259C5FB1967F8D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C643960ADDA2794"
+				item: { count: 1, id: "kaleidoscope_doll:doll_227" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			id: "4D8393F4C3DEF720"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "293B3B533CE4F0B8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F2C36498F1BE5D6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_228" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			id: "79E86FAF0BE55532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D21D2C4F29BD776"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0803BB609C5A9F36"
+				item: { count: 1, id: "kaleidoscope_doll:doll_229" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			id: "0F28BC48EA616410"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "639F446CEA126BF4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C5479780A51C43C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_230" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			id: "6B887334A11C9D36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3434562038C9A6DB"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "493B7BA9B54E5C82"
+				item: { count: 1, id: "kaleidoscope_doll:doll_231" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			id: "6B63FDC38A934729"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06CCCC3211AF4392"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A5E87DF726E0916"
+				item: { count: 1, id: "kaleidoscope_doll:doll_232" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			id: "5C25E85D44F4393E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11CD6682E039930D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "452953EC6ECA6B36"
+				item: { count: 1, id: "kaleidoscope_doll:doll_233" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			id: "3F1407BEEA624F93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6077CC1F7B620D92"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CA4786FBF86787D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_234" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			id: "38ED52D8A778E66F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D26A944E30561FA"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55CD2EE37D64FF21"
+				item: { count: 1, id: "kaleidoscope_doll:doll_235" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			id: "415550C85DF4F664"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49118FA7D62E1797"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FFE13CF5E895344"
+				item: { count: 1, id: "kaleidoscope_doll:doll_236" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			id: "48657CDFABC6FAEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27654E7664336120"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27BCF04A2F2763AC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_237" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			id: "13DA1812373E0D76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A4C6A83E3A3DA78"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E567FEBED38D135"
+				item: { count: 1, id: "kaleidoscope_doll:doll_238" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "3E17370250B9F71A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E7DF0C362680B13"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D32B88BB8389551"
+				item: { count: 1, id: "kaleidoscope_doll:doll_239" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			id: "307CBDED70C9A59B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E9843CDFABFB32"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BF5C367ED52F7F3"
+				item: { count: 1, id: "kaleidoscope_doll:doll_240" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "5C5724BC8E1DA21C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE0E7AE60C0700A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20A218B8D1BD39C6"
+				item: { count: 1, id: "kaleidoscope_doll:doll_241" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			id: "21B1C41B1C970423"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67BDBEE049D6ABA1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "343CE48AB0BFBF2E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_242" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			id: "7479C019E867E316"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B2322A3C94200EC"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B5BA49C458DF903"
+				item: { count: 1, id: "kaleidoscope_doll:doll_243" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			id: "1E62EDC4573B4C35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20521FE74B0104A7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77E3A28C456CBA1C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_244" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			id: "7F1FF353FE0953EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39126D4206285826"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DFD049A240CFCE1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_245" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			id: "5AD3D2802622FDDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D18506F45635C3D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1609EE266AC9A73D"
+				item: { count: 1, id: "kaleidoscope_doll:doll_246" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			id: "64917D90C757D258"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68BB404D37F25481"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19D74D0779DF0001"
+				item: { count: 1, id: "kaleidoscope_doll:doll_247" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			id: "7E6EFE9E8EBFC277"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ACBE5E37227FFF6"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E49206860CB090E"
+				item: { count: 1, id: "kaleidoscope_doll:doll_248" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			id: "3A70FBA922C86B20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "718F5F173EDCD9D6"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EDBC0FBAD6C0106"
+				item: { count: 1, id: "kaleidoscope_doll:doll_249" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			id: "3F5301D77A4C6A4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F8F335DBED1AE97"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71136FCB9DAF99E8"
+				item: { count: 1, id: "kaleidoscope_doll:doll_250" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			id: "22858748A4D3E52B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01D6C4989B3B4F5A"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60780D40E7C3776A"
+				item: { count: 1, id: "kaleidoscope_doll:doll_251" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.0d
+		}
+		{
+			id: "090105A68A0F14E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E65189DA55B8A03"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E6C192463E9A740"
+				item: { count: 1, id: "kaleidoscope_doll:doll_252" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "30C040BDC41039B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C98B04B60513E1D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E7397956722CDEC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_253" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			id: "551B4C66C0D45DCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E8D4155E79BEA3"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4049C48DDEFFFAD3"
+				item: { count: 1, id: "kaleidoscope_doll:doll_254" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			id: "36317C219662D023"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42FC21633A2DDB74"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EABBA8A4B9EEC35"
+				item: { count: 1, id: "kaleidoscope_doll:doll_255" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "43D53E74B485DAF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08D7C0F854F7C131"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D2AEDD64AA1297F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_256" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			id: "55A86275B0013908"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F60E7AC6DE04664"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14AC98D741C27A40"
+				item: { count: 1, id: "kaleidoscope_doll:doll_257" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			id: "248074B8F6A55B73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55D4ABAD8D54C58F"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03E94DCF8032E815"
+				item: { count: 1, id: "kaleidoscope_doll:doll_258" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			id: "46989B095661ED08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0936BAA8DAB5AE08"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3369E523DCA09914"
+				item: { count: 1, id: "kaleidoscope_doll:doll_259" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			id: "3B5E777FA7BE0735"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B0A9C2E48856573"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FF32A3321EA5427"
+				item: { count: 1, id: "kaleidoscope_doll:doll_260" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			id: "0BFE9CABB29C24AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52BBC78FA74B94B5"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00A7C2816B7A4BFD"
+				item: { count: 1, id: "kaleidoscope_doll:doll_261" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			id: "4D7B1E7B60EDD013"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F125B9573B43629"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5808EB8E90E6326F"
+				item: { count: 1, id: "kaleidoscope_doll:doll_262" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			id: "732633C2C7B3760D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6927E8844CBCD5DE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DFE7A8B191412B0"
+				item: { count: 1, id: "kaleidoscope_doll:doll_263" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			id: "044EEC8BC87FD117"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5646943B02D95736"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B778B38B2D676FC"
+				item: { count: 1, id: "kaleidoscope_doll:doll_264" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			id: "5CDA6BC7F45AE27A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60F305110EBD0032"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66E436790350D2CA"
+				item: { count: 1, id: "kaleidoscope_doll:doll_265" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			id: "3254CB6EFA4BA8DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E9FA76AFF108086"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "236865F5F9F8380C"
+				item: { count: 1, id: "kaleidoscope_doll:doll_266" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			id: "577EFFC81EAAFB02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0361ED681C8569DE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2301F036C0EA9FC8"
+				item: { count: 1, id: "kaleidoscope_doll:doll_267" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			id: "45F49DF72BF7E24B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "185EA467667263E8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AD5875A30528358"
+				item: { count: 1, id: "kaleidoscope_doll:doll_268" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			id: "745AB4ED2DD5ABBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E9DB17DF284184"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4265A989FA7A8A23"
+				item: { count: 1, id: "kaleidoscope_doll:doll_269" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			id: "29E9EA583CDF3F5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "388B16F3087A5213"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DFDE45C381794F1"
+				item: { count: 1, id: "kaleidoscope_doll:doll_270" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			id: "39E78F4C1953EDDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A3F204AF054F532"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29F5B92C5A4CCDFE"
+				item: { count: 1, id: "kaleidoscope_doll:doll_271" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			id: "713495BF5ADE8A80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C742B1DD25AEE9D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CBADC09DCAA5E21"
+				item: { count: 1, id: "kaleidoscope_doll:doll_272" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			id: "3A204F8C5750C60E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EE95622979DF6C8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FA836C52E9B92F5"
+				item: { count: 1, id: "kaleidoscope_doll:doll_273" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			id: "1B7D28BCD8ED9751"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237E1FD499FA96C8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "434FAF2FCDE510A3"
+				item: { count: 1, id: "kaleidoscope_doll:doll_274" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			id: "1EC0369E911FCAD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "491BD93D475DF633"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75F0889D656CA8B3"
+				item: { count: 1, id: "kaleidoscope_doll:doll_275" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 9.0d
+		}
+		{
+			id: "4BF10FF79DC2E21C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2253EF99E61ABF1B"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47C6AEE69E0BBAC7"
+				item: { count: 1, id: "kaleidoscope_doll:doll_machine" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+	]
+}

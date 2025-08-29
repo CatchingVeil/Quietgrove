@@ -1,0 +1,1488 @@
+{
+	autofocus_id: "5EA2AD301895C99C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquaculture_2"
+	group: "50C3A5D161A2945A"
+	icon: {
+		id: "aquaculture:neptunium_fishing_rod"
+	}
+	id: "4B8061A3CC29C06A"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/aquabg"
+		rotation: 0.0d
+		width: 30.0d
+		x: -0.5d
+		y: -3.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5EA2AD301895C99C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E84237D551D3EBE"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F57EA309B82082F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/fishing_rod)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "23B2787A46B9A0AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70F76A955D986E45"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52E371B64C6EB1AE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "751584E117AFBC2B"
+				item: { count: 1, id: "aquaculture:blackfish" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "4A50F7C2474C2579"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6306912675C7B8A1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA8705FA117ED46"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36F5E4C7A3FDAB95"
+				item: { count: 1, id: "aquaculture:pacific_halibut" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "6EB09FB919D51EE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D4BFE169260E3BF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "747C366510828839"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A7AE676B47D209D"
+				item: { count: 1, id: "aquaculture:atlantic_halibut" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "7EFFA23C34CC138F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "474116BD723AFC4F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B9A989F2C284FA2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25FAD096992A3C88"
+				item: { count: 1, id: "aquaculture:atlantic_herring" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "2BA9B8DAC2E0311B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34849E362E711832"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "075F3908553FCDE2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C7CB5D591428632"
+				item: { count: 1, id: "aquaculture:pink_salmon" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "354A80DCBD1B78C5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CAE374712F660E9"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DE799C185DCCCE7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "220367BD015178E7"
+				item: { count: 1, id: "aquaculture:atlantic_cod" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "753337EA87DBA950"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FC43A10F985A833"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4936AE41BB6A742E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01B6E5CD3522C372"
+				item: { count: 1, id: "aquaculture:pollock" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "35E31D257F7D806A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46E7B387FFE047A1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "548DF2FF4F1368DC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B82E2BF241823AE"
+				item: { count: 1, id: "aquaculture:rainbow_trout" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "0259B2EA9BC58700"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07EE2410F78A327B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05AACD1720067416"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "627F4D1C67DFD5E7"
+				item: { count: 1, id: "aquaculture:bayad" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "7D9061A4931E5FE1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E9B93267AC0FA8B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "178E2B4A57992390"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "215ED8F46B034755"
+				item: { count: 1, id: "aquaculture:boulti" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "30E3729EF02A812D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56DCCED6C95DE1F8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CC4FCFEF20E1017"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A828F3210DB2C42"
+				item: { count: 1, id: "aquaculture:capitaine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "67BFB21CA80E0D5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C9EAD8B7DFC5250"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17A9867155DF7776"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EAE2D7A3D86AF7E"
+				item: { count: 1, id: "aquaculture:synodontis" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "601D7590AADA4469"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A4154903A896BCF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34A08CDB6189651C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "35157CDF8A1A3FAF"
+				item: { count: 1, id: "aquaculture:smallmouth_bass" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "6431374168F8E5EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32090F8ACE811EC5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "006A4A9CB4B0F3F1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4425BC8C9F83012F"
+				item: { count: 1, id: "aquaculture:bluegill" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "0EE8CFCFAAD0432A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B5B6E8077537753"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BD36E6DE3854F41"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49475749A13E35ED"
+				item: { count: 1, id: "aquaculture:brown_trout" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "0A8B519B8029448B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67AC057CBE4428B8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34F19998E831FDFB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "790EA73DB963974E"
+				item: { count: 1, id: "aquaculture:carp" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "1585A174E6C9EFB7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1860DAA3D97943AA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A1553381D98DA3"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F2F4123D19C92AA"
+				item: { count: 1, id: "aquaculture:catfish" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "3F0392E4E9874660"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66892DDB0F717622"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34ED27A7A6F4BE50"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02A59DDF880BFE5A"
+				item: { count: 1, id: "aquaculture:gar" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "13F24EF8BF9AF9C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75516EC841444A65"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B30B4086E8EBF9B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5219BAD82CCD9FA1"
+				item: { count: 1, id: "aquaculture:minnow" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "37D67AFBE3FCF8BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B11A3DB843AF224"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E9A532BB3ED202C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1826C50EC6B24341"
+				item: { count: 1, id: "aquaculture:goldfish" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "459DF58D2D00797A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78090712AAD5931C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "780024E3E64B9F19"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4CEF87DE4BE5A698"
+				item: { count: 1, id: "aquaculture:tuna" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "11C5D6F5BF999B0D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64A694AD021322B5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5913AF55AEA6A69D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6568B2E88FBDB558"
+				item: { count: 1, id: "aquaculture:red_grouper" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "69B9CC91356DCBFC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60AAAED5F60D2029"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21C033167728EC74"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "24047294E122D10E"
+				item: { count: 1, id: "aquaculture:red_shrooma" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "192F45629C7FEB7B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C0B8B977A051E01"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FAD77A441944969"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "018C98122817CB58"
+				item: { count: 1, id: "aquaculture:jellyfish" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "6FBF00D42A80FFF3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A9D3803F6F005A6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3DE2C19739A391"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7227AAE6F5D5575C"
+				item: { count: 1, id: "aquaculture:brown_shrooma" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "7FE59D8C1F215C46"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67D589260E4B7D85"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78309F2D7B1EBAF0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "038D9059840E8B6A"
+				item: { count: 1, id: "aquaculture:tambaqui" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "371F269C872AAEFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E0915956B776974"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1042D3F3BBFEFF0C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02F0FA0D17A7E667"
+				item: { count: 1, id: "aquaculture:muskellunge" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "2B4595FFB1A66B4F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B32CF254F154AD5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71CD1F3B811B46D7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FE94230A7CB80E2"
+				item: { count: 1, id: "aquaculture:piranha" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "15FB591A2F60DD21"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "667DBD00F7CA6C92"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27B0EA8917E97181"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "60F8B0EE45F8D629"
+				item: { count: 1, id: "aquaculture:arapaima" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "3D350A053405D6B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01E9A72F91F36ED1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06EE394E3F91001A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36749218BE56EADB"
+				item: { count: 1, id: "aquaculture:perch" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "22A0E555C8F4028C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55FB59B604229F38"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E783F512099479C"
+				item: { count: 1, id: "aquaculture:tackle_box" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22A0E555C8F4028C"]
+			id: "31D985DB889CBD05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B654D53DDB5F3A7"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15CBEDDA2F7AFECA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aquaculture:hook)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22A0E555C8F4028C"]
+			id: "0D16107F91B90BAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "179AE64E52875366"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "624155284658D083"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aquaculture:fishing_line)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22A0E555C8F4028C"]
+			id: "03D075D346F25DB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36691DE9F82B39A4"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "583F4668A5E3BE7E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aquaculture:bobber)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "7CB81EB94884A613"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F478DF9E1BFA9B7"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38A1282A8E1E00FE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7CB81EB94884A613"]
+			id: "0D230EC1D9AB3E4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FFA4969893C9800"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C9D00A8F144D344"
+				item: { count: 1, id: "aquaculture:fish_fillet_raw" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "44D1B3DDB9FD7534"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5615CBF7247569AA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AB5854080B5EE77"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70C34C8DDE08E02D"
+				item: { count: 1, id: "aquaculture:worm_farm" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44D1B3DDB9FD7534"]
+			id: "0FB7A01F9E05599A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ABB1DA8ACCB0787"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33EC4C84B3FDF020"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33B5B66248A8C439"
+				item: { count: 1, id: "aquaculture:worm" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "03528EB3955909CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16E776D0A6BD3D8A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04BCB1999270677F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F4294D98C764E91"
+				item: { count: 1, id: "aquaculturedelight:crispy_nori_kelp" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "26E52B9FE6A99013"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F9EC9E1E30F12FA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C9597B6FB3FEF94"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "68E0FFA20F411EE7"
+				item: { count: 1, id: "aquaculturedelight:poor_fisher_chowder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "44228913A730F984"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23F1A98543C53464"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "066DA09A6996BFAD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33371520C6A0F4D9"
+				item: { count: 1, id: "aquaculturedelight:jellyfish_jelly" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "62622EBC7704F6F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "106DB86E74958839"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A12319FFD502921"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B5F8C6AC301495E"
+				item: { count: 1, id: "aquaculturedelight:unusual_fish_soup" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "504A489A6A796E4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E29FFE335E9FB30"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43CA90529BB12516"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E7FB54E6A1F97E8"
+				item: { count: 1, id: "aquaculturedelight:bass_stew" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "2ED136F10BA28496"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75E824F504808F8E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41D1B76305B9CEB0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4439B051970459E9"
+				item: { count: 1, id: "aquaculturedelight:fish_chorba" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "449DB583B3F1FD9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BD1437B42049D3C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FA6B7AF24FA7D49"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79F701D6F07A0138"
+				item: { count: 1, id: "aquaculturedelight:halaszle" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "52096EB357AA9068"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20785D574E58B639"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "574854656C571718"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "26F521982E7C5B2B"
+				item: { count: 1, id: "aquaculturedelight:fish_and_chips" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "5B328D17CD6FB1E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A6D94502BAD508F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B212F90790EA26B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D3C487F5CB57D48"
+				item: { count: 1, id: "aquaculturedelight:fish_roll_medley" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "2FC4A53DBD3E8B62"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "039F2B78974E0B5A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22B0F00F84F06115"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6ADCA72852BD5134"
+				item: { count: 1, id: "aquaculturedelight:rollmops" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "2105A6C67D5FD569"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AF541101252E453"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CA215C10B4DA9EC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "457FBEE2E57B7C6B"
+				item: { count: 1, id: "aquaculturedelight:turtle_meat_dish" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "2FB43010F879EFD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "783015BEA3F97D3D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13146FC248C1C423"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6644801652EED93E"
+				item: { count: 1, id: "aquaculturedelight:large_fish_with_vegetables" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "6B40914C1E62FF77"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A10A36E7F4688CB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BCC6D8F85746D19"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B74E7B00225469D"
+				item: { count: 1, id: "aquaculturedelight:halibut_with_tartar_sauce" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "564E8C935AF439E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "790EDB266A8510F1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56B287DC33285331"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B7F4564F9B9A4B2"
+				item: { count: 1, id: "aquaculturedelight:baked_pollock_with_carrots" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "7AF66589A6F483DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50008C149E692CE0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22030711CC9D3158"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F9210BCB2F5331C"
+				item: { count: 1, id: "aquaculturedelight:buckling" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "4F130974433FD58D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07EEDC10095C80C4"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4217B3EC122D366A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "273E93C259764E50"
+				item: { count: 1, id: "aquaculturedelight:tuna_spaghetti" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "71D4EAC13E848DA8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BAC267DD6A45D1C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CBC84AC94DD03F9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BF88E58B00E5758"
+				item: { count: 1, id: "aquaculturedelight:catfish_barbecue" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "1645F0F294977D7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "769FAB2195CF74C6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "135D7EAB797ACB4F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E16E423481925F3"
+				item: { count: 1, id: "aquaculturedelight:crispy_fried_perch" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "5C0CB2F9775F9F62"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51EDBAC7600D11CC"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D60B81D424035CB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C6020978C6ADF72"
+				item: { count: 1, id: "aquaculturedelight:fried_perch_roll" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EA2AD301895C99C"]
+			hide_dependency_lines: true
+			id: "3E6AFAFAE9A61E64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F21B4B9C03B8C1B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765A3803EB309B0C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3CF89EDACDC29446"
+				item: { count: 1, id: "aquaculturedelight:raw_fish_fillet_roll" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+	]
+}

@@ -1,0 +1,611 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "butcherycaution"
+	group: "50C3A5D161A2945A"
+	icon: {
+		id: "butcher:butchers_knife"
+	}
+	id: "78968F399AE734E2"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/butcherbg"
+		rotation: 0.0d
+		width: 30.0d
+		x: -5.5d
+		y: -0.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70ECD9FAB8E7295C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48FAEC14EA944FCA"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10E16FD84B5D3181"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(butcher:bonebutchersknife)item(butcher:butchers_knife)item(butcher:netherite_butchers_knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70ECD9FAB8E7295C"]
+			id: "2B359EA5B2883204"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EB75D17F031DC6C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "029DCA6E419CADDE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E66A031C1030112"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:corpseitem)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B359EA5B2883204"]
+			id: "2FCBC302CD9BAA70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B14F31137D8BADA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72A9496D976E32D2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "543E24F7858897FF"
+				item: { count: 1, id: "butcher:rope" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B359EA5B2883204"]
+			id: "0CC61827046F709A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5074DBC117A8E9E7"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D9C0BD02FE2C10C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "003C8475E5BFDCA1"
+					item: { count: 1, id: "butcher:hook" }
+					type: "item"
+				}
+				{
+					id: "3D369A0E1AE2E9DB"
+					item: { count: 1, id: "minecraft:chain" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CB119C9A6126AED"]
+			id: "1A7324B441708C81"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C78439CDD5F2F66"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37EF87102F12FAD8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73FC859B74A6BA6A"
+				item: { count: 1, id: "butcher:bloodgratetank" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2FCBC302CD9BAA70"
+				"0CC61827046F709A"
+			]
+			dependency_requirement: "one_completed"
+			id: "7CB119C9A6126AED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1018E1342C1E8003"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D5379D7092B686C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A7324B441708C81"]
+			id: "6B2F4F43AC06C7E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ED9E445D9B4E5E0"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BE62346D50908E0"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B2F4F43AC06C7E4"]
+			id: "5B5B86C19E667322"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64BF7F12D134A65F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AA0F038D511FAB0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "019D4FDBC9365651"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(butcher:organs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B5B86C19E667322"]
+			id: "13BD855469D98E64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1684E2F78A975A18"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "232132792508F649"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3070D361D49C050A"
+				item: { count: 1, id: "butcher:pestleandmortarblock" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4588D125C5B029FE"
+				"7A195D9E09F6481A"
+				"05A09A5C3AE9A205"
+			]
+			dependency_requirement: "one_completed"
+			id: "340834E0626F1297"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3817C2CB5881D938"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "161D0D69141DDE3E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "71165ED4DCA9E27D"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(butcher:drained_pig_corpse_item)item(butcher:drained_sheep_corpse_item)item(butcher:chicken_drained_corpse_item)item(butcher:drained_goat_corpse_item)item(butcher:drained_villager_corpse_item)item(butcher:hoglin_drained_corpse_item)item(butcher:drained_turtle_corpse_item)item(butcher:drained_rabbit_corpse_item)item(butcher:drained_fox_corpse_item)item(butcher:drainedsnowyfoxcarcassitem)item(butcher:drained_brown_llama)item(butcher:drained_creamy_llama)item(butcher:drained_gray_llama)item(butcher:drained_white_llama)item(butcher:drained_panda)item(butcher:drained_polar_bear_corpse_item)item(butcher:draineddolphincorpseitem)item(butcher:drainedcamelcarcassitem)item(butcher:drained_zombie_corpse)item(butcher:drainedwitchcorpse)item(butcher:drainedhuskcorpse)item(butcher:draineddrownedcorpse)item(butcher:drainedcreepercarcass)item(butcher:drained_pillager_corpse)item(butcher:drainedplayercorpseitem)item(butcher:drainedpiglincorpse)item(butcher:drainedzombiepiglincorpse)item(butcher:drainedenderman)item(butcher:drainedhorsecarcassitem)item(butcher:drainedwolfcarcass)item(butcher:drainedblueaxolotlcarcass)item(butcher:drainedcyanaxolotlcarcass)item(butcher:drainedgoldaxolotlcarcass)item(butcher:drainedlucyaxolotlcarcass)item(butcher:drainedwildaxolotlcarcass)item(butcher:draineddonkeycarcass)item(butcher:drainedredmooshroom)item(butcher:drainedbrownmooshroom)item(butcher:drained_mulecarcass)item(butcher:drainedocelotcarcass)item(butcher:drainedsniffercarcass)item(butcher:drainedstridercarcass)item(butcher:drainedevokercorpse)item(butcher:drainedguardiancarcass)item(butcher:drainedphantomcarcass)item(butcher:drainedpiglinbrutecarcass)item(butcher:drainedzoglincarcass)item(butcher:drained_zombievillager)item(butcher:drainedcat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["340834E0626F1297"]
+			id: "3A0AA4B6A866FC72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22C8CD652371D3B7"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BF2425643C9913F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C6CBAB34758BAEA"
+				item: { count: 1, id: "butcher:butcherstable" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36B07562B5663697"]
+			id: "30AC8D3363ADB75F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "711892603C57D756"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E23AA1FCA617263"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6CD09760C4FC87BF"
+				item: { count: 1, id: "butcher:sponge" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A7324B441708C81"]
+			id: "05A09A5C3AE9A205"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A1F795447E7DD0E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "312E522D0B751A11"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "59687D662BAF3E50"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(butcher:skinning_knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A7324B441708C81"]
+			id: "7A195D9E09F6481A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E700BB223EE53BF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58F5E13EBD7AD200"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52D08CD6DE16E631"
+				item: { count: 1, id: "butcher:pliers" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A7324B441708C81"]
+			id: "4588D125C5B029FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05F2CC0D3D7C3F7E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "583304CBB2685D5D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B111F0E0720A29B"
+				item: { count: 1, id: "minecraft:shears" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3A0AA4B6A866FC72"]
+			id: "36B07562B5663697"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40FB629B35CC41B2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FAD9E7539171D80"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "664A387E44286ECD"
+				item: { count: 1, id: "butcher:rag" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05A09A5C3AE9A205"]
+			id: "44320EDA5513F7BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CECEC0435CA802A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54369842A4837B47"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2EA3415BA94F42F5"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(butcher:cow_skin)item(butcher:pig_skin)item(butcher:sheep_skin)item(butcher:creamyllamaskin)item(butcher:brown_llama_skin)item(butcher:gray_llama_skin)item(butcher:white_llama_skin)item(butcher:blackhorseskin)item(butcher:brownhorseskin)item(butcher:chestnuthorseskin)item(butcher:creamyhorseskin)item(butcher:darkbrownhorseskin)item(butcher:grayhorseskin)item(butcher:whitehorseskin)item(butcher:donkeyskin)item(butcher:muleskin)item(butcher:ocelotskin))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44320EDA5513F7BB"]
+			id: "7AB997AE452E0F20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74E91E2977CDE5F4"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "109AF301A68C9ABE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2EA7550E68F84369"
+				item: { count: 1, id: "butcher:emptyskinrack" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AB997AE452E0F20"]
+			id: "0F750E2220C06855"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "786D589DF742EA2A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06B7582B5B74F284"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33105546C82A271E"
+				item: { count: 1, id: "butcher:basin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F750E2220C06855"]
+			id: "30F1F71E46B2BC23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A69B7B74374413F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684591D5B22E3643"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7CC417362E035F7A"
+				item: { count: 1, id: "butcher:salt" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B5B86C19E667322"]
+			id: "1C64C4A531B36AC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B6CF938240B573E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67740C3BCD987035"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69D2276F98B4B55D"
+				item: { count: 1, id: "butcher:empty_meat_grinder" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C64C4A531B36AC3"]
+			id: "0B4994604EC7FFBC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CCA39B8918BF085"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06E07F7DFA327AB1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "578B6AFDD1E5973D"
+				item: { count: 1, id: "butcher:sausagefillerattachment" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B4994604EC7FFBC"]
+			id: "4D3925F567B2900F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F8E2C6E85DC6AEE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13DAE7DDEC3C08BC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CAD96C9A3906F8C"
+				item: { count: 1, id: "butcher:sausages" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A7324B441708C81"]
+			id: "1D26A46C1405E4DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2893168441DED375"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14EA99962DB6018D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31EC1B000EAEA8DE"
+				item: { count: 1, id: "butcher:spitroast" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+}

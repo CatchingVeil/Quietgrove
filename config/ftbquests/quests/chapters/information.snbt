@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information"
+	group: "181257701966A81C"
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "59B58CA7248478A3"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/introductionbg"
+		rotation: 0.0d
+		width: 30.0d
+		x: -3.0d
+		y: -5.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ists_harder_early:flint_axe"
+			}
+			id: "729FC94BA4095745"
+			rewards: [{
+				id: "333AF26CCCF9C736"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "04BD9B4A88A706C7"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			icon: {
+				id: "marbledsfirstaid:bandaid"
+			}
+			id: "3B5AF0C9D54350A3"
+			rewards: [{
+				id: "1BBF54C0D38D2ABF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "26F8AC2A7566AFC2"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "5399C250E16231EC"
+			rewards: [{
+				id: "5A15F2D860EAFC0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "43BBFDBF4A34D989"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:hither_thither_wand"
+			}
+			id: "19E9C30A6F912C4C"
+			rewards: [{
+				id: "742DFB778C235768"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2E89EC03040EFEBE"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			icon: {
+				id: "minecraft:pufferfish"
+			}
+			id: "0049B1E6D0A9A7E0"
+			rewards: [{
+				id: "5791C240CBC90A8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "64236FBF80E365F7"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "78A6AF2278FE6961"
+			rewards: [
+				{
+					id: "06831B12864209CB"
+					item: {
+						count: 1
+						id: "ftbquests:book"
+					}
+					type: "item"
+				}
+				{
+					id: "789F57C397BFAE0E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "77D343D205BE98BF"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bee_nest"
+			}
+			id: "6A6F424562DF44E5"
+			rewards: [{
+				id: "41345B65DDACFE8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5076712B9AEB964F"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "solonion:food_book"
+			}
+			id: "1C83F32DFD62DA22"
+			rewards: [
+				{
+					id: "34AE4ABECB18C96E"
+					item: {
+						count: 1
+						id: "solonion:food_book"
+					}
+					type: "item"
+				}
+				{
+					id: "6E21F589BC35EB66"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2CCE6C20B65D1D15"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+	]
+}

@@ -1,0 +1,1167 @@
+{
+	autofocus_id: "528A63C64E5C3134"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mrcrayfish_furniture"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "refurbished_furniture:workbench"
+	}
+	id: "0F97636CF5378658"
+	images: [{
+		height: 18.0d
+		image: "ae2:block/cut_quartz_block_center"
+		rotation: 0.0d
+		width: 30.0d
+		x: -1.5d
+		y: 0.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"324B5D992FE83B4F"
+				"29D4FE70ED92B582"
+			]
+			id: "528A63C64E5C3134"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EBD6BB2C43881F1"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D247614B39C4ACA"
+				item: { count: 1, id: "refurbished_furniture:workbench" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "324B5D992FE83B4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DEF5A42E407FE21"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "673E725819AE841C"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_electricity_generator)item(refurbished_furniture:dark_electricity_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "29D4FE70ED92B582"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3897392EA56A55F6"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BD165C0FA78EC3D"
+				item: { count: 1, id: "refurbished_furniture:wrench" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "7AAA07378C1CC948"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4578AA773231D81D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "069B4136505B925B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2862BB4E537D70BB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_chair)item(refurbished_furniture:spruce_chair)item(refurbished_furniture:birch_chair)item(refurbished_furniture:jungle_chair)item(refurbished_furniture:acacia_chair)item(refurbished_furniture:dark_oak_chair)item(refurbished_furniture:mangrove_chair)item(refurbished_furniture:cherry_chair)item(refurbished_furniture:crimson_chair)item(refurbished_furniture:warped_chair))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "5E605647158E759A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E8324F22A446238"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CA53B95019C60A1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D454816F7B8C13F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_table)item(refurbished_furniture:spruce_table)item(refurbished_furniture:birch_table)item(refurbished_furniture:jungle_table)item(refurbished_furniture:acacia_table)item(refurbished_furniture:dark_oak_table)item(refurbished_furniture:mangrove_table)item(refurbished_furniture:cherry_table)item(refurbished_furniture:crimson_table)item(refurbished_furniture:warped_table))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "019C80F97C1FBE6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0B8A6A78F96110"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "476AFBC1F7415F9E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "46D2C90B79C77EEC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_desk)item(refurbished_furniture:spruce_desk)item(refurbished_furniture:birch_desk)item(refurbished_furniture:jungle_desk)item(refurbished_furniture:acacia_desk)item(refurbished_furniture:dark_oak_desk)item(refurbished_furniture:mangrove_desk)item(refurbished_furniture:cherry_desk)item(refurbished_furniture:crimson_desk)item(refurbished_furniture:warped_desk))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "352E0DE0EF00BF70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01283DB26BDA94A3"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "375C9E083817AC51"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4FEEC07D6BC6CF91"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_drawer)item(refurbished_furniture:spruce_drawer)item(refurbished_furniture:birch_drawer)item(refurbished_furniture:jungle_drawer)item(refurbished_furniture:acacia_drawer)item(refurbished_furniture:dark_oak_drawer)item(refurbished_furniture:mangrove_drawer)item(refurbished_furniture:cherry_drawer)item(refurbished_furniture:crimson_drawer)item(refurbished_furniture:warped_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "167EABD0722A643D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "130A027EA970DADB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0067B1272872B057"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08122A347A5B0A6F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_light_ceiling_fan)item(refurbished_furniture:spruce_light_ceiling_fan)item(refurbished_furniture:birch_light_ceiling_fan)item(refurbished_furniture:jungle_light_ceiling_fan)item(refurbished_furniture:acacia_light_ceiling_fan)item(refurbished_furniture:dark_oak_light_ceiling_fan)item(refurbished_furniture:mangrove_light_ceiling_fan)item(refurbished_furniture:cherry_light_ceiling_fan)item(refurbished_furniture:crimson_light_ceiling_fan)item(refurbished_furniture:warped_light_ceiling_fan)item(refurbished_furniture:oak_dark_ceiling_fan)item(refurbished_furniture:spruce_dark_ceiling_fan)item(refurbished_furniture:birch_dark_ceiling_fan)item(refurbished_furniture:jungle_dark_ceiling_fan)item(refurbished_furniture:acacia_dark_ceiling_fan)item(refurbished_furniture:dark_oak_dark_ceiling_fan)item(refurbished_furniture:mangrove_dark_ceiling_fan)item(refurbished_furniture:cherry_dark_ceiling_fan)item(refurbished_furniture:crimson_dark_ceiling_fan)item(refurbished_furniture:warped_dark_ceiling_fan))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "3272D5DACD9F70A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AA7EEC05D7F19E1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E4954B1A9A31DA"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "657EEBCB6DBB3317"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_storage_cabinet)item(refurbished_furniture:spruce_storage_cabinet)item(refurbished_furniture:birch_storage_cabinet)item(refurbished_furniture:jungle_storage_cabinet)item(refurbished_furniture:acacia_storage_cabinet)item(refurbished_furniture:dark_oak_storage_cabinet)item(refurbished_furniture:mangrove_storage_cabinet)item(refurbished_furniture:cherry_storage_cabinet)item(refurbished_furniture:crimson_storage_cabinet)item(refurbished_furniture:warped_storage_cabinet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "609B01920B1B52B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0302EE63B0530A3A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AC1F2F6A93A79FD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "107FD0E11E9D1B40"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:oak_kitchen_cabinetry)item(refurbished_furniture:spruce_kitchen_cabinetry)item(refurbished_furniture:birch_kitchen_cabinetry)item(refurbished_furniture:jungle_kitchen_cabinetry)item(refurbished_furniture:acacia_kitchen_cabinetry)item(refurbished_furniture:dark_oak_kitchen_cabinetry)item(refurbished_furniture:mangrove_kitchen_cabinetry)item(refurbished_furniture:cherry_kitchen_cabinetry)item(refurbished_furniture:crimson_kitchen_cabinetry)item(refurbished_furniture:warped_kitchen_cabinetry))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "3840A956F6FBB921"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD26588D42B6BDD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77900F6878F8A906"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00B01200D0C2C198"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_fridge)item(refurbished_furniture:dark_fridge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "02A4FF3F350B354C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C8E028B0031E85F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A60E1A31754D23"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "674243D53B4B849B"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_toaster)item(refurbished_furniture:dark_toaster))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "748C1A79437EAD66"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "537C3C9BD876C8AD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62060909AB10B957"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "320F9D642B960F3E"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_lightswitch)item(refurbished_furniture:dark_lightswitch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "5F5A488F1E240E64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25DE5AB053CC5A27"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AC947597D9D1E30"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "657A6A0C584AD3F7"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_ceiling_light)item(refurbished_furniture:dark_ceiling_light))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "17215113958A56C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0625D50DC49FA038"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35FC50F9FDAB06BD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "392C23FB188AF2ED"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_stove)item(refurbished_furniture:dark_stove))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "6F97FF633A9650B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3621D45F7B996B5C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F41EAD54AEDE90B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "013BB01A0AA6045D"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_microwave)item(refurbished_furniture:dark_microwave))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "71B7B3A4C2A77DEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35F02F159FDD9F7D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F09DEA9B9481C27"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "481062F95AE56373"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:light_range_hood)item(refurbished_furniture:dark_range_hood))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "59B926C840CBCA3A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44ADA74B00A568C6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C5FB747C5AD44BB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BDC1D02BF1B6AD4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_storage_jar)item(refurbished_furniture:birch_storage_jar)item(refurbished_furniture:cherry_storage_jar)item(refurbished_furniture:crimson_storage_jar)item(refurbished_furniture:dark_oak_storage_jar)item(refurbished_furniture:jungle_storage_jar)item(refurbished_furniture:mangrove_storage_jar)item(refurbished_furniture:oak_storage_jar)item(refurbished_furniture:spruce_storage_jar)item(refurbished_furniture:warped_storage_jar))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "1861B4F8B1B389A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A14003476C41CAF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "793A9C74BF3C2977"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "537C66106480CAA6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_crate)item(refurbished_furniture:birch_crate)item(refurbished_furniture:cherry_crate)item(refurbished_furniture:crimson_crate)item(refurbished_furniture:dark_oak_crate)item(refurbished_furniture:jungle_crate)item(refurbished_furniture:mangrove_crate)item(refurbished_furniture:oak_crate)item(refurbished_furniture:spruce_crate)item(refurbished_furniture:warped_crate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "112BA4CBD5626313"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04BC21AF4FD15E9E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "556C87CB9E997B24"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49BE30F7EBB3FDE6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_cutting_board)item(refurbished_furniture:birch_cutting_board)item(refurbished_furniture:cherry_cutting_board)item(refurbished_furniture:crimson_cutting_board)item(refurbished_furniture:dark_oak_cutting_board)item(refurbished_furniture:jungle_cutting_board)item(refurbished_furniture:mangrove_cutting_board)item(refurbished_furniture:oak_cutting_board)item(refurbished_furniture:spruce_cutting_board)item(refurbished_furniture:warped_cutting_board))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "227213FA5C5F603B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36F649020D7F135A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E94A13B063FCEB0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1D34E6BF2AD23663"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_kitchen_drawer)item(refurbished_furniture:birch_kitchen_drawer)item(refurbished_furniture:cherry_kitchen_drawer)item(refurbished_furniture:crimson_kitchen_drawer)item(refurbished_furniture:dark_oak_kitchen_drawer)item(refurbished_furniture:jungle_kitchen_drawer)item(refurbished_furniture:mangrove_kitchen_drawer)item(refurbished_furniture:oak_kitchen_drawer)item(refurbished_furniture:spruce_kitchen_drawer)item(refurbished_furniture:warped_kitchen_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "78824CB8CA9794F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "549861055BC7CC96"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111FD71EF24FDFD3"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "310208647C758C3D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_kitchen_sink)item(refurbished_furniture:birch_kitchen_sink)item(refurbished_furniture:cherry_kitchen_sink)item(refurbished_furniture:crimson_kitchen_sink)item(refurbished_furniture:dark_oak_kitchen_sink)item(refurbished_furniture:jungle_kitchen_sink)item(refurbished_furniture:mangrove_kitchen_sink)item(refurbished_furniture:oak_kitchen_sink)item(refurbished_furniture:spruce_kitchen_sink)item(refurbished_furniture:warped_kitchen_sink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "22099A16EBF09778"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34675B1801A4E2A9"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F30A332791F1C1F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53FABAA26B2F0F0C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_kitchen_storage_cabinet)item(refurbished_furniture:birch_kitchen_storage_cabinet)item(refurbished_furniture:cherry_kitchen_storage_cabinet)item(refurbished_furniture:crimson_kitchen_storage_cabinet)item(refurbished_furniture:dark_oak_kitchen_storage_cabinet)item(refurbished_furniture:jungle_kitchen_storage_cabinet)item(refurbished_furniture:mangrove_kitchen_storage_cabinet)item(refurbished_furniture:oak_kitchen_storage_cabinet)item(refurbished_furniture:spruce_kitchen_storage_cabinet)item(refurbished_furniture:warped_kitchen_storage_cabinet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "420E9E2C28A2C8AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17E6196A0F7B077D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "201ACB448233ED97"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3DA1B1310FD11E2C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_basin)item(refurbished_furniture:birch_basin)item(refurbished_furniture:cherry_basin)item(refurbished_furniture:crimson_basin)item(refurbished_furniture:dark_oak_basin)item(refurbished_furniture:jungle_basin)item(refurbished_furniture:mangrove_basin)item(refurbished_furniture:oak_basin)item(refurbished_furniture:spruce_basin)item(refurbished_furniture:warped_basin))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "2D5CD5F1BC76DB63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "137807991E62BC32"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DBC157CEC21E498"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0483786B7C141B8D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_bath)item(refurbished_furniture:birch_bath)item(refurbished_furniture:cherry_bath)item(refurbished_furniture:crimson_bath)item(refurbished_furniture:dark_oak_bath)item(refurbished_furniture:jungle_bath)item(refurbished_furniture:mangrove_bath)item(refurbished_furniture:oak_bath)item(refurbished_furniture:spruce_bath)item(refurbished_furniture:warped_bath))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "6E35D9529016B4EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6715A3847D3520DD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F5C95C0B0C50ED8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1DDB35333652F7C7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_toilet)item(refurbished_furniture:birch_toilet)item(refurbished_furniture:cherry_toilet)item(refurbished_furniture:crimson_toilet)item(refurbished_furniture:dark_oak_toilet)item(refurbished_furniture:jungle_toilet)item(refurbished_furniture:mangrove_toilet)item(refurbished_furniture:oak_toilet)item(refurbished_furniture:spruce_toilet)item(refurbished_furniture:warped_toilet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "11E0EADFED8A5CDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E0319A5CF033CB5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76EFC82FBFCA903D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "71E8FF11C87BEB70"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_mail_box)item(refurbished_furniture:birch_mail_box)item(refurbished_furniture:cherry_mail_box)item(refurbished_furniture:crimson_mail_box)item(refurbished_furniture:dark_oak_mail_box)item(refurbished_furniture:jungle_mail_box)item(refurbished_furniture:mangrove_mail_box)item(refurbished_furniture:oak_mail_box)item(refurbished_furniture:spruce_mail_box)item(refurbished_furniture:warped_mail_box))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "3F1174EF17008442"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42A16F4A5BDC87DB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "013F356A03A18953"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04AEC75D86BD0E4F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_hedge)item(refurbished_furniture:azalea_hedge)item(refurbished_furniture:birch_hedge)item(refurbished_furniture:cherry_hedge)item(refurbished_furniture:dark_oak_hedge)item(refurbished_furniture:jungle_hedge)item(refurbished_furniture:mangrove_hedge)item(refurbished_furniture:oak_hedge)item(refurbished_furniture:spruce_hedge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "11D7186DD7BF98BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F5B0AA40D4223D3"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BC1CA17CEFA981B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B6E8A2F3168D817"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_lattice_fence)item(refurbished_furniture:birch_lattice_fence)item(refurbished_furniture:cherry_lattice_fence)item(refurbished_furniture:crimson_lattice_fence)item(refurbished_furniture:dark_oak_lattice_fence)item(refurbished_furniture:jungle_lattice_fence)item(refurbished_furniture:mangrove_lattice_fence)item(refurbished_furniture:oak_lattice_fence)item(refurbished_furniture:spruce_lattice_fence)item(refurbished_furniture:warped_lattice_fence))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "0FD4E876DF309B2F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A0E4AE528647850"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ECABACA06D1B077"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30099D65A73D085A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:acacia_lattice_fence_gate)item(refurbished_furniture:birch_lattice_fence_gate)item(refurbished_furniture:cherry_lattice_fence_gate)item(refurbished_furniture:crimson_lattice_fence_gate)item(refurbished_furniture:dark_oak_lattice_fence_gate)item(refurbished_furniture:jungle_lattice_fence_gate)item(refurbished_furniture:mangrove_lattice_fence_gate)item(refurbished_furniture:oak_lattice_fence_gate)item(refurbished_furniture:spruce_lattice_fence_gate)item(refurbished_furniture:warped_lattice_fence_gate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "42DA452C50246051"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D8E0E00AB1DEB7C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4831A3DF6038422D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E15DD7F832314CD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:black_cooler)item(refurbished_furniture:blue_cooler)item(refurbished_furniture:brown_cooler)item(refurbished_furniture:cyan_cooler)item(refurbished_furniture:gray_cooler)item(refurbished_furniture:green_cooler)item(refurbished_furniture:lime_cooler)item(refurbished_furniture:magenta_cooler)item(refurbished_furniture:orange_cooler)item(refurbished_furniture:pink_cooler)item(refurbished_furniture:purple_cooler)item(refurbished_furniture:red_cooler)item(refurbished_furniture:white_cooler)item(refurbished_furniture:yellow_cooler))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "2592C8DADC460763"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C186558892EB0F5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42879DF794F1D666"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "28CD559BC6CED6F3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:black_grill)item(refurbished_furniture:blue_grill)item(refurbished_furniture:brown_grill)item(refurbished_furniture:cyan_grill)item(refurbished_furniture:gray_grill)item(refurbished_furniture:green_grill)item(refurbished_furniture:lime_grill)item(refurbished_furniture:magenta_grill)item(refurbished_furniture:orange_grill)item(refurbished_furniture:pink_grill)item(refurbished_furniture:purple_grill)item(refurbished_furniture:red_grill)item(refurbished_furniture:white_grill)item(refurbished_furniture:yellow_grill))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "1CD32A42CDF63494"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14038B0DD2F9D071"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D8F514EF9D2150"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "564461969387EAB2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:black_lamp)item(refurbished_furniture:blue_lamp)item(refurbished_furniture:brown_lamp)item(refurbished_furniture:cyan_lamp)item(refurbished_furniture:gray_lamp)item(refurbished_furniture:green_lamp)item(refurbished_furniture:lime_lamp)item(refurbished_furniture:magenta_lamp)item(refurbished_furniture:orange_lamp)item(refurbished_furniture:pink_lamp)item(refurbished_furniture:purple_lamp)item(refurbished_furniture:red_lamp)item(refurbished_furniture:white_lamp)item(refurbished_furniture:yellow_lamp))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "3BD5247A1DF7906D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "207466B4F5FDB705"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1114F6C852DB6FD4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1980C7F4C408A307"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:black_sofa)item(refurbished_furniture:blue_sofa)item(refurbished_furniture:brown_sofa)item(refurbished_furniture:cyan_sofa)item(refurbished_furniture:gray_sofa)item(refurbished_furniture:green_sofa)item(refurbished_furniture:lime_sofa)item(refurbished_furniture:magenta_sofa)item(refurbished_furniture:orange_sofa)item(refurbished_furniture:pink_sofa)item(refurbished_furniture:purple_sofa)item(refurbished_furniture:red_sofa)item(refurbished_furniture:white_sofa)item(refurbished_furniture:yellow_sofa))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "5C0D41939276B5DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31B85798A2E43F01"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40C89106E187BCCB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5773326F4C36B443"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:black_stool)item(refurbished_furniture:blue_stool)item(refurbished_furniture:brown_stool)item(refurbished_furniture:cyan_stool)item(refurbished_furniture:gray_stool)item(refurbished_furniture:green_stool)item(refurbished_furniture:lime_stool)item(refurbished_furniture:magenta_stool)item(refurbished_furniture:orange_stool)item(refurbished_furniture:pink_stool)item(refurbished_furniture:purple_stool)item(refurbished_furniture:red_stool)item(refurbished_furniture:white_stool)item(refurbished_furniture:yellow_stool))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "660B78B872F275F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3569583D68B8F5FB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "465FA9492FF7006F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "35F533507C0D3A52"
+				item: { components: { "ftbfiltersystem:filter": "or(item(refurbished_furniture:black_trampoline)item(refurbished_furniture:blue_trampoline)item(refurbished_furniture:brown_trampoline)item(refurbished_furniture:cyan_trampoline)item(refurbished_furniture:gray_trampoline)item(refurbished_furniture:green_trampoline)item(refurbished_furniture:lime_trampoline)item(refurbished_furniture:magenta_trampoline)item(refurbished_furniture:orange_trampoline)item(refurbished_furniture:pink_trampoline)item(refurbished_furniture:purple_trampoline)item(refurbished_furniture:red_trampoline)item(refurbished_furniture:white_trampoline)item(refurbished_furniture:yellow_trampoline))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "74DEC1F6B1E2B05E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F4B64E840BE559D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "055D04BC6C4CBFA9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "078991BB9F0A69C0"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(refurbished_furniture:stone_stepping_stones)item(refurbished_furniture:granite_stepping_stones)item(refurbished_furniture:diorite_stepping_stones)item(refurbished_furniture:andesite_stepping_stones)item(refurbished_furniture:deepslate_stepping_stones))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "5422AA99998D2985"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B509CA18C74F3D2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B9C8E92EBFF6F37"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "620E1B37495C7A1B"
+				item: { count: 1, id: "refurbished_furniture:plate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "0292A9F198F20DEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "423D7E2DA08DF59E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "439F82938DD36AFE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7434616133B8BE35"
+				item: { count: 1, id: "refurbished_furniture:frying_pan" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "190966304FBA3C43"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BCC33D64D2FBFBE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0924B2E44ABF5C45"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B6CA8B0393E1EDF"
+				item: { count: 1, id: "refurbished_furniture:recycle_bin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "548E45D1A40C6258"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60BB46F5F7BFDEF5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C85CE23622DF87"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B5BAB09561F293A"
+				item: { count: 1, id: "refurbished_furniture:doorbell" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "2B15A87AE87E3195"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EDAD1C5BEEB9D49"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6019F90A8517C5D2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E54400E503BF2AA"
+				item: { count: 1, id: "refurbished_furniture:television" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "637FC9E1F7F15A15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71621E4088E4EA83"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CE0BEEF7672E5FC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6395B6EFD15A4BC7"
+				item: { count: 1, id: "refurbished_furniture:computer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "53DAA929192B8F55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15A1FF2740D05C95"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14E02CC756CE7AD9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "011DB5557B81833D"
+				item: { count: 1, id: "refurbished_furniture:door_mat" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["528A63C64E5C3134"]
+			hide_dependency_lines: true
+			id: "031E8AEEE7022525"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02868BAC54CBC85D"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C48C1D5B06BD918"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30612F0EC890E019"
+				item: { count: 1, id: "refurbished_furniture:post_box" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+	]
+}

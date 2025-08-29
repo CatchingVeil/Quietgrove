@@ -1,0 +1,16 @@
+{
+	id: "77722471D36F19C4"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "75F68124BA423EA2", item: { count: 1, id: "sophisticatedstorage:smelting_upgrade" } }
+		{ id: "182FBF11667A7EFD", item: { count: 1, id: "sophisticatedstorage:pickup_upgrade" } }
+		{ id: "26E3AB1B261BB23F", item: { count: 1, id: "sophisticatedstorage:magnet_upgrade" } }
+		{ id: "26611CC32DBAABCF", item: { count: 1, id: "sophisticatedstorage:feeding_upgrade" } }
+		{ id: "3CB6443939851CF4", item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" } }
+		{ id: "754B4DC974AEA2D7", item: { count: 1, id: "sophisticatedstorage:filter_upgrade" } }
+		{ id: "326CB5EFF8F687E7", item: { count: 1, id: "sophisticatedstorage:pump_upgrade" } }
+		{ id: "20569E7626D3B6B4", item: { count: 1, id: "sophisticatedstorage:crafting_upgrade" } }
+		{ id: "3220EF2A7581804B", item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" } }
+	]
+}

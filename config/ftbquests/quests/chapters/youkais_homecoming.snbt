@@ -1,0 +1,1349 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "youkais_homecoming"
+	group: "50C3A5D161A2945A"
+	icon: {
+		id: "youkaishomecoming:steamer_pot"
+	}
+	id: "5EBC0AF985DE4D49"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/youkaibg"
+		rotation: 0.0d
+		width: 30.0d
+		x: -4.0d
+		y: 7.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C0330482721AA52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A42B4B97030BDB8"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3A3E540550EBF662"
+					item: { count: 1, id: "youkaishomecoming:steamer_lid" }
+					type: "item"
+				}
+				{
+					id: "07B4BFCBBE3CF51D"
+					item: { count: 1, id: "youkaishomecoming:steamer_rack" }
+					type: "item"
+				}
+				{
+					id: "6BDC7BB8B1EA2796"
+					item: { count: 1, id: "youkaishomecoming:steamer_pot" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "63775D51874BA2B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2933D43AD0DCD187"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "266A9C8D4AF3943C"
+				item: { count: 1, id: "youkaishomecoming:fermentation_tank" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "5340A2F16E4D72C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2328B34536CD68A9"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40B3589EE4A5F2A4"
+				item: { count: 1, id: "youkaishomecoming:kettle" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			id: "5BF3212FA40068D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29F67CBE73FAC706"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "346E23F1515852F6"
+				item: { count: 1, id: "youkaishomecoming:moka_pot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			id: "544FBFD3209D27D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10C211AABEEB4FFC"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01ABB52B96C8A65F"
+				item: { count: 1, id: "youkaishomecoming:saucer" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "52E3E45DA69A5677"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6823EB53B9D77561"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E8E03281AF73538"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "730A992F3818E135"
+				item: { count: 1, id: "youkaishomecoming:stinky_tofu" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "41B0D88A971217EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D27542AE7696A1C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F12BB83CCB038E7"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E2710F2F779C087"
+				item: { count: 1, id: "youkaishomecoming:tofu_burger" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "0641C8154EAC2A4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "148AC775952106E2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63B273AC25F04AA8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34888B9FF1B13F97"
+				item: { count: 1, id: "youkaishomecoming:sauce_grilled_fish" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "3ADC7658A17212E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3006F55856B2A51B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B148C046D871A89"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3AA0A45B864AE0D0"
+				item: { count: 1, id: "youkaishomecoming:bamboo_mizuyokan" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "1F30E22A49756ABE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F2E8C7069FB6507"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "249D82F060D92A96"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3464054494F82039"
+				item: { count: 1, id: "youkaishomecoming:dried_fish" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "7A3B69EBFEE98DA3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7745FAD53E421925"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DC84AF10C36C8D4"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78C67B413C44445B"
+				item: { count: 1, id: "youkaishomecoming:tomato_sauce_cod" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "79C14B393EBD7069"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FD2241310BB4752"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39EE10FD853CAD22"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E2CE1E21087A482"
+				item: { count: 1, id: "youkaishomecoming:raw_scholar_ginkgo" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "4C24A77F440675A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D96D27EA647E5D7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47367DC780D688F3"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4ABD352DABBFEF1A"
+				item: { count: 1, id: "youkaishomecoming:cumberland_loin" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "4F1175762B07FD69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01B9DBC0F03F90F1"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E389DE2EF699E5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52B984BC3554E9C3"
+				item: { count: 1, id: "youkaishomecoming:cold_tofu" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "3688A573F7595D26"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24D46008E19C7172"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41EB03792C9F043A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1F96C4CD4F7C01A5"
+				item: { count: 1, id: "youkaishomecoming:pastitsio" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "3BD28B1ADE2200E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7579032453F0B559"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FEC5988331B90BA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0479C7F48B2F4B27"
+				item: { count: 1, id: "youkaishomecoming:seven_colored_yokan" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["544FBFD3209D27D4"]
+			id: "7DC7DF66EDAFBC59"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25E688A0576B4386"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03AEE977A302841E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02440E7AC2733F3F"
+				item: { count: 1, id: "youkaishomecoming:imitation_bear_paw" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "74FEF28E549D7FC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "366F63F586BD88C2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04037758433425AA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29A0F84D7E7D11D3"
+				item: { count: 1, id: "youkaishomecoming:espresso" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "5F1C92CD541325E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20DD193C7DC7C25C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542FD17137B0D26C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "511F53C6B408797A"
+				item: { count: 1, id: "youkaishomecoming:ristretto" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "41F6B1A73CDD8A1C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "588B151DC0529905"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D16E2AE4DAA2022"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5F20FC68867FF6B7"
+				item: { count: 1, id: "youkaishomecoming:affogato" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "1CE8641E8F2F4F98"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C966B5235B5DB2A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23D0F00D166C25B7"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A2A019CF7D226D7"
+				item: { count: 1, id: "youkaishomecoming:con_panna" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "04EB2C7F1555B071"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D21B05C2E5727B4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "315582D80B98DEC8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5605C4360DFFD121"
+				item: { count: 1, id: "youkaishomecoming:cappuccino" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "29C4AB040685AABD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15815EBD1AE0808D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5587D5EA4D41DAE3"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "694BC8E77B69D0A9"
+				item: { count: 1, id: "youkaishomecoming:macchiato" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "4A5D9D4F7443831E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B5D1EF7A5DC7769"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DF9D772155B3245"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A9491FF09277C76"
+				item: { count: 1, id: "youkaishomecoming:latte" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "13143A51A8D73056"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7154EDC720F0580C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DEA2543E0806D7A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BC48CA05E07CFF2"
+				item: { count: 1, id: "youkaishomecoming:americano" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5BF3212FA40068D9"]
+			id: "6F9324F090CE5BB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DCB49A820B4C164"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18E4C66AD9FC03CF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3AE6081BC795326C"
+				item: { count: 1, id: "youkaishomecoming:mocha" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "546251A645D8F57D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F459E591B43CB6C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32116E02B7B4CF09"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73EF190B57756FD9"
+				item: { count: 1, id: "youkaishomecoming:black_tea" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "0DA616559A26BBD5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22DE7803DEAC9C57"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18E34E699E034C44"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "382349A683272840"
+				item: { count: 1, id: "youkaishomecoming:oolong_tea" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "3FF10BBDE768D0E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04B370D7C719FA57"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42339537F185671C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "649D250919CDD502"
+				item: { count: 1, id: "youkaishomecoming:cornflower_tea" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "1D91A28B09B7C993"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C1425BC3D6DFBB4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D5BA503FF89B579"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5659B3ED065EE77F"
+				item: { count: 1, id: "youkaishomecoming:tea_mocha" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "5F5E9E1B87BBF1DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27348D6DE5884A21"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51EA676780756EE8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3C33EC2C65F97A7C"
+				item: { count: 1, id: "youkaishomecoming:saidi_tea" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "38FC9C74CC774F42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DB6C4BA55138B3F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27842EAE44FC6631"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21114A06FA1281C7"
+				item: { count: 1, id: "youkaishomecoming:sakura_honey_tea" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "324574F8708E0C6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03EE3F2639F52085"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FEB3F026C2A8E25"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E9D03448F1D21C8"
+				item: { count: 1, id: "youkaishomecoming:moon_rocket" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "2226F5F808FA2A7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "075AF906EBFC1455"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "302BB1351328AAAE"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4BE837313CFB7C4C"
+				item: { count: 1, id: "youkaishomecoming:lemon_black_tea" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "415389585F418F8F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1883BD42CC8CB496"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09D2AE9FE3ED9FF4"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12E95890CBF9DC3D"
+				item: { count: 1, id: "youkaishomecoming:genmai_tea" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "03630D1278662CDC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E01F4C40F7E6C02"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "756C5642BA02CBED"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51ECD6C4CC791DA2"
+				item: { count: 1, id: "youkaishomecoming:green_tea" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "76CF6EB3201FE991"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32BF094969A9F6AE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51304D7D40FC5A20"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "772D0E21D69884F4"
+				item: { count: 1, id: "youkaishomecoming:green_water" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5340A2F16E4D72C6"]
+			id: "4A98A6C3B1D4A159"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0359938ED095BA3D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E1A118F19B3D3BA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C25AB5A3A4119D6"
+				item: { count: 1, id: "youkaishomecoming:white_tea" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "45DC7B01221966FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00ACAAE2C99C05A5"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8498922222F8BF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6781F7B15C1A562C"
+				item: { count: 1, id: "youkaishomecoming:daiginjo" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "512E9857CA04F202"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BB453EAE8439124"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04AEC7C2E064BA93"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "209009D247748E16"
+				item: { count: 1, id: "youkaishomecoming:suigei" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "09E381562533B826"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2500683908F2B3D8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A2312A8BCF34409"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1F436225658DAABC"
+				item: { count: 1, id: "youkaishomecoming:kiku" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "15ED3B0090AF48FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AD2302261B61805"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F10F1A7963D1F7C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2EDBE5199A45EEF2"
+				item: { count: 1, id: "youkaishomecoming:hakutsuru" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "3EE3056D3BBCB60B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "517BA67A74198F4D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "194B900C45AB9954"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70C31FBD434C7C56"
+				item: { count: 1, id: "youkaishomecoming:kappa_village" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "6CD46BF1165A60FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05035C774F73C6FB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79002B39026E64F7"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3FB3EE9E8642B80E"
+				item: { count: 1, id: "youkaishomecoming:full_moons_eve" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "4CEC4099EA9479FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "441B96145B581F40"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "352F3C88AA80029E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D97A6B825BFA49E"
+				item: { count: 1, id: "youkaishomecoming:tengu_tango" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "034B189C2F11B340"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34FF509B2E45CCC6"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3610EEEAD4A942FA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "087AC2FCC4DEEA79"
+				item: { count: 1, id: "youkaishomecoming:dassai" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "42C85DDD05182BDC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A35CB5EB79CBF47"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "749BECFCF5F6A320"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14F0D3BD04F39F83"
+				item: { count: 1, id: "youkaishomecoming:mead" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "4B580D44F948647B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DBFFB5D16641179"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6742153B3B0E2482"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5BC5F4671775B055"
+				item: { count: 1, id: "youkaishomecoming:soy_sauce_bottle" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63775D51874BA2B3"]
+			dependency_requirement: "one_completed"
+			id: "07A13987650075D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58237FC37A45120D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706E054751F19B0E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5ECC57E48E13DB6A"
+				item: { count: 1, id: "youkaishomecoming:mio" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "4D957BEC3939ACB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F1358AAC0E2682B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52A308BA05EFAA90"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6147B6E5BD7E1C18"
+				item: { count: 1, id: "youkaishomecoming:sparrow_sake" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1C0330482721AA52"]
+			id: "4407A60E1483E9C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3782743EB3E5BBC9"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78511B72BE8E48A8"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6711944875FB2461"
+				item: { count: 1, id: "youkaishomecoming:oyaki" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C0330482721AA52"]
+			id: "297C5056BFC28559"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48BFCD8956D8200D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FDE1091BECBF554"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7F3FBE7C21582E21"
+				item: { count: 1, id: "youkaishomecoming:bun" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C0330482721AA52"]
+			id: "2E23ACBF66B2F7B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B51A991E23C02BC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "017FA34E95872A15"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "355CFFC08F7A0889"
+				item: { count: 1, id: "youkaishomecoming:mantou" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C0330482721AA52"]
+			id: "0FD9489FA86EF189"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EE0FFE7600B3EAF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66C949EB5C9E04E5"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1216B7D78B2A5F37"
+				item: { count: 1, id: "youkaishomecoming:scholar_ginkgo" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}

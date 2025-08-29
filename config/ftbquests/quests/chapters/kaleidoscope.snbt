@@ -1,0 +1,1615 @@
+{
+	autofocus_id: "12A4AA60A2758711"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kaleidoscope"
+	group: "50C3A5D161A2945A"
+	icon: {
+		id: "kaleidoscope_cookery:kitchen_shovel"
+	}
+	id: "6F24EAEA4BB49D70"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/kalebg2"
+		rotation: 0.0d
+		width: 30.0d
+		x: -1.0d
+		y: -2.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "12A4AA60A2758711"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "328D16E720D2777E"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4879DE3AFC9FE477"
+				item: { count: 1, id: "kaleidoscope_cookery:stove" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12A4AA60A2758711"]
+			id: "4DEE4EC60A8FFA73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74A27BD0615DD736"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75C77C253FC7455E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0B4EB0456D7969C8"
+					item: { count: 1, id: "kaleidoscope_cookery:pot" }
+					type: "item"
+				}
+				{
+					id: "49E5C651768A8E4F"
+					item: { count: 1, id: "kaleidoscope_cookery:kitchen_shovel" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12A4AA60A2758711"]
+			id: "3864A3C8F482BBF1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "083B48D28BFDC7E0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B28C96C5666FEF"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2B28DC46FE92B007"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+					type: "item"
+				}
+				{
+					id: "4F10A20996BF5793"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot_lid" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "6D1EE4A3F0A0D88A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AD22E9D3C05F64C"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1BEA80332C9F8C22"
+					item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
+					type: "item"
+				}
+				{
+					id: "7EBD405F579FB684"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kaleidoscope_cookery:kitchen_knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D1EE4A3F0A0D88A"]
+			id: "0A679FAEDFAC4D0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "652E9F52A577AF26"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A9AB3E6E6BEB817"
+				item: { count: 1, id: "kaleidoscope_cookery:sashimi" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D1EE4A3F0A0D88A"]
+			id: "09A814F27B2A4982"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65040A338384C07F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F0736DC826F54C2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69A0085B5CE7C976"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_lamb_chops" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D1EE4A3F0A0D88A"]
+			id: "2C91908EEC174857"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0555A2C145871D0D"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56098D01103F029C"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_cow_offal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D1EE4A3F0A0D88A"]
+			id: "188723EC725713A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AAF03CD0662B0C4"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "53A9C26B99762173"
+				item: { count: 1, id: "kaleidoscope_cookery:raw_pork_belly" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D1EE4A3F0A0D88A"]
+			id: "42303DC844337B7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04F6CD0F64B93AA4"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E19C459CB9A0BED"
+				item: { count: 1, id: "kaleidoscope_cookery:oil" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "148DE2E21EEA99B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66FB488B1E9D5A60"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "184AF135C82F1CDF"
+				item: { count: 1, id: "kaleidoscope_cookery:red_chili" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "5FEE504109B7CC91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53C554F3500DAC9D"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "137A4FA24A0F81AC"
+				item: { count: 1, id: "kaleidoscope_cookery:lettuce" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "24DB95E2E7F30120"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39ED00DE0D717716"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "068FEF6ED1AA39C7"
+				item: { count: 1, id: "kaleidoscope_cookery:rice_panicle" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "16A347C25C5DD6FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA1B9AFCA9E4763"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BECF24CCE15BEE4"
+				item: { count: 1, id: "kaleidoscope_cookery:green_chili" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "52CAAA22808E4859"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36EEB3CB765F69D4"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7AF399BDB3961BF7"
+				item: { count: 1, id: "kaleidoscope_cookery:caterpillar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "4D66281A513603D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635C11A345F05CEE"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "464CF7C57B37D116"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "69894351F40CDD6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D1A4A46E8018244"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361E8B38804C6010"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5AC5B240F764D5F2"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_chicken_rice_bowl" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0D1075980E480C5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BBCEE89A7107A82"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52784E6D3FCD5980"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5DA8AFC01D8D34F1"
+				item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "3779F9FD784AF31A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FA4E3FBA0AF9B8C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25872BCEA5C6907C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0480B354755123E9"
+				item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "1574419467D14C9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72ABBE47983D3A82"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22CAD16C74B556FD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C36736BF6F800E2"
+				item: { count: 1, id: "kaleidoscope_cookery:country_style_mixed_vegetables" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "79243C5722D1DF68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AD6AD879C80E825"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41E3F9EBE9DACC12"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3A04ED298CDC02FA"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0668B91BB8F51A3B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67E450A6BB30544A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D3FCCA8AAB4722B"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "07EE718D003F2ABF"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "206170E9D98EDB65"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5896557D84CB3338"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1819E0204CFFDBCC"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "796D1F2DECF19C40"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "1885166775A1B0BA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40E61EC6B01E91BD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7274EF322982BFD0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "725C47E9CF43549F"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_rice_bowl" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "3F7F3B5561D2B9FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15AC32D13210020E"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1542052BAD458B37"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67272AC04756AF11"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "288A537DE44A0097"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "355CFF18295E58DD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CFA3DC40DF89D64"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0FECEAE2CFDE5D0C"
+				item: { count: 1, id: "kaleidoscope_cookery:nether_style_sashimi" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0A7E873EE5BDA289"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F6816AC93174CBB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61E2DB73847ED8C6"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14882FCB0A3F9DCB"
+				item: { count: 1, id: "kaleidoscope_cookery:end_style_sashimi" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "32EB008D2619352C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "277608159CE7E13C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "041319936AB46A61"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B5A88A4A213908A"
+				item: { count: 1, id: "kaleidoscope_cookery:desert_style_sashimi" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "2708843D7C2C1F1E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6113803A946F274A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "516B3E4526D02166"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CF2A34DE0991B52"
+				item: { count: 1, id: "kaleidoscope_cookery:tundra_style_sashimi" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "319A24815A70E286"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "052C5E457A55C687"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "748CEBD368906F2E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14EDDEAEE01B133B"
+				item: { count: 1, id: "kaleidoscope_cookery:cold_style_sashimi" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "3DCD2E54ADBF97B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61447B0120761635"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31033512AC19343A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6F2C4791E699D586"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_ender_pearls" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "1F16CA400B792A38"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F3EFE55C73A507F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F256AC0A83CFE96"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1AC4DC9AA653EB6B"
+				item: { count: 1, id: "kaleidoscope_cookery:stargazy_pie" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "4533CCD801C9C075"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45BB0949E9E8B997"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55BAE59C1A684EAC"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D8363F154A5D454"
+				item: { count: 1, id: "kaleidoscope_cookery:pan_seared_knight_steak" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "5D75A8BF94E68FAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60E2963670E6CF25"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "255563B5152E67E0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2723A4C4FBFEB683"
+				item: { count: 1, id: "kaleidoscope_cookery:yakitori" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "4FDB5517D5E799D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4669C488B7453A68"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "588DCBF519A3A035"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "523745B6FFBDE7AE"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_chicken" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "17143DF60A3B7B64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D237A9C38E82D11"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DBE9431BC3251A1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3620AD785907EAD0"
+				item: { count: 1, id: "kaleidoscope_cookery:golden_salad" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "4181A120A04C1A1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "589982E5449A63B0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22BD8935860C7EAA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1A48C9AFD78CF73D"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_fish" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "2244F8A4F8DF0FBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "618AC7B2B7F9C756"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7456ABFE3659E288"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23501FDF61B7A309"
+				item: { count: 1, id: "kaleidoscope_cookery:chorus_fried_egg" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "26B422ADD87D5BAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48B729F5EFF7839D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "576637098C2AF67F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62A831F5431EA5C0"
+				item: { count: 1, id: "kaleidoscope_cookery:fondant_spider_eye" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0E4AB66AB16FFF74"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "467F68A3D6B15906"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "783A89DF86DFE9DD"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10F7A62E3034C990"
+				item: { count: 1, id: "kaleidoscope_cookery:fried_egg" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "29838490BFF5F31D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CBFC8B0BA99568A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5261A19B22DBA05A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32D47ADDB4CBB608"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_fish_rice_bowl" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "156084A8268DA7B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19E74FA54D181E21"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F39D0999BE3C705"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78D1BBC1AC6C3C06"
+				item: { count: 1, id: "kaleidoscope_cookery:slime_ball_meal" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "27B3E7D6ADA1D97E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38C293B1FE7F9E55"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E956AF190E21C9A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "13E11A9F544B2C7A"
+				item: { count: 1, id: "kaleidoscope_cookery:fondant_pie" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "1C81AE96A50DC86E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D0D3E507483387C"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D24328B3DDF9286"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "027B0BCA37886459"
+				item: { count: 1, id: "kaleidoscope_cookery:dongpo_pork" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0995AC63239BDAC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1800D58B70828BA7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5640DEC6DDBB8856"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "496682ABCAE0DA90"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "5370AFBFE9DCFBB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7438579AA54FD37D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D7BF1BE5D45927F"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "695D24E966BABE5C"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_beef_offal_rice_bowl" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "526B7E3B7F5B963C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B5C277544DC27AB"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765D3683F15D777E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5BE2F43C5C5B5928"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_beef_offal" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0CD6AE4D80C78C6A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13810349624CF6E0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19989BA904CC28BB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1D75483E55205829"
+				item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "096BD08DFC0F9052"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62F9CB175A242610"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D72AE0AE0B3E978"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D73E574124AA00D"
+				item: { count: 1, id: "kaleidoscope_cookery:egg_fried_rice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "2C2D9C8296E0D91B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "240BBFA69AFF39FF"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13BC412AEE2CF1A2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1A6FDB18F8D853E5"
+				item: { count: 1, id: "kaleidoscope_cookery:delicious_egg_fried_rice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "5316843BC2A443E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41CA21DCEA6C4275"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FA2056FC21E72E7"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6742380BFE1E2B17"
+				item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "75E70B35CD797972"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A3FB7ACF3A991C8"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "720757F867699306"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3A5CD3A5B4375E89"
+				item: { count: 1, id: "kaleidoscope_cookery:crystal_lamb_chop" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "0FA418F8AA65481A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D21DFCC36E95C3B"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33B8C4765F672E90"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67C7BA2F668B428E"
+				item: { count: 1, id: "kaleidoscope_cookery:blaze_lamb_chop" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DEE4EC60A8FFA73"]
+			hide_dependency_lines: true
+			id: "50B9BFF5C64E33B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7932F7818BA83A80"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DF29C9A9B5CFD57"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "618A801257C941D0"
+				item: { count: 1, id: "kaleidoscope_cookery:frost_lamb_chop" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "2BA1C29B25F66C9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F4B53DF3ABACB26"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AD75FCA0042FA10"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34F203B9F297FBCB"
+				item: { count: 1, id: "kaleidoscope_cookery:chicken_and_mushroom_stew" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "3099E924F112823A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DA12FB44F60BAD4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36F3F4D482381E96"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "47A917734061FEA8"
+				item: { count: 1, id: "kaleidoscope_cookery:cooked_rice" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "1B11518765B4566D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BF54EB6C1CCBFBD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C74519CA915999"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AD9EAFB6780605A"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato_beef_brisket_soup" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "79D300799F6E5DF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06CA91ABB8B6365A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E9A2AFCA459B2D2"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6FF293B6D5B5E707"
+				item: { count: 1, id: "kaleidoscope_cookery:beef_meatball_soup" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "5DA6EED84230EF9A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20C566243FCC24CE"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9A5434660E747C"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3701806EF25EFFF9"
+				item: { count: 1, id: "kaleidoscope_cookery:seafood_miso_soup" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "6493EF64279A6068"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BB205D6D2CDD4C4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5527323557DE5ACA"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4492AFAE1AA05FE8"
+				item: { count: 1, id: "kaleidoscope_cookery:fearsome_thick_soup" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "4EBF4D83081A8194"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "704D9EBB471FC76D"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E2000DF7B838562"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "68CE31099851AEB3"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_with_potatoes" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "7681E444DFDB8CA5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53635B2DF2638C9A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79B5AF5A7B4A81B0"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "432179A1DF637C8B"
+				item: { count: 1, id: "kaleidoscope_cookery:wild_mushroom_rabbit_soup" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "071492144B38A773"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2903071D947F7BC7"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EEA74D041B72D7A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1337669302223566"
+				item: { count: 1, id: "kaleidoscope_cookery:pork_bone_soup" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "00CE7B507C8336D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F688DB5EEEC528F"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64522AFBE645841A"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "72211D1775EF2BD4"
+				item: { count: 1, id: "kaleidoscope_cookery:lamb_and_radish_soup" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "7DCF643375B80FC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58BFB7E69E009630"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "755FFEAA9A132D69"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4285283C540D0721"
+				item: { count: 1, id: "kaleidoscope_cookery:borscht" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3864A3C8F482BBF1"]
+			hide_dependency_lines: true
+			id: "0FF4E207F3EF4B11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06B01585536C5DF0"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44DC9E244EABFC91"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "271DCDA77B639F17"
+				item: { count: 1, id: "kaleidoscope_cookery:pufferfish_soup" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+}

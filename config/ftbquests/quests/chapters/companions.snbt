@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "companions"
+	group: "19433A0441BC00D4"
+	icon: {
+		id: "crittersandcompanions:dumbo_octopus_bucket"
+	}
+	id: "05DD04559CA06ED7"
+	images: [{
+		height: 18.0d
+		image: "kubejs:item/companionsbg"
+		rotation: 0.0d
+		width: 30.0d
+		x: -9.5d
+		y: -6.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "adorablehamsterpets:hamster_spawn_egg"
+			}
+			id: "4B39187C97C921D9"
+			rewards: [{
+				id: "055E7E2AA7221563"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:sliced_cucumber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69D80FF3A84D5ACE"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				id: "alshanex_familiars:familiar_tome"
+			}
+			id: "6D28AA4023D3C0E3"
+			rewards: [{
+				id: "08AE2D857970B449"
+				item: {
+					count: 1
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A358792069B123F"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				id: "golemoverhaul:clay_golem_statue"
+			}
+			id: "7986FF8351BB0491"
+			rewards: [{
+				id: "7159EDB4B08265E3"
+				item: {
+					count: 1
+					id: "golemoverhaul:candle_golem_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29437903D7511FFB"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				id: "crittersandcompanions:dumbo_octopus_bucket"
+			}
+			id: "5C65DD6CDA083552"
+			rewards: [{
+				id: "31FB46B21FA4C5A9"
+				item: {
+					count: 1
+					id: "crittersandcompanions:dumbo_octopus_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66E03D15380C794D"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				id: "doggytalents:dog_plushie_toy_item"
+			}
+			id: "5C265321C486C26E"
+			rewards: [{
+				id: "281EF953DC734C5C"
+				item: {
+					count: 1
+					id: "doggytalents:training_treat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "581A5CD5B5B9421C"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				id: "cute_companions_ducks:duck_collar"
+			}
+			id: "439B8E897AC4435F"
+			rewards: [{
+				id: "1CED7FB61BC253C0"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D40210813AC83F1"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+	]
+}

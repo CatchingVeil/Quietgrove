@@ -1,0 +1,128 @@
+{
+	autofocus_id: "1F5E16B5891C0416"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "181257701966A81C"
+	icon: {
+		id: "ae2:creative_storage_cell"
+	}
+	id: "0B53236B44F01E95"
+	images: [{
+		height: 10.0d
+		image: "aether:block/dungeon/lock"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: -1.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"6ECE4BAF5E476A10"
+			"7AE3692558A581A9"
+			"181257701966A81C"
+			"4FA9E9B77EA6B780"
+			"50C3A5D161A2945A"
+			"19433A0441BC00D4"
+		]
+		id: "1F5E16B5891C0416"
+		rewards: [
+			{
+				id: "225212FD439346AC"
+				item: {
+					count: 1
+					id: "wands:creative_wand"
+				}
+				type: "item"
+			}
+			{
+				id: "67A47B6B7A06E181"
+				item: {
+					count: 1
+					id: "ae2:creative_energy_cell"
+				}
+				type: "item"
+			}
+			{
+				id: "5ADD5F139DF86C15"
+				item: {
+					count: 1
+					id: "createaddition:creative_energy"
+				}
+				type: "item"
+			}
+			{
+				id: "5668F93BF970E8C1"
+				item: {
+					count: 1
+					id: "create:creative_crate"
+				}
+				type: "item"
+			}
+			{
+				id: "36C1788A22EF3D53"
+				item: {
+					count: 1
+					id: "create:creative_fluid_tank"
+				}
+				type: "item"
+			}
+			{
+				id: "3A5887954EA07F45"
+				item: {
+					count: 1
+					id: "create:creative_motor"
+				}
+				type: "item"
+			}
+			{
+				id: "136DF954B9E96966"
+				item: {
+					count: 1
+					id: "create:handheld_worldshaper"
+				}
+				type: "item"
+			}
+			{
+				id: "09A616EF8BE7ECEF"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}
+			{
+				id: "45ABE32F171B47F5"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:survival_infinity_upgrade"
+				}
+				type: "item"
+			}
+			{
+				id: "2BFCCE123A6F516C"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:survival_infinity_upgrade"
+				}
+				type: "item"
+			}
+			{
+				id: "33774AFB8E0D8538"
+				item: {
+					count: 1
+					id: "ae2:creative_storage_cell"
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "2DAE2263DACB5925"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -2.0d
+	}]
+}

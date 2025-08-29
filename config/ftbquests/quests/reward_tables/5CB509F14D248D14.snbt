@@ -1,0 +1,48 @@
+{
+	id: "5CB509F14D248D14"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			id: "36EFECFD52741581"
+			item: {
+				count: 1
+				id: "minecraft:beehive"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "482AA1D315C55D0A"
+			item: {
+				count: 1
+				id: "productivebees:advanced_oak_beehive"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 3
+			id: "69B98CB904A5A0EA"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+		}
+		{
+			count: 3
+			id: "5AC8F1AEF3E07B8B"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+		}
+		{
+			id: "1B1E38F6752E6097"
+			item: {
+				count: 1
+				id: "productivelib:upgrade_base"
+			}
+			weight: 0.4f
+		}
+		{ id: "455BDD13559150D2", item: { count: 1, id: "productivebees:sturdy_bee_cage" } }
+	]
+}

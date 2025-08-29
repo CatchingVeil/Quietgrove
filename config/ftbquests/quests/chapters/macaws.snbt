@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "macaws"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "mcwfurnitures:spruce_wardrobe"
+	}
+	id: "58F2D33B961199E5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "2F8E4E503DDFB681"
+		tasks: [{
+			id: "21071DBEEFB23304"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.5d
+	}]
+}

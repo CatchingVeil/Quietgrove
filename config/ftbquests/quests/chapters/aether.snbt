@@ -1,0 +1,102 @@
+{
+	autofocus_id: "67BCC3EBC6E333B6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "6ECE4BAF5E476A10"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "5F120C468E20366A"
+	images: [
+		{
+			height: 2.0d
+			image: "aether:textures/gui/title/aether.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			height: 18.0d
+			image: "kubejs:item/aetherbg"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "67BCC3EBC6E333B6"
+			rewards: [{
+				id: "220D266DC45C4A46"
+				item: {
+					count: 1
+					id: "aether:swet_cape"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				icon: {
+					id: "aether:bronze_dungeon_key"
+				}
+				id: "0007150FFE1962E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67BCC3EBC6E333B6"]
+			id: "354917C119DD883F"
+			rewards: [{
+				id: "5857032DCB136AC3"
+				item: {
+					count: 1
+					id: "aether:valkyrie_cape"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: {
+					id: "aether:silver_dungeon_key"
+				}
+				id: "67BE8C58F0630055"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["354917C119DD883F"]
+			id: "7C049159E8BAA3B0"
+			rewards: [{
+				id: "5B3288DA758682D1"
+				item: {
+					count: 1
+					id: "aether:agility_cape"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: {
+					id: "aether:gold_dungeon_key"
+				}
+				id: "4F82ADEC11CBEFC1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+	]
+}

@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arts_and_crafts"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "arts_and_crafts:red_paintbrush"
+	}
+	id: "354305CA30E8674E"
+	images: [{
+		height: 18.0d
+		image: "arts_and_crafts:block/blue_soapstone"
+		rotation: 0.0d
+		width: 30.0d
+		x: 0.5d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "25AFD1C07A314566"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FF5060A05CAD6C9"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C00D651EDEF16CD"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1CCB4957A4A72966"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(arts_and_crafts:paintbrushes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2850317D83BA3C95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58528A79BF5B57FB"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46F9DDC8FA5AB8B4"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "28A74258FA568A67"
+				item: { count: 1, id: "arts_and_crafts:bleached_wool" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "393002F2580F267D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "607BEDA6E26FE727"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69A486239E6C70D2"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "37CC32B84BA874AC"
+				item: { count: 1, id: "arts_and_crafts:bleached_concrete_powder" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "6F844FFFC1FFB4C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62076DCADE0ABEED"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "363C724FE0EF434A"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D5C876B171FAFDB"
+				item: { count: 1, id: "arts_and_crafts:plaster" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "0272E0101CAD3A29"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55A3FD09CDD2632E"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0764AFFA296860AC"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D7C8D4BF0D041F9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(arts_and_crafts:chalk_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "3E2D89B006F7AEB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DDDF1D147EDC9A1"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03C7BE8A39045858"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3D1F4CF651FEF308"
+				item: { count: 1, id: "arts_and_crafts:white_chalk" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	id: "12440DBAF4D4CB8A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "61DBF6722DA3083D", item: { count: 1, id: "simplehats:hatbag_common" } }
+		{
+			id: "23AFE97943CD1170"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_uncommon"
+			}
+			weight: 0.9f
+		}
+		{
+			id: "100DAA96A6784FD2"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_rare"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "066C0703BAC4302A"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_epic"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "26AD9192C0D97590"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_easter"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "7B0AC512B6A32834"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_summer"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "0E3EC7EBC254476E"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_halloween"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "7C3BCB1E1477E04A"
+			item: {
+				count: 1
+				id: "simplehats:hatbag_festive"
+			}
+			weight: 0.5f
+		}
+		{ id: "3D31D0A42EF58A73", item: { count: 1, id: "kaleidoscope_doll:purple_doll_gift_box" } }
+		{ id: "192E6F7FF0A423CA", item: { count: 1, id: "kaleidoscope_doll:green_doll_gift_box" } }
+		{ id: "34DE303EEB50543E", item: { count: 1, id: "kaleidoscope_doll:yellow_doll_gift_box" } }
+	]
+}

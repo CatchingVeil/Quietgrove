@@ -1,0 +1,237 @@
+{
+	autofocus_id: "7A94E11776A5D309"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "4FA9E9B77EA6B780"
+	icon: {
+		id: "chipped:mason_table"
+	}
+	id: "7E78B939D522F517"
+	images: [{
+		height: 18.0d
+		image: "chipped:block/dirt/ctm/brick_bordered_dirt_ctm/2"
+		rotation: 0.0d
+		width: 30.0d
+		x: -5.5d
+		y: -6.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "033377D51223ECFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EC8349CAA982A57"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19CD9219DF548552"
+				item: { count: 1, id: "chipped:botanist_workbench" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			id: "1FE60E4BC1EF8B23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1598E551737EB7C9"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "634EF511B3B27AE7"
+				item: { count: 1, id: "chipped:glassblower" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			id: "0BD01FEB55372147"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "138CD7DEF0B49336"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47B077585963E1EF"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			id: "4041DB332EFD7EAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03BD4F50B0B918C0"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77DF4ABA5B7B8246"
+				item: { count: 1, id: "chipped:loom_table" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "7A94E11776A5D309"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "331F46F57DB0FA6F"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "742E1F51A60D6ADC"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "12A205B008CEEBF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AFE09BE0DB9F544"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E4A2E2102C87EE3"
+				item: { count: 1, id: "chipped:tinkering_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "4BECA0C00B249C4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61697A6FCAD792C0"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FD75A0802132AA9"
+				item: { count: 1, id: "chipped:alchemy_bench" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4BECA0C00B249C4D"]
+			id: "669A99E9206A7C7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5772DE274DA43CA3"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D857DE837FF7FE4"
+				item: { count: 1, id: "chipped:alchemy_book" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["033377D51223ECFB"]
+			id: "7B183647FC38876E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44A4DDFD45EA3D72"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23C9C066EC012239"
+				item: { count: 1, id: "chipped:watering_can" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BD01FEB55372147"]
+			id: "1602602A6B7E8D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CA407F0CAFFA521"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "437498AD0820389D"
+				item: { count: 1, id: "chipped:saw" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4041DB332EFD7EAA"]
+			id: "3BA42E8E07004C90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E003B9CA2698F11"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2391685E02928141"
+				item: { count: 1, id: "chipped:needles" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A94E11776A5D309"]
+			id: "25E3E85F0577B82A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B3B2A1EA6D8134D"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04CB6B1494E38942"
+				item: { count: 1, id: "chipped:chisel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12A205B008CEEBF3"]
+			id: "47837F6D74D7BF26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BE815AD4E896437"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "600F83CD7897E706"
+				item: { count: 1, id: "chipped:multimeter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+	]
+}

@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "6ECE4BAF5E476A10"
+	icon: {
+		id: "twilightforest:twilight_oak_sapling"
+	}
+	id: "784B79245C2B531A"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:item/twilight"
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			height: 18.0d
+			image: "kubejs:item/twilightbg"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5048AC79CB6ED83A"
+			rewards: [{
+				count: 8
+				id: "3381268E47378DA1"
+				item: {
+					count: 1
+					id: "twilightforest:naga_scale"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: {
+					id: "twilightforest:naga_trophy"
+				}
+				id: "755518DAC82C1F5B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5357142857142847d
+			y: -5.464285714285722d
+		}
+		{
+			dependencies: ["5048AC79CB6ED83A"]
+			id: "3DAD92F7A3DAC3BB"
+			rewards: [{
+				id: "0889158C0D9B1548"
+				item: {
+					count: 1
+					id: "twilightforest:zombie_scepter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: {
+					id: "twilightforest:lich_trophy"
+				}
+				id: "0EB7DDBD851C5C48"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.607142857142854d
+			y: -3.142857142857139d
+		}
+		{
+			dependencies: ["3DAD92F7A3DAC3BB"]
+			id: "6EE9694362E5B7F8"
+			rewards: [{
+				id: "32EFED6529DBE3F8"
+				item: {
+					count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: {
+					id: "twilightforest:minoshroom_trophy"
+				}
+				id: "022301AFF117C82D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5714285714285694d
+			y: -1.000000000000007d
+		}
+		{
+			dependencies: ["6EE9694362E5B7F8"]
+			id: "0BAEAF206A188F40"
+			rewards: [{
+				count: 5
+				id: "7D2B2E44ACAB9B8C"
+				item: {
+					count: 1
+					id: "twilightforest:fiery_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: {
+					id: "twilightforest:hydra_trophy"
+				}
+				id: "27967256BCAA68C7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.000000000000007d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BAEAF206A188F40"]
+			id: "3BE7DD81448A2E67"
+			rewards: [{
+				id: "3DE369470DA37BFE"
+				item: {
+					count: 1
+					id: "twilightforest:knightmetal_shield"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: {
+					id: "twilightforest:knight_phantom_trophy"
+				}
+				id: "4C5EEB5FA2D705F7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -4.357142857142854d
+		}
+		{
+			dependencies: ["3BE7DD81448A2E67"]
+			id: "7BFD1932B00D3731"
+			rewards: [{
+				count: 4
+				id: "179EA97B148D6D98"
+				item: {
+					count: 1
+					id: "minecraft:ghast_tear"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: {
+					id: "twilightforest:ur_ghast_trophy"
+				}
+				id: "510EBD8ACD1669B9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.642857142857146d
+			y: -3.142857142857139d
+		}
+		{
+			dependencies: ["7BFD1932B00D3731"]
+			id: "0AE2E0AC4604E76E"
+			rewards: [{
+				count: 5
+				id: "434303AAD20D5A45"
+				item: {
+					count: 1
+					id: "twilightforest:alpha_yeti_fur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: {
+					id: "twilightforest:alpha_yeti_trophy"
+				}
+				id: "1AF566FB38E1E63A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5714285714285694d
+			y: -2.0714285714285765d
+		}
+		{
+			dependencies: ["0AE2E0AC4604E76E"]
+			id: "3D3C73F112CE1587"
+			rewards: [{
+				id: "1D691BC6BB9AEBA9"
+				item: {
+					count: 1
+					id: "twilightforest:ice_bow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: {
+					id: "twilightforest:snow_queen_trophy"
+				}
+				id: "12921DF07DE18904"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5714285714285694d
+			y: -3.1785714285714235d
+		}
+	]
+}

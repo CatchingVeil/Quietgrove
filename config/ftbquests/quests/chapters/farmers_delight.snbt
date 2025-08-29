@@ -1,0 +1,1367 @@
+{
+	autofocus_id: "7C53EE3B45ED7BF0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "50C3A5D161A2945A"
+	icon: {
+		id: "farmersdelight:stove"
+	}
+	id: "4FC7F76200244F71"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:item/farmers"
+			rotation: 0.0d
+			width: 16.0d
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			height: 18.0d
+			image: "kubejs:item/farmersbg"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:flint_knife"
+			}
+			id: "092DA9611BBFD8D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CAE8524AA961BBD"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E4E4E33A12C052B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["092DA9611BBFD8D3"]
+			id: "69F656B853D2ADE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FCC59AAF94553B0"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78A48D0DD746794D"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["092DA9611BBFD8D3"]
+			id: "791D15E48B0F234E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C94BBDA1BFA1FAA"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E9F39F816FAD901"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["791D15E48B0F234E"]
+			id: "1D4A4E89A135F4DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D9E3CC69C4C57B4"
+					table_id: 1062202019758220941L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CA4F02BF9552770"
+					table_id: 1316192087721692042L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04D53927F35392E0"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["791D15E48B0F234E"]
+			id: "7C53EE3B45ED7BF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6912C0DE71BAD655"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08FD3A3F4A7C80E6"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6189CE71F4059CE5"]
+			id: "7426EC524D34BA0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "673D97BE965A7C9B"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D2C6B480C9385BC"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6189CE71F4059CE5"]
+			id: "52C3E5C9F8F6BB82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1358E6DC35698012"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22BBDF7136F232C1"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6189CE71F4059CE5"]
+			id: "568BB3879EF49502"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45722317B31B1F32"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40F42586F6C042DD"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6189CE71F4059CE5"]
+			id: "04E93C6E02F92458"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37E00E9377C239B5"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B65B5CCC0B089FA"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "2F1ACD46AFE77416"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2693D79D87037AED"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "527141F5ACBE198F"
+				item: { count: 1, id: "farmersdelight:chicken_cuts" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "076DC3AA3E335398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7984ACB786F2D3FA"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C89891B5D99B6CC"
+				item: { count: 1, id: "farmersdelight:bacon" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "7988E29796B5BD38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BBA7DEE67D179B9"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DCFF6255B74B4E6"
+				item: { count: 64, id: "farmersdelight:minced_beef" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "08FC10DBFC92B841"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75EF473F3B1E6886"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54CE7925CB627756"
+				item: { count: 1, id: "farmersdelight:mutton_chops" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "6E8CB881E41EFFCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CECBED0CE1F4922"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64CD469EB0BA4943"
+				item: { count: 1, id: "farmersdelight:cod_slice" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "3E9C8ADA744448E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46BD87EAE8B14759"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70DDA74D274A1D84"
+				item: { count: 1, id: "farmersdelight:salmon_slice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "114FCDC61AF3EBD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F9CE74ED6D81B24"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FCB6A6B2C66F1D5"
+				item: { count: 1, id: "farmersdelight:cabbage_leaf" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "77F680E1221849AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4FCFDE42A97589"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FE3B5EF48F96061"
+				item: { count: 1, id: "farmersdelight:raw_pasta" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "6189CE71F4059CE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B3066CE0355BB52"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CBF1E899E663E13"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "446195DFA64B5124"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28AF286A4F0C3830"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0423E97E415CEF44"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69F656B853D2ADE5"]
+			id: "18F9FE5980709EC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D8D420322152B2"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BB83346B0152F1B"
+				item: { count: 1, id: "farmersdelight:pumpkin_slice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "2E5EC66F33B027D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "777C723AB67E15FE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25EA2BFC98A7CC9C"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cookie" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "30150DBAA63EC070"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30F442A625584879"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B715AD85F5B8008"
+				item: { count: 1, id: "farmersdelight:honey_cookie" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "704A53FBA6035C4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ACAA145B55933AD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42E46EB07F9FAF7D"
+				item: { count: 1, id: "farmersdelight:pie_crust" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["704A53FBA6035C4F"]
+			id: "0BECFBE526FC5B6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F2862C8CEE6B97C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18E46E8286FE96E8"
+				item: { count: 1, id: "farmersdelight:apple_pie" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["704A53FBA6035C4F"]
+			id: "0FC47496A9FC3E2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EB30E2D6A38B080"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3153E7F7EB9FB5A2"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["704A53FBA6035C4F"]
+			id: "3E637406CBA42F70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37F48192F35BB2E8"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F145BADF97963E4"
+				item: { count: 1, id: "farmersdelight:chocolate_pie" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "770F351FE06A014B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BF61AFAB710A9CF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F5518F554825B05"
+				item: { count: 1, id: "farmersdelight:wheat_dough" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "6F71073984A5E05D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EEEF03C5F283504"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E5D818F84968BAD"
+				item: { count: 1, id: "farmersdelight:melon_popsicle" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "7DAC507D47BC550C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D46ECC3234AF0FC"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "592E90667D29ACBF"
+				item: { count: 1, id: "farmersdelight:fruit_salad" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "5C619ABDCF02D80C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D06897A799A9D40"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "774AD8C860D19784"
+				item: { count: 1, id: "farmersdelight:kelp_roll" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "19A338BC50CA9B32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F67995FACA1915E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E883A5A52251296"
+				item: { count: 1, id: "farmersdelight:salmon_roll" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "0A09FA0CE2D1137A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3523126A08BF7110"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48EA54F3C8826F37"
+				item: { count: 1, id: "farmersdelight:stuffed_potato" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "30E3E2F449E0FC4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C7D8B73101B37BF"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "319B8A043B592935"
+				item: { count: 1, id: "farmersdelight:chicken_sandwich" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "1096E09DB84948A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13166AE4D5F92BF1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "660A72338BCF443B"
+				item: { count: 1, id: "farmersdelight:egg_sandwich" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "231FAD69099D878C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63B9669D0396B1D7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2657D826CAB6D520"
+				item: { count: 1, id: "farmersdelight:cod_roll" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "0556F49ECA3DC826"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45E9E07E667B4F51"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D0342A608E38115"
+				item: { count: 1, id: "farmersdelight:mutton_wrap" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "352400BFFE7A095C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B6F4B90E8D0FE5D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22C2D7FC0AD85460"
+				item: { count: 1, id: "farmersdelight:bacon_sandwich" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "6E4EB5FC8BC5F898"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7187A97E76C3F778"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4259BD00C58CAD65"
+				item: { count: 1, id: "farmersdelight:hamburger" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "749B23FF825BE640"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72A1F49DB6B74B72"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44906772A54BB691"
+				item: { count: 1, id: "farmersdelight:bacon_and_eggs" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "6A2BA25FCFFCC919"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F3579FA29AE8A13"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35E23AC3B70888AC"
+				item: { count: 1, id: "farmersdelight:roasted_mutton_chops" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "64CA92D52BE3537C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05205B5D9D7B711D"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BEA83784FCD017F"
+				item: { count: 1, id: "farmersdelight:steak_and_potatoes" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "4C1B0875A31CA62B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F177CCE57A98013"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4955A1B88B563DF7"
+				item: { count: 1, id: "farmersdelight:grilled_salmon" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "5089FB2EB3D531C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A5CC900FFC23D26"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18A1F73AE074EA0F"
+				item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "72A3A50FAC35FC64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E69143C6F1C97E4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7433BE10141A48EB"
+				item: { count: 1, id: "farmersdelight:mixed_salad" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "48D4D04993016CF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "094532BB04A3786E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16892415F9C76CCC"
+				item: { count: 1, id: "farmersdelight:nether_salad" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "3537CF878FD7DC22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0413171FF4688811"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39A041762B770E25"
+				item: { count: 1, id: "farmersdelight:barbecue_stick" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "30FEA1D73DD66E0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A173DCD39853D1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FE7D3F9146DC6E0"
+				item: { count: 1, id: "farmersdelight:vegetable_noodles" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "103FB832D5A1A93C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78CEF2BED59D1047"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D864F34C9E0ADA6"
+				item: { count: 1, id: "farmersdelight:chicken_soup" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "23B684241C184395"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4337B33A5817E45E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04553B4AD39973DC"
+				item: { count: 1, id: "farmersdelight:cabbage_rolls" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "689223AC5E1C223F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DC34E068F9383DC"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6ECAB1ED062783F8"
+				item: { count: 1, id: "farmersdelight:squid_ink_pasta" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "2B5F0F311705F931"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7335BF0125B24DBD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52DEA1C02F2ED8C1"
+				item: { count: 1, id: "farmersdelight:dumplings" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "5AE2888B51FDF628"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6400974B2BD30981"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C56A5CC2BDF0F6E"
+				item: { count: 1, id: "farmersdelight:mushroom_rice" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "099044EF3A654BAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5088E75C1289C4A0"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3989E4C0E7BE32B8"
+				item: { count: 1, id: "farmersdelight:cooked_rice" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "2946B8B9C378F40B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "760A1446F5FAB313"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1737BD0D952587BC"
+				item: { count: 1, id: "farmersdelight:glow_berry_custard" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "00F89F740E6EC19F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F3F611DBDFFEA7C"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0871AE2B117B172F"
+				item: { count: 1, id: "farmersdelight:bone_broth" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "2AC2A83A1E49CA47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1146ED96A748F5E2"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51D8E28BA40654F3"
+				item: { count: 1, id: "farmersdelight:tomato_sauce" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "588641EED72FE0B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481B01BCC9722963"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DD23AEC0A219266"
+				item: { count: 1, id: "farmersdelight:apple_cider" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "085763E90B6D274B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FAB48AF8A6F9EE4"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B6E36D55CF7EBDB"
+				item: { count: 1, id: "farmersdelight:pasta_with_mutton_chop" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "64E4C93F6CCB43A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49CA3539C3AF1241"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A3E06B0CC01254D"
+				item: { count: 1, id: "farmersdelight:ratatouille" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "12718BE405DB13CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18084A1EC8E7FFA1"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C609C2225315DE4"
+				item: { count: 1, id: "farmersdelight:fish_stew" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "5F91FD3B79038C5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3118078D6F65F0E0"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AA2CEA437319004"
+				item: { count: 1, id: "farmersdelight:vegetable_soup" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "3E843F7212B4D5CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A09E0F7875CA546"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77988AD264387B39"
+				item: { count: 1, id: "farmersdelight:fried_rice" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "3EBFBE17632D1641"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "227EF48998CBE786"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14413649178E82B5"
+				item: { count: 1, id: "farmersdelight:baked_cod_stew" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "07C67471F3E75B5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "292AEE286EF52F5E"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F3741AC49DD48C9"
+				item: { count: 1, id: "farmersdelight:beef_stew" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "31C3DDBE87228A70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "402DA912F1A5C6E7"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "125333E46D42A6C9"
+				item: { count: 1, id: "farmersdelight:noodle_soup" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "672CF1D09C2BC959"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18E2C16C0AAE0D72"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A90C16F65A48B1F"
+				item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "37E7FE74CFF13996"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00CC7E847250B9B9"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36F4A1FB0494A3A2"
+				item: { count: 1, id: "farmersdelight:hot_cocoa" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "6EED5B3E297845E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54DC2852426C2032"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F11A931053DDCC2"
+				item: { count: 1, id: "farmersdelight:smoked_ham" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "1B1F00006190A159"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D4F45C2FF60468F"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39811690F48908EF"
+				item: { count: 1, id: "farmersdelight:beef_patty" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "10A6A26BD120329E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BFB548D13BAC772"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FC66783E6422EFD"
+				item: { count: 1, id: "farmersdelight:cooked_bacon" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "1CD30BEED639D9E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "224E0BF027EFF1D3"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "019FA8716B4E1E13"
+				item: { count: 1, id: "farmersdelight:cooked_cod_slice" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "7E8957CAD9E351E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F77CDBA4D2FDB23"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37B6044B977C4F5C"
+				item: { count: 1, id: "farmersdelight:cooked_mutton_chops" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "0D25B13F0BD2A55C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07C48C55C340E6DF"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B09302DAE84323D"
+				item: { count: 1, id: "farmersdelight:cooked_salmon_slice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C53EE3B45ED7BF0"]
+			id: "370B72E756569080"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F3B004A2442769C"
+				table_id: 1316192087721692042L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C8B0C483A075E83"
+				item: { count: 1, id: "farmersdelight:cooked_chicken_cuts" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D4A4E89A135F4DD"]
+			id: "05A7824CBADA99A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BD17A23DA4503FD"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34308218162821D1"
+				item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "7C5F522356221BAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D079F1197816ECE"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BDCE59CFFFC5AFF"
+				item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "7A4868113E688C4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10D32BB22403A124"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E8E5F49169D6AF4"
+				item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["446195DFA64B5124"]
+			id: "7615170213B781AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A15C85B7ADE7314"
+				table_id: 1062202019758220941L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A185CB4BE79D0E9"
+				item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	id: "0EBDB31BF364268D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "5BC8D997B846DEE9"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "2706D9AFDA8DF774"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 3
+			id: "730CF5C493CB93FC"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "690520AFB33DB6E2"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "146E17F7D1F915F5"
+			item: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+			weight: 0.05f
+		}
+	]
+}

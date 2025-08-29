@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temp_and_hydrate"
+	group: "181257701966A81C"
+	icon: {
+		id: "toughasnails:empty_leather_canteen"
+	}
+	id: "7E1F086B8B3263C9"
+	images: [
+		{
+			height: 8.0d
+			image: "toughasnails:textures/mob_effect/climate_clemency.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.9642857142857224d
+			y: -4.750000000000007d
+		}
+		{
+			height: 18.0d
+			image: "kubejs:item/toughasnailsbg"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -3.0d
+			y: -4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "744D66FA6FD80207"
+			rewards: [{
+				id: "43371247229046BB"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0611493B526D8A0F"
+				item: { count: 1, id: "toughasnails:empty_leather_canteen" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["744D66FA6FD80207"]
+			id: "27EBB18145F967C8"
+			rewards: [{
+				id: "34ABA60C0AAAE356"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09101EEE83FCFE0A"
+				item: { count: 1, id: "toughasnails:empty_copper_canteen" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27EBB18145F967C8"]
+			id: "2209F6CEB1230EF2"
+			rewards: [{
+				id: "690828B9B8BBEB48"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49A5716C0E1AC38D"
+				item: { count: 1, id: "toughasnails:empty_iron_canteen" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2209F6CEB1230EF2"]
+			id: "7DA3168B2E55E0CE"
+			rewards: [{
+				id: "13DE6822EBB55CD2"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EF72683173AB21"
+				item: { count: 1, id: "toughasnails:empty_gold_canteen" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DA3168B2E55E0CE"]
+			id: "79101776FB4734F3"
+			rewards: [{
+				id: "3BDB4E08726BD6C0"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA816210BFA4F52"
+				item: { count: 1, id: "toughasnails:empty_diamond_canteen" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79101776FB4734F3"]
+			id: "4EB56D46B4FA7E1A"
+			rewards: [{
+				id: "256DE9D68781B848"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AD4CCF4D7A671A3"
+				item: { count: 1, id: "toughasnails:empty_netherite_canteen" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "30C53A63B928B505"
+			rewards: [{
+				id: "632ECCEBDF9D0C12"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:water"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D1E7310FFF745DE"
+				item: { components: { "minecraft:potion_contents": { potion: "minecraft:water" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"73A3725F085C71CF"
+				"174D043FD32B3923"
+			]
+			dependency_requirement: "one_completed"
+			id: "6366EF3578CE209A"
+			ignore_reward_blocking: true
+			rewards: [{
+				id: "09925BBE6F82AC5D"
+				item: {
+					count: 1
+					id: "toughasnails:purified_water_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "759F4F3EC33A5207"
+				item: { count: 1, id: "toughasnails:purified_water_bottle" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["30C53A63B928B505"]
+			id: "174D043FD32B3923"
+			rewards: [{
+				id: "2945035C51DDCB3D"
+				item: {
+					count: 1
+					id: "toughasnails:water_purifier"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C6DEA1F1F484A74"
+				item: { count: 1, id: "toughasnails:water_purifier" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "73A3725F085C71CF"
+			rewards: [{
+				id: "7E589ADB2FEB85A5"
+				item: {
+					count: 1
+					id: "toughasnails:rain_collector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BBED605B99ED95D"
+				item: { count: 1, id: "toughasnails:rain_collector" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6121EA5FADE161D4"]
+			id: "49855C6275D107C6"
+			rewards: [{
+				id: "5A38A81904928F25"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A5F631D711454F5"
+				item: { count: 1, id: "toughasnails:temperature_gauge" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "6121EA5FADE161D4"
+			rewards: [{
+				id: "793CE18AFF1A1259"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F3747FAF1FE6F9"
+				item: { count: 1, id: "toughasnails:thermometer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6121EA5FADE161D4"]
+			id: "5B615172A2573203"
+			rewards: [{
+				id: "4345088C520E2386"
+				item: {
+					count: 1
+					id: "minecraft:ice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51B992623CA1142F"
+				item: { count: 1, id: "toughasnails:ice_cream" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6121EA5FADE161D4"]
+			id: "14603E7691B1BF88"
+			rewards: [{
+				id: "2E88FDC56DD43557"
+				item: {
+					count: 1
+					id: "minecraft:fire_charge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18AB05778E7DF888"
+				item: { count: 1, id: "toughasnails:charc_os" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "2B26E82E487E05A4"
+			rewards: [{
+				id: "1192A7B91AC50CE8"
+				item: {
+					count: 1
+					id: "toughasnails:apple_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "407D83FCAA2F3A45"
+				item: { count: 1, id: "toughasnails:apple_juice" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "2C2FE729C6A5648B"
+			rewards: [{
+				id: "689F1B71FA145598"
+				item: {
+					count: 1
+					id: "toughasnails:cactus_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71071E7C0CCE5CCE"
+				item: { count: 1, id: "toughasnails:cactus_juice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "7B2DC44B511EB046"
+			rewards: [{
+				id: "50EA9FEF6FE9B671"
+				item: {
+					count: 1
+					id: "toughasnails:chorus_fruit_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AC233FACFC0EF9A"
+				item: { count: 1, id: "toughasnails:chorus_fruit_juice" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "075CFAA9995FB17E"
+			rewards: [{
+				id: "32AE65046042DBC3"
+				item: {
+					count: 1
+					id: "toughasnails:glow_berry_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "536E976C575C59B4"
+				item: { count: 1, id: "toughasnails:glow_berry_juice" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "3E083A805858F551"
+			rewards: [{
+				id: "33AAACBAB351F6A6"
+				item: {
+					count: 1
+					id: "toughasnails:melon_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A41F4D1B5354469"
+				item: { count: 1, id: "toughasnails:melon_juice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "34FE94262E293CD4"
+			rewards: [{
+				id: "051BCC47A0C2AF93"
+				item: {
+					count: 1
+					id: "toughasnails:pumpkin_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15845B54C415C70A"
+				item: { count: 1, id: "toughasnails:pumpkin_juice" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6366EF3578CE209A"]
+			id: "304B54A572036013"
+			rewards: [{
+				id: "117483B1A83F0ED3"
+				item: {
+					count: 1
+					id: "toughasnails:sweet_berry_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ACF2E4133DEA246"
+				item: { count: 1, id: "toughasnails:sweet_berry_juice" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6121EA5FADE161D4"]
+			id: "73B6978D3060DD55"
+			rewards: [{
+				id: "2EE529BBB005E51C"
+				item: {
+					count: 1
+					id: "toughasnails:purified_water_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2589D047EA9A9DF4"
+				item: { count: 1, id: "toughasnails:thermoregulator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6121EA5FADE161D4"]
+			id: "7EDCA2050B3798A4"
+			rewards: [{
+				count: 5
+				id: "563ED02A28096DF1"
+				item: {
+					count: 1
+					id: "minecraft:oak_leaves"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A8D3AD7D7BA1BA3"
+					item: { components: { "minecraft:dyed_color": { rgb: 6534018, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:leaf_helmet" }
+					type: "item"
+				}
+				{
+					id: "5708A4DCA9B27075"
+					item: { components: { "minecraft:dyed_color": { rgb: 6534018, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:leaf_chestplate" }
+					type: "item"
+				}
+				{
+					id: "55C1CD682BD92F59"
+					item: { components: { "minecraft:dyed_color": { rgb: 6534018, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:leaf_leggings" }
+					type: "item"
+				}
+				{
+					id: "08A98A81F5D27ADF"
+					item: { components: { "minecraft:dyed_color": { rgb: 6534018, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:leaf_boots" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6121EA5FADE161D4"]
+			id: "19A88A90C08ED4B0"
+			rewards: [{
+				count: 5
+				id: "1A3076BF69339EA9"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BC7E1FFE11415BA"
+					item: { components: { "minecraft:dyed_color": { rgb: 16777215, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:wool_helmet" }
+					type: "item"
+				}
+				{
+					id: "1417E05954849291"
+					item: { components: { "minecraft:dyed_color": { rgb: 16777215, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:wool_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6B82BBFFD2E479D4"
+					item: { components: { "minecraft:dyed_color": { rgb: 16777215, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:wool_leggings" }
+					type: "item"
+				}
+				{
+					id: "37EC76AAC003E3F4"
+					item: { components: { "minecraft:dyed_color": { rgb: 16777215, show_in_tooltip: 0b } }, count: 1, id: "toughasnails:wool_boots" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+}
