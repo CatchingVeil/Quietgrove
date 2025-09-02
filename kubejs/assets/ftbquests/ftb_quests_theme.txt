@@ -1,0 +1,6 @@
+[*]
+background: ftbquests:textures/introductionbg.png
+
+text_color:          #A9A9A9
+hover_text_color:    #FFFFA0
+disabled_text_color: #999999
