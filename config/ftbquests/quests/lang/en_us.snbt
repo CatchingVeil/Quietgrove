@@ -69,7 +69,6 @@
 	chapter.78968F399AE734E2.title: "Butchery(Caution)"
 	chapter.78A9DF0C1B583D6B.title: "Pam's HC2 - Tools & Foods (Heuristic)"
 	chapter.7A73CB540E03D40A.title: "Macaw Combined Furniture & Blocks"
-	chapter.7E1F086B8B3263C9.title: "Temp and Hydrate!"
 	chapter.7E78B939D522F517.title: "Chipped"
 	chapter.7FBF321A12862B42.title: "Flower Picker"
 	chapter_group.181257701966A81C.title: "Starter"
@@ -11299,8 +11298,6 @@
 	quest.0468FCAF5320BC94.title: "Macaw's - Stairs - Palm"
 	quest.046991FEC9F435E9.title: "Papayayogurtitem"
 	quest.046C3B21599A478E.title: "Sweetberryjellyitem"
-	quest.046CC9C2A0F94509.quest_desc: ["Uh yea similar to RLcraft you can't punch trees sorry :3 Instead get flint "]
-	quest.046CC9C2A0F94509.quest_subtitle: "No punching wood"
 	quest.046E3B7A1E7C2A3E.title: "Basicmuttonsandwichitem"
 	quest.046E970D909F7398.title: "Macaw's - Magenta Terracotta Steep Roof"
 	quest.046ED257D482A154.title: "mcwroofs - Roofs - oak_steep_roof"
@@ -15116,8 +15113,6 @@
 	quest.0DCA8FBA6169E704.title: "Fishfingersandcustarditem"
 	quest.0DCAC4AC10468E06.title: "Slawdog"
 	quest.0DCAC9F5EEF0495C.title: "Bologna"
-	quest.0DCB0DF0A8DFF7C9.quest_desc: ["You need this knife from its harder early mod and not from farmer's delight"]
-	quest.0DCB0DF0A8DFF7C9.quest_subtitle: "First tool"
 	quest.0DCB44C4FD84E9DF.title: "Chickencelerycasseroleitem"
 	quest.0DCC1CED993F1626.title: "Chorusdonutitem"
 	quest.0DCC604EC3F0D62E.title: "Macaw's - Running Bond Path"
@@ -16713,8 +16708,6 @@
 	quest.11A0D93DDCB983B8.title: "Cuttingboarditem"
 	quest.11A23AE076E4BA58.title: "Mangochutney"
 	quest.11A25808FBD19F24.quest_subtitle: "Fluid stuff"
-	quest.11A3BFE38F17D5A7.quest_desc: ["yay you got your wood, now its easy... i think."]
-	quest.11A3BFE38F17D5A7.quest_subtitle: "Finally wood"
 	quest.11A44484A0734567.title: "Grapefruitsoda"
 	quest.11A53DB8392F8607.title: "Cantonesenoodlesitem"
 	quest.11A7DCE928D7ABC2.title: "Honeylemonlamb"
@@ -21420,7 +21413,6 @@
 	quest.1D2352D4EA86A538.title: "Grapefruitsmoothieitem"
 	quest.1D2380B5D8B2270A.title: "Mushroomketchup"
 	quest.1D23D20B41E4CFDE.title: "Blueberryjuice"
-	quest.1D25B2296EC7E4B6.quest_subtitle: "Best late heals"
 	quest.1D26210A4761ADC0.title: "Kenaf"
 	quest.1D2638D1BBFBE00B.title: "Cobblestone Dumble Paving"
 	quest.1D26A46C1405E4DF.quest_desc: ["placing campfire in the middle of this and rightclicking the item with drained dead body will be able to cook the body after awhile"]
@@ -31058,7 +31050,6 @@
 	quest.350D2DFD4E7728D4.title: "Juniperberryjuiceitem"
 	quest.350EA2A294554F01.title: "Juniperberrypie"
 	quest.350F26E44B2746E7.title: "Macaw's - Light Gray Concrete Top Roof"
-	quest.35104327F06104EA.quest_subtitle: "Best mid heals"
 	quest.351135EE6B8A0380.title: "Quesadillaitem"
 	quest.351211226245EB50.title: "Sweetberrydonutitem"
 	quest.351225A157484814.title: "Friedegg"
@@ -33501,9 +33492,6 @@
 	quest.3B5837E492E0574E.title: "Eggplantitem"
 	quest.3B58B965A57C9A80.title: "Doll 232"
 	quest.3B597B60CC1ECEB7.title: "Greenteaitem"
-	quest.3B5AF0C9D54350A3.quest_desc: ["Similar to RLCraft you don't have natural regeneration, although it is pretty easy to make bandages if you need to heal"]
-	quest.3B5AF0C9D54350A3.quest_subtitle: "Also like RLCraft"
-	quest.3B5AF0C9D54350A3.title: "No Regen"
 	quest.3B5B814D7CB5B963.title: "Pecanpieitem"
 	quest.3B5C0E8789DB8FC5.title: "Stripped Pine Double Drawer Counter"
 	quest.3B5D3F502F3401D7.title: "Pumpkinsoupitem"
@@ -35695,7 +35683,6 @@
 	quest.40945BE33F7C44E5.title: "Cornishpastyitem"
 	quest.40963C4794BC475E.title: "Herbcheeseball"
 	quest.409641AC72ACF982.title: "Grapesodaitem"
-	quest.409728D5B2D8E2EE.quest_subtitle: "Best early heals"
 	quest.4097C3AACDBB485E.title: "Fishtaco"
 	quest.4099056484D37073.title: "Macaw's - Whispering Door"
 	quest.4099176F60BB3D97.title: "Sweetandsourmeatballsitem"
@@ -44640,8 +44627,6 @@
 	quest.56E53F5B354C6B6A.title: "Onionitem"
 	quest.56E5D7D146235521.title: "Macaw's - Stripped Palm Double Drawer"
 	quest.56E64609861AA6B2.title: "Custarditem"
-	quest.56E6FDE6254E7C7B.quest_desc: ["Break some grass with the knife for some fiber to craft strings"]
-	quest.56E6FDE6254E7C7B.quest_subtitle: "Vegan strings"
 	quest.56E79218B6431F7A.title: "Lambkebabitem"
 	quest.56E792221AD1F096.title: "Onionringsitem"
 	quest.56E7AB3E5A632BC3.title: "Persimmonjellyitem"
@@ -47507,7 +47492,6 @@
 	quest.5DF92F60945E22A3.title: "Macaw's - Cottage Trapdoor"
 	quest.5DF9883793D78101.title: "Cheesecakeitem"
 	quest.5DF9F72B1918CA20.title: "Mangojellytoastitem"
-	quest.5DFA975BB766F262.quest_desc: ["Luckily you can punch leaves, punch some for sticks"]
 	quest.5DFBBFD7CAF3D20A.title: "Rambutanjellysandwich"
 	quest.5DFC0F6D4BDB30A9.title: "Macaw's - Stripped Crimson Stool Chair"
 	quest.5DFCB4A1E7B39482.title: "Grilledmuttonskewer"
@@ -55854,9 +55838,6 @@
 	quest.729DC03F53E8F59C.title: "Lemonjuiceitem"
 	quest.729DF6858947A414.title: "Lamb With Mi Nt Sauce"
 	quest.729EF4C314CCA9D4.title: "Vegemiteitem"
-	quest.729FC94BA4095745.quest_desc: ["You cannot punch trees, have to start off with flint :)"]
-	quest.729FC94BA4095745.quest_subtitle: "Similar to RLCraft"
-	quest.729FC94BA4095745.title: "Harder Early"
 	quest.72A011DBE39547EA.title: "Datepie"
 	quest.72A10A1F4B47AAFD.title: "Cranberrysmoothieitem"
 	quest.72A1316D77734FFC.title: "Glowberryjelly"
@@ -56407,8 +56388,6 @@
 	quest.740186A0742B7612.title: "Macaw's - Stripped Acacia Kitchen Cabinet"
 	quest.7402D322CC99BD4A.title: "Macaw's - Glass Trapdoor"
 	quest.74031C341FD3D870.title: "Metal Hospital Door"
-	quest.7403F5BE2A8F5096.quest_desc: ["you need these for reinforced sticks "]
-	quest.7403F5BE2A8F5096.quest_subtitle: "Muddy"
 	quest.740564F494370CE8.title: "Macaw's - Mud Brick Strewn Rocky Path"
 	quest.7405B2E2F6B95069.title: "Chickentendersmeal"
 	quest.74061CF3350EEF84.title: "Vanillaconchasbreaditem"

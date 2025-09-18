@@ -20,40 +20,6 @@
 	quests: [
 		{
 			icon: {
-				id: "ists_harder_early:flint_axe"
-			}
-			id: "729FC94BA4095745"
-			rewards: [{
-				id: "333AF26CCCF9C736"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "04BD9B4A88A706C7"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -7.5d
-		}
-		{
-			icon: {
-				id: "marbledsfirstaid:bandaid"
-			}
-			id: "3B5AF0C9D54350A3"
-			rewards: [{
-				id: "1BBF54C0D38D2ABF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "26F8AC2A7566AFC2"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -7.5d
-		}
-		{
-			icon: {
 				id: "naturescompass:naturescompass"
 			}
 			id: "5399C250E16231EC"
@@ -66,8 +32,8 @@
 				id: "43BBFDBF4A34D989"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -6.5d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			icon: {
@@ -96,8 +62,8 @@
 				id: "2E89EC03040EFEBE"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: -3.5d
+			y: -7.0d
 		}
 		{
 			icon: {
@@ -113,8 +79,8 @@
 				id: "64236FBF80E365F7"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -5.0d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			icon: {
@@ -140,8 +106,8 @@
 				id: "77D343D205BE98BF"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			icon: {
@@ -157,8 +123,8 @@
 				id: "5076712B9AEB964F"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: -2.5d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -185,7 +151,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -4.0d
+			y: -5.0d
 		}
 	]
 }

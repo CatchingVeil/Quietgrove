@@ -1,5 +1,5 @@
 {
-	autofocus_id: "751B420F2DA609E5"
+	autofocus_id: "671BC60CB8E6CA55"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basic_progression"
@@ -13,129 +13,13 @@
 		image: "kubejs:item/basicprogressionbg"
 		rotation: 0.0d
 		width: 30.0d
-		x: -5.5d
+		x: -4.0d
 		y: -0.5d
 	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "046CC9C2A0F94509"
-			rewards: [{
-				id: "3FB10F23C472516A"
-				item: {
-					count: 1
-					id: "minecraft:flint"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "376D5024966659BC"
-				item: { count: 1, id: "minecraft:flint" }
-				type: "item"
-			}]
-			x: -14.5d
-			y: -1.0d
-		}
-		{
-			id: "5DFA975BB766F262"
-			rewards: [{
-				id: "28840A3C9981A4C1"
-				item: {
-					count: 1
-					id: "minecraft:stick"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "084471B7A9556990"
-				item: { count: 1, id: "minecraft:stick" }
-				type: "item"
-			}]
-			x: -14.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"046CC9C2A0F94509"
-				"5DFA975BB766F262"
-			]
-			id: "0DCB0DF0A8DFF7C9"
-			rewards: [{
-				id: "6D501A7106292499"
-				item: {
-					count: 1
-					id: "ists_harder_early:flint_knife"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "77C9D894E6F1C594"
-				item: { count: 1, id: "ists_harder_early:flint_knife" }
-				type: "item"
-			}]
-			x: -13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0DCB0DF0A8DFF7C9"]
-			id: "56E6FDE6254E7C7B"
-			rewards: [{
-				id: "32B0933F27DF0714"
-				item: {
-					count: 1
-					id: "ists_harder_early:grass_string"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1796C13B5D5F788E"
-				item: { count: 1, id: "ists_harder_early:grass_string" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7403F5BE2A8F5096"]
-			id: "11A3BFE38F17D5A7"
-			rewards: [{
-				id: "568ECB753027F61B"
-				item: {
-					count: 1
-					id: "ists_harder_early:reinforced_stick"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "440A323AC2D21D97"
-				item: { count: 1, id: "ists_harder_early:flint_axe" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["56E6FDE6254E7C7B"]
-			id: "7403F5BE2A8F5096"
-			rewards: [{
-				id: "1D68ED39DCBC56DE"
-				item: {
-					count: 1
-					id: "ists_harder_early:mud_ball"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "553104F4A922B13A"
-				item: { count: 1, id: "ists_harder_early:mud_ball" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["11A3BFE38F17D5A7"]
 			id: "7352EAF6CC661F51"
 			rewards: [{
 				count: 4
@@ -393,65 +277,6 @@
 			}]
 			x: 3.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["56E6FDE6254E7C7B"]
-			id: "409728D5B2D8E2EE"
-			rewards: [{
-				count: 3
-				id: "5379572D114A702A"
-				item: {
-					count: 1
-					id: "marbledsfirstaid:bandaid"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "300C5765118C6428"
-				item: { count: 1, id: "marbledsfirstaid:bandaid" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["409728D5B2D8E2EE"]
-			id: "35104327F06104EA"
-			rewards: [{
-				count: 3
-				id: "5132BFA5794A6CC7"
-				item: {
-					count: 1
-					id: "marbledsfirstaid:bandages"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "614C03CC14167F7B"
-				item: { count: 1, id: "marbledsfirstaid:bandages" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["35104327F06104EA"]
-			id: "1D25B2296EC7E4B6"
-			rewards: [{
-				id: "42462EA0973A8B66"
-				item: {
-					count: 1
-					id: "marbledsfirstaid:medkit"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1DEC2FC6EBAA2A5D"
-				item: { count: 1, id: "marbledsfirstaid:medkit" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -4.5d
 		}
 	]
 }
